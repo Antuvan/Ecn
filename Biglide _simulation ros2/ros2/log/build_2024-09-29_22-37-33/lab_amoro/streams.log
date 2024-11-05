@@ -1,0 +1,53 @@
+[0.479s] Invoking command in '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/src/lab_amoro/lab_amoro': PYTHONPATH=/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/lab_amoro build --build-base /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro/build install --record /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro/install.log --single-version-externally-managed install_data
+[0.665s] running egg_info
+[0.666s] creating ../../../build/lab_amoro/lab_amoro.egg-info
+[0.666s] writing ../../../build/lab_amoro/lab_amoro.egg-info/PKG-INFO
+[0.666s] writing dependency_links to ../../../build/lab_amoro/lab_amoro.egg-info/dependency_links.txt
+[0.666s] writing entry points to ../../../build/lab_amoro/lab_amoro.egg-info/entry_points.txt
+[0.666s] writing requirements to ../../../build/lab_amoro/lab_amoro.egg-info/requires.txt
+[0.666s] writing top-level names to ../../../build/lab_amoro/lab_amoro.egg-info/top_level.txt
+[0.666s] writing manifest file '../../../build/lab_amoro/lab_amoro.egg-info/SOURCES.txt'
+[0.668s] reading manifest file '../../../build/lab_amoro/lab_amoro.egg-info/SOURCES.txt'
+[0.669s] writing manifest file '../../../build/lab_amoro/lab_amoro.egg-info/SOURCES.txt'
+[0.669s] running build
+[0.669s] running build_py
+[0.669s] creating /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro/build
+[0.669s] creating /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro/build/lib
+[0.669s] creating /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro/build/lib/lab_amoro
+[0.669s] copying lab_amoro/__init__.py -> /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro/build/lib/lab_amoro
+[0.669s] copying lab_amoro/plot_tools.py -> /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro/build/lib/lab_amoro
+[0.669s] copying lab_amoro/parallel_robot.py -> /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro/build/lib/lab_amoro
+[0.669s] running install
+[0.669s] running install_lib
+[0.670s] creating /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/lib/python3.10/site-packages/lab_amoro
+[0.670s] copying /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro/build/lib/lab_amoro/__init__.py -> /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/lib/python3.10/site-packages/lab_amoro
+[0.670s] copying /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro/build/lib/lab_amoro/plot_tools.py -> /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/lib/python3.10/site-packages/lab_amoro
+[0.670s] copying /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro/build/lib/lab_amoro/parallel_robot.py -> /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/lib/python3.10/site-packages/lab_amoro
+[0.670s] byte-compiling /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/lib/python3.10/site-packages/lab_amoro/__init__.py to __init__.cpython-310.pyc
+[0.671s] byte-compiling /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/lib/python3.10/site-packages/lab_amoro/plot_tools.py to plot_tools.cpython-310.pyc
+[0.671s] byte-compiling /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/lib/python3.10/site-packages/lab_amoro/parallel_robot.py to parallel_robot.cpython-310.pyc
+[0.672s] running install_data
+[0.672s] creating /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/share/ament_index
+[0.672s] creating /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/share/ament_index/resource_index
+[0.672s] creating /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/share/ament_index/resource_index/packages
+[0.672s] copying resource/lab_amoro -> /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/share/ament_index/resource_index/packages
+[0.672s] copying package.xml -> /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/share/lab_amoro
+[0.672s] copying launch/gazebo.launch.py -> /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/share/lab_amoro
+[0.672s] creating /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/share/lab_amoro/models
+[0.672s] creating /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/share/lab_amoro/models/five_bar
+[0.672s] copying models/five_bar/model.config -> /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/share/lab_amoro/models/five_bar
+[0.673s] copying models/five_bar/five_bar.sdf -> /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/share/lab_amoro/models/five_bar
+[0.673s] creating /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/share/lab_amoro/models/five_bar/meshes
+[0.673s] copying models/five_bar/meshes/Upper_Arm_1.stl -> /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/share/lab_amoro/models/five_bar/meshes
+[0.674s] copying models/five_bar/meshes/Z_Axis_Assembly.stl -> /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/share/lab_amoro/models/five_bar/meshes
+[0.675s] copying models/five_bar/meshes/Upper_Arm_2.stl -> /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/share/lab_amoro/models/five_bar/meshes
+[0.676s] copying models/five_bar/meshes/BASE_Assembly.stl -> /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/share/lab_amoro/models/five_bar/meshes
+[0.680s] copying models/five_bar/meshes/Lower_Arm.stl -> /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/share/lab_amoro/models/five_bar/meshes
+[0.680s] creating /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/share/lab_amoro/models/biglide
+[0.680s] copying models/biglide/biglide.sdf -> /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/share/lab_amoro/models/biglide
+[0.680s] copying models/biglide/model.config -> /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/share/lab_amoro/models/biglide
+[0.680s] running install_egg_info
+[0.682s] Copying ../../../build/lab_amoro/lab_amoro.egg-info to /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/lib/python3.10/site-packages/lab_amoro-0.0.0-py3.10.egg-info
+[0.683s] running install_scripts
+[0.697s] writing list of installed files to '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro/install.log'
+[0.717s] Invoked command in '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/src/lab_amoro/lab_amoro' returned '0': PYTHONPATH=/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/lab_amoro build --build-base /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro/build install --record /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro/install.log --single-version-externally-managed install_data

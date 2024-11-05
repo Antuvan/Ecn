@@ -1,0 +1,17 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing iiwa_control.egg-info/PKG-INFO
+writing dependency_links to iiwa_control.egg-info/dependency_links.txt
+writing entry points to iiwa_control.egg-info/entry_points.txt
+writing requirements to iiwa_control.egg-info/requires.txt
+writing top-level names to iiwa_control.egg-info/top_level.txt
+reading manifest file 'iiwa_control.egg-info/SOURCES.txt'
+writing manifest file 'iiwa_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ajay/ros2_ws/install/iiwa_control/lib/python3.10/site-packages/iiwa-control.egg-link (link to .)
+Installing command_publisher_node script to /home/ajay/ros2_ws/install/iiwa_control/lib/iiwa_control
+
+Installed /home/ajay/ros2_ws/build/iiwa_control
+running symlink_data

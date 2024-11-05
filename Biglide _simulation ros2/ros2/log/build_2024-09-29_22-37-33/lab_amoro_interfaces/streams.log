@@ -1,0 +1,282 @@
+[0.010s] Invoking command in '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/src/lab_amoro/lab_amoro_interfaces -DCMAKE_INSTALL_PREFIX=/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces
+[0.108s] -- The C compiler identification is GNU 11.4.0
+[0.177s] -- The CXX compiler identification is GNU 11.4.0
+[0.186s] -- Detecting C compiler ABI info
+[0.244s] -- Detecting C compiler ABI info - done
+[0.250s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.250s] -- Detecting C compile features
+[0.251s] -- Detecting C compile features - done
+[0.253s] -- Detecting CXX compiler ABI info
+[0.319s] -- Detecting CXX compiler ABI info - done
+[0.324s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.325s] -- Detecting CXX compile features
+[0.325s] -- Detecting CXX compile features - done
+[0.328s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.445s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.521s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.588s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.591s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.598s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.639s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.812s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.951s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.123s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.140s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.141s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.161s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.161s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.161s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.161s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.176s] -- Found PythonExtra: .so  
+[1.203s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.205s] -- Added test 'lint_cmake' to check CMake code style
+[1.206s] -- Added test 'xmllint' to check XML markup files
+[1.212s] -- Configuring done
+[1.239s] -- Generating done
+[1.241s] -- Build files have been written to: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro_interfaces
+[1.247s] Invoked command in '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/src/lab_amoro/lab_amoro_interfaces -DCMAKE_INSTALL_PREFIX=/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces
+[1.248s] Invoking command in '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro_interfaces -- -j16 -l16
+[1.279s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.287s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.294s] [  4%] Built target ament_cmake_python_copy_lab_amoro_interfaces
+[1.490s] running egg_info
+[1.490s] creating lab_amoro_interfaces.egg-info
+[1.490s] writing lab_amoro_interfaces.egg-info/PKG-INFO
+[1.490s] writing dependency_links to lab_amoro_interfaces.egg-info/dependency_links.txt
+[1.490s] writing top-level names to lab_amoro_interfaces.egg-info/top_level.txt
+[1.491s] writing manifest file 'lab_amoro_interfaces.egg-info/SOURCES.txt'
+[1.492s] reading manifest file 'lab_amoro_interfaces.egg-info/SOURCES.txt'
+[1.492s] writing manifest file 'lab_amoro_interfaces.egg-info/SOURCES.txt'
+[1.522s] [  4%] Built target ament_cmake_python_build_lab_amoro_interfaces_egg
+[1.537s] [  4%] Built target lab_amoro_interfaces__cpp
+[1.545s] [ 10%] [32mBuilding C object CMakeFiles/lab_amoro_interfaces__rosidl_generator_c.dir/rosidl_generator_c/lab_amoro_interfaces/msg/detail/robot_states__functions.c.o[0m
+[1.545s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.546s] [ 10%] [32mBuilding C object CMakeFiles/lab_amoro_interfaces__rosidl_generator_c.dir/rosidl_generator_c/lab_amoro_interfaces/msg/detail/states__functions.c.o[0m
+[1.546s] [ 17%] [32mBuilding C object CMakeFiles/lab_amoro_interfaces__rosidl_generator_c.dir/rosidl_generator_c/lab_amoro_interfaces/msg/detail/joint_efforts__functions.c.o[0m
+[1.546s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.546s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.589s] [ 19%] [32m[1mLinking C shared library liblab_amoro_interfaces__rosidl_generator_c.so[0m
+[1.620s] [ 19%] Built target lab_amoro_interfaces__rosidl_generator_c
+[1.629s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.629s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.630s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.746s] [ 29%] [32mBuilding CXX object CMakeFiles/lab_amoro_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lab_amoro_interfaces/msg/states__type_support.cpp.o[0m
+[1.746s] [ 29%] [32mBuilding CXX object CMakeFiles/lab_amoro_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lab_amoro_interfaces/msg/joint_efforts__type_support.cpp.o[0m
+[1.747s] [ 31%] [32mBuilding CXX object CMakeFiles/lab_amoro_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lab_amoro_interfaces/msg/robot_states__type_support.cpp.o[0m
+[1.771s] [ 36%] [32mBuilding CXX object CMakeFiles/lab_amoro_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lab_amoro_interfaces/msg/detail/states__type_support.cpp.o[0m
+[1.771s] [ 36%] [32mBuilding CXX object CMakeFiles/lab_amoro_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lab_amoro_interfaces/msg/detail/robot_states__type_support.cpp.o[0m
+[1.771s] [ 38%] [32mBuilding CXX object CMakeFiles/lab_amoro_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lab_amoro_interfaces/msg/detail/joint_efforts__type_support.cpp.o[0m
+[1.797s] [ 42%] [32mBuilding CXX object CMakeFiles/lab_amoro_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lab_amoro_interfaces/msg/detail/dds_fastrtps/states__type_support.cpp.o[0m
+[1.797s] [ 42%] [32mBuilding CXX object CMakeFiles/lab_amoro_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lab_amoro_interfaces/msg/detail/dds_fastrtps/joint_efforts__type_support.cpp.o[0m
+[1.798s] [ 44%] [32mBuilding CXX object CMakeFiles/lab_amoro_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lab_amoro_interfaces/msg/detail/dds_fastrtps/robot_states__type_support.cpp.o[0m
+[1.893s] [ 53%] [32mBuilding CXX object CMakeFiles/lab_amoro_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lab_amoro_interfaces/msg/detail/states__type_support_c.cpp.o[0m
+[1.893s] [ 53%] [32mBuilding CXX object CMakeFiles/lab_amoro_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lab_amoro_interfaces/msg/detail/robot_states__type_support_c.cpp.o[0m
+[1.893s] [ 53%] [32mBuilding CXX object CMakeFiles/lab_amoro_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/lab_amoro_interfaces/msg/joint_efforts__type_support.cpp.o[0m
+[1.894s] [ 51%] [32mBuilding CXX object CMakeFiles/lab_amoro_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lab_amoro_interfaces/msg/detail/joint_efforts__type_support_c.cpp.o[0m
+[1.895s] [ 57%] [32mBuilding CXX object CMakeFiles/lab_amoro_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/lab_amoro_interfaces/msg/robot_states__type_support.cpp.o[0m
+[1.895s] [ 57%] [32mBuilding CXX object CMakeFiles/lab_amoro_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/lab_amoro_interfaces/msg/states__type_support.cpp.o[0m
+[1.955s] [ 59%] [32m[1mLinking CXX shared library liblab_amoro_interfaces__rosidl_typesupport_c.so[0m
+[1.974s] [ 61%] [32mBuilding C object CMakeFiles/lab_amoro_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lab_amoro_interfaces/msg/detail/joint_efforts__type_support.c.o[0m
+[1.975s] [ 63%] [32mBuilding C object CMakeFiles/lab_amoro_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lab_amoro_interfaces/msg/detail/states__type_support.c.o[0m
+[1.979s] [ 65%] [32mBuilding C object CMakeFiles/lab_amoro_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lab_amoro_interfaces/msg/detail/robot_states__type_support.c.o[0m
+[2.030s] [ 65%] Built target lab_amoro_interfaces__rosidl_typesupport_c
+[2.035s] [ 68%] [32m[1mLinking C shared library liblab_amoro_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.075s] [ 68%] Built target lab_amoro_interfaces__rosidl_typesupport_introspection_c
+[2.079s] [ 70%] [32m[1mLinking CXX shared library liblab_amoro_interfaces__rosidl_typesupport_cpp.so[0m
+[2.125s] [ 70%] Built target lab_amoro_interfaces__rosidl_typesupport_cpp
+[2.211s] [ 72%] [32m[1mLinking CXX shared library liblab_amoro_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.236s] [ 74%] [32m[1mLinking CXX shared library liblab_amoro_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.253s] [ 76%] [32m[1mLinking CXX shared library liblab_amoro_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.266s] [ 76%] Built target lab_amoro_interfaces__rosidl_typesupport_introspection_cpp
+[2.300s] [ 76%] Built target lab_amoro_interfaces__rosidl_typesupport_fastrtps_c
+[2.314s] [ 76%] Built target lab_amoro_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.332s] [ 76%] Built target lab_amoro_interfaces
+[2.350s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.677s] [ 78%] Built target lab_amoro_interfaces__py
+[2.694s] [ 85%] [32mBuilding C object CMakeFiles/lab_amoro_interfaces__rosidl_generator_py.dir/rosidl_generator_py/lab_amoro_interfaces/msg/_robot_states_s.c.o[0m
+[2.694s] [ 85%] [32mBuilding C object CMakeFiles/lab_amoro_interfaces__rosidl_generator_py.dir/rosidl_generator_py/lab_amoro_interfaces/msg/_joint_efforts_s.c.o[0m
+[2.694s] [ 85%] [32mBuilding C object CMakeFiles/lab_amoro_interfaces__rosidl_generator_py.dir/rosidl_generator_py/lab_amoro_interfaces/msg/_states_s.c.o[0m
+[2.789s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/lab_amoro_interfaces/liblab_amoro_interfaces__rosidl_generator_py.so[0m
+[2.821s] [ 87%] Built target lab_amoro_interfaces__rosidl_generator_py
+[2.838s] [ 93%] [32mBuilding C object CMakeFiles/lab_amoro_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/lab_amoro_interfaces/_lab_amoro_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.839s] [ 93%] [32mBuilding C object CMakeFiles/lab_amoro_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/lab_amoro_interfaces/_lab_amoro_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[2.839s] [ 93%] [32mBuilding C object CMakeFiles/lab_amoro_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/lab_amoro_interfaces/_lab_amoro_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.911s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/lab_amoro_interfaces/lab_amoro_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.914s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/lab_amoro_interfaces/lab_amoro_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.917s] [100%] [32m[1mLinking C shared library rosidl_generator_py/lab_amoro_interfaces/lab_amoro_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.938s] [100%] Built target lab_amoro_interfaces__rosidl_typesupport_c__pyext
+[2.942s] [100%] Built target lab_amoro_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.943s] [100%] Built target lab_amoro_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.953s] Invoked command in '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro_interfaces -- -j16 -l16
+[3.044s] Invoking command in '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro_interfaces
+[3.050s] -- Install configuration: ""
+[3.051s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/ament_index/resource_index/rosidl_interfaces/lab_amoro_interfaces
+[3.051s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces
+[3.051s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg
+[3.051s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/states.h
+[3.051s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/robot_states.h
+[3.051s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/joint_efforts.h
+[3.051s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.051s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail
+[3.051s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/states__type_support.h
+[3.052s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/robot_states__functions.c
+[3.052s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/joint_efforts__functions.c
+[3.052s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/states__functions.c
+[3.052s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/robot_states__struct.h
+[3.052s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/states__struct.h
+[3.052s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/robot_states__type_support.h
+[3.052s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/joint_efforts__struct.h
+[3.052s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/robot_states__functions.h
+[3.052s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/states__functions.h
+[3.053s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/joint_efforts__type_support.h
+[3.053s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/joint_efforts__functions.h
+[3.053s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/environment/library_path.sh
+[3.053s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/environment/library_path.dsv
+[3.053s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/lib/liblab_amoro_interfaces__rosidl_generator_c.so
+[3.054s] -- Set runtime path of "/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/lib/liblab_amoro_interfaces__rosidl_generator_c.so" to ""
+[3.054s] -- Up-to-date: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces
+[3.054s] -- Up-to-date: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg
+[3.054s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.054s] -- Up-to-date: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail
+[3.054s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/robot_states__rosidl_typesupport_fastrtps_c.h
+[3.054s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/joint_efforts__rosidl_typesupport_fastrtps_c.h
+[3.054s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/states__rosidl_typesupport_fastrtps_c.h
+[3.054s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/lib/liblab_amoro_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.054s] -- Set runtime path of "/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/lib/liblab_amoro_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[3.055s] -- Up-to-date: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces
+[3.055s] -- Up-to-date: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg
+[3.055s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.055s] -- Up-to-date: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail
+[3.055s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/states__type_support.c
+[3.055s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/joint_efforts__rosidl_typesupport_introspection_c.h
+[3.055s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/robot_states__rosidl_typesupport_introspection_c.h
+[3.055s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/states__rosidl_typesupport_introspection_c.h
+[3.055s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/joint_efforts__type_support.c
+[3.055s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/robot_states__type_support.c
+[3.055s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/lib/liblab_amoro_interfaces__rosidl_typesupport_introspection_c.so
+[3.056s] -- Set runtime path of "/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/lib/liblab_amoro_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[3.056s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/lib/liblab_amoro_interfaces__rosidl_typesupport_c.so
+[3.056s] -- Set runtime path of "/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/lib/liblab_amoro_interfaces__rosidl_typesupport_c.so" to ""
+[3.056s] -- Up-to-date: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces
+[3.056s] -- Up-to-date: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg
+[3.056s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/joint_efforts.hpp
+[3.056s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/robot_states.hpp
+[3.056s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/states.hpp
+[3.057s] -- Up-to-date: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail
+[3.057s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/joint_efforts__builder.hpp
+[3.057s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/joint_efforts__struct.hpp
+[3.057s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/states__struct.hpp
+[3.057s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/joint_efforts__traits.hpp
+[3.057s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/states__traits.hpp
+[3.057s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/robot_states__struct.hpp
+[3.057s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/robot_states__traits.hpp
+[3.057s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/robot_states__builder.hpp
+[3.058s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/states__builder.hpp
+[3.058s] -- Up-to-date: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces
+[3.058s] -- Up-to-date: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg
+[3.058s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.058s] -- Up-to-date: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail
+[3.058s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/states__rosidl_typesupport_fastrtps_cpp.hpp
+[3.058s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/dds_fastrtps
+[3.058s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/robot_states__rosidl_typesupport_fastrtps_cpp.hpp
+[3.058s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/joint_efforts__rosidl_typesupport_fastrtps_cpp.hpp
+[3.058s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/lib/liblab_amoro_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.059s] -- Set runtime path of "/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/lib/liblab_amoro_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.059s] -- Up-to-date: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces
+[3.059s] -- Up-to-date: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg
+[3.059s] -- Up-to-date: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail
+[3.059s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/states__rosidl_typesupport_introspection_cpp.hpp
+[3.059s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/joint_efforts__type_support.cpp
+[3.059s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/states__type_support.cpp
+[3.059s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/robot_states__rosidl_typesupport_introspection_cpp.hpp
+[3.059s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/joint_efforts__rosidl_typesupport_introspection_cpp.hpp
+[3.059s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/robot_states__type_support.cpp
+[3.060s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/lib/liblab_amoro_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.060s] -- Set runtime path of "/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/lib/liblab_amoro_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[3.060s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/lib/liblab_amoro_interfaces__rosidl_typesupport_cpp.so
+[3.060s] -- Set runtime path of "/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/lib/liblab_amoro_interfaces__rosidl_typesupport_cpp.so" to ""
+[3.060s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/environment/pythonpath.sh
+[3.061s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/environment/pythonpath.dsv
+[3.061s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces-0.0.0-py3.10.egg-info
+[3.061s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[3.061s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.061s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[3.061s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.074s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces
+[3.074s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/_lab_amoro_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.074s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/lab_amoro_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.075s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/_lab_amoro_interfaces_s.ep.rosidl_typesupport_c.c
+[3.075s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/liblab_amoro_interfaces__rosidl_generator_py.so
+[3.075s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/__init__.py
+[3.075s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/msg
+[3.075s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/msg/_robot_states.py
+[3.075s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/msg/_robot_states_s.c
+[3.075s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/msg/_states.py
+[3.076s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/msg/_joint_efforts.py
+[3.076s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/msg/__init__.py
+[3.076s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/msg/_states_s.c
+[3.076s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/msg/_joint_efforts_s.c
+[3.076s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/lab_amoro_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.076s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/_lab_amoro_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.076s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/lab_amoro_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.103s] Listing '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces'...
+[3.103s] Compiling '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/__init__.py'...
+[3.103s] Listing '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/msg'...
+[3.103s] Compiling '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/msg/__init__.py'...
+[3.103s] Compiling '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/msg/_joint_efforts.py'...
+[3.103s] Compiling '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/msg/_robot_states.py'...
+[3.103s] Compiling '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/msg/_states.py'...
+[3.106s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/lab_amoro_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.106s] -- Set runtime path of "/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/lab_amoro_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.106s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/lab_amoro_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.107s] -- Set runtime path of "/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/lab_amoro_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.107s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/lab_amoro_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.107s] -- Set runtime path of "/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/lab_amoro_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.107s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/lib/liblab_amoro_interfaces__rosidl_generator_py.so
+[3.108s] -- Set runtime path of "/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/lib/liblab_amoro_interfaces__rosidl_generator_py.so" to ""
+[3.108s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/msg/JointEfforts.idl
+[3.108s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/msg/States.idl
+[3.108s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/msg/RobotStates.idl
+[3.108s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/msg/JointEfforts.msg
+[3.108s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/msg/States.msg
+[3.108s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/msg/RobotStates.msg
+[3.109s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/ament_index/resource_index/package_run_dependencies/lab_amoro_interfaces
+[3.109s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/ament_index/resource_index/parent_prefix_path/lab_amoro_interfaces
+[3.109s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/environment/ament_prefix_path.sh
+[3.109s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/environment/ament_prefix_path.dsv
+[3.109s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/environment/path.sh
+[3.109s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/environment/path.dsv
+[3.109s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/local_setup.bash
+[3.110s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/local_setup.sh
+[3.110s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/local_setup.zsh
+[3.110s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/local_setup.dsv
+[3.110s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/package.dsv
+[3.110s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/ament_index/resource_index/packages/lab_amoro_interfaces
+[3.110s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/export_lab_amoro_interfaces__rosidl_generator_cExport.cmake
+[3.111s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/export_lab_amoro_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.111s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/export_lab_amoro_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[3.111s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/export_lab_amoro_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.111s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/lab_amoro_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.111s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/lab_amoro_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.111s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/lab_amoro_interfaces__rosidl_typesupport_cExport.cmake
+[3.111s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/lab_amoro_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.112s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/export_lab_amoro_interfaces__rosidl_generator_cppExport.cmake
+[3.112s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/export_lab_amoro_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.112s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/export_lab_amoro_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.112s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/lab_amoro_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.112s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/lab_amoro_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.112s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/lab_amoro_interfaces__rosidl_typesupport_cppExport.cmake
+[3.112s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/lab_amoro_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.113s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/export_lab_amoro_interfaces__rosidl_generator_pyExport.cmake
+[3.113s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/export_lab_amoro_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[3.113s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.113s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.113s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.113s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.113s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.114s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.114s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.114s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/lab_amoro_interfacesConfig.cmake
+[3.114s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/lab_amoro_interfacesConfig-version.cmake
+[3.114s] -- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/package.xml
+[3.117s] Invoked command in '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro_interfaces

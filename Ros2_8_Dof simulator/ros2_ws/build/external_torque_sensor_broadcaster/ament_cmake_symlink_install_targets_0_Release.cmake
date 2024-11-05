@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ajay/ros2_ws/build/external_torque_sensor_broadcaster/libexternal_torque_sensor_broadcaster.so" "TARGETS" "external_torque_sensor_broadcaster" "RUNTIME_DESTINATION" "bin" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib")

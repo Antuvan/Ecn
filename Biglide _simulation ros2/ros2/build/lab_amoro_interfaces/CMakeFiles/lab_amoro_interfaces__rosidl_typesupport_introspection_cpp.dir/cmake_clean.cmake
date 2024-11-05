@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/lab_amoro_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lab_amoro_interfaces/msg/detail/joint_efforts__type_support.cpp.o"
+  "CMakeFiles/lab_amoro_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lab_amoro_interfaces/msg/detail/joint_efforts__type_support.cpp.o.d"
+  "CMakeFiles/lab_amoro_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lab_amoro_interfaces/msg/detail/robot_states__type_support.cpp.o"
+  "CMakeFiles/lab_amoro_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lab_amoro_interfaces/msg/detail/robot_states__type_support.cpp.o.d"
+  "CMakeFiles/lab_amoro_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lab_amoro_interfaces/msg/detail/states__type_support.cpp.o"
+  "CMakeFiles/lab_amoro_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lab_amoro_interfaces/msg/detail/states__type_support.cpp.o.d"
+  "liblab_amoro_interfaces__rosidl_typesupport_introspection_cpp.pdb"
+  "liblab_amoro_interfaces__rosidl_typesupport_introspection_cpp.so"
+  "rosidl_typesupport_introspection_cpp/lab_amoro_interfaces/msg/detail/joint_efforts__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/lab_amoro_interfaces/msg/detail/joint_efforts__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/lab_amoro_interfaces/msg/detail/robot_states__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/lab_amoro_interfaces/msg/detail/robot_states__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/lab_amoro_interfaces/msg/detail/states__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/lab_amoro_interfaces/msg/detail/states__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/lab_amoro_interfaces__rosidl_typesupport_introspection_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

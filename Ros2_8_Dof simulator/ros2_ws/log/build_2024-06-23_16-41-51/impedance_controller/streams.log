@@ -1,0 +1,33 @@
+[0.251s] Invoking command in '/home/ajay/ros2_ws/build/impedance_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajay/ros2_ws/install/iiwa_control:/opt/ros/humble /usr/bin/cmake --build /home/ajay/ros2_ws/build/impedance_controller -- -j16 -l16
+[0.295s] [35m[1mConsolidate compiler generated dependencies of target impedance_controller[0m
+[0.315s] [100%] Built target impedance_controller
+[0.343s] Invoked command in '/home/ajay/ros2_ws/build/impedance_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajay/ros2_ws/install/iiwa_control:/opt/ros/humble /usr/bin/cmake --build /home/ajay/ros2_ws/build/impedance_controller -- -j16 -l16
+[0.386s] Invoking command in '/home/ajay/ros2_ws/build/impedance_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajay/ros2_ws/install/iiwa_control:/opt/ros/humble /usr/bin/cmake --install /home/ajay/ros2_ws/build/impedance_controller
+[0.395s] -- Install configuration: "Release"
+[0.396s] -- Execute custom install script
+[0.396s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller//impedance_plugin.xml
+[0.396s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/impedance_controller/include/impedance_controller/impedance_controller.hpp
+[0.396s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/impedance_controller/include/impedance_controller/visibility_control.h
+[0.396s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/impedance_controller/lib/libimpedance_controller.so
+[0.397s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/environment/library_path.sh
+[0.397s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/environment/library_path.dsv
+[0.397s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/impedance_controller/share/ament_index/resource_index/package_run_dependencies/impedance_controller
+[0.397s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/impedance_controller/share/ament_index/resource_index/parent_prefix_path/impedance_controller
+[0.397s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/environment/ament_prefix_path.sh
+[0.397s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/environment/ament_prefix_path.dsv
+[0.397s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/environment/path.sh
+[0.398s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/environment/path.dsv
+[0.398s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/local_setup.bash
+[0.398s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/local_setup.sh
+[0.398s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/local_setup.zsh
+[0.398s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/local_setup.dsv
+[0.398s] -- Symlinking: /home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/package.dsv
+[0.408s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/impedance_controller/share/ament_index/resource_index/packages/impedance_controller
+[0.408s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/impedance_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/impedance_controller
+[0.408s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.408s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.408s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[0.408s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/cmake/impedance_controllerConfig.cmake
+[0.409s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/cmake/impedance_controllerConfig-version.cmake
+[0.409s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/package.xml
+[0.411s] Invoked command in '/home/ajay/ros2_ws/build/impedance_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajay/ros2_ws/install/iiwa_control:/opt/ros/humble /usr/bin/cmake --install /home/ajay/ros2_ws/build/impedance_controller

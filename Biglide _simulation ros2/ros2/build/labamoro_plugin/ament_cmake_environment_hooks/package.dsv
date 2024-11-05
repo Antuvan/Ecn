@@ -1,0 +1,4 @@
+source;share/labamoro_plugin/local_setup.bash
+source;share/labamoro_plugin/local_setup.dsv
+source;share/labamoro_plugin/local_setup.sh
+source;share/labamoro_plugin/local_setup.zsh

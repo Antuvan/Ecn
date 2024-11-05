@@ -1,0 +1,30 @@
+{
+  "package_name": "lab_amoro_interfaces",
+  "output_dir": "/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro_interfaces/rosidl_generator_cpp/lab_amoro_interfaces",
+  "template_dir": "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource",
+  "idl_tuples": [
+    "/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro_interfaces/rosidl_adapter/lab_amoro_interfaces:msg/JointEfforts.idl",
+    "/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro_interfaces/rosidl_adapter/lab_amoro_interfaces:msg/States.idl",
+    "/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro_interfaces/rosidl_adapter/lab_amoro_interfaces:msg/RobotStates.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp",
+    "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py",
+    "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/action__builder.hpp.em",
+    "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/action__struct.hpp.em",
+    "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/action__traits.hpp.em",
+    "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/idl.hpp.em",
+    "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/idl__builder.hpp.em",
+    "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/idl__struct.hpp.em",
+    "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/idl__traits.hpp.em",
+    "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/msg__builder.hpp.em",
+    "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/msg__struct.hpp.em",
+    "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/msg__traits.hpp.em",
+    "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__builder.hpp.em",
+    "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__struct.hpp.em",
+    "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
+    "/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro_interfaces/rosidl_adapter/lab_amoro_interfaces/msg/JointEfforts.idl",
+    "/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro_interfaces/rosidl_adapter/lab_amoro_interfaces/msg/States.idl",
+    "/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro_interfaces/rosidl_adapter/lab_amoro_interfaces/msg/RobotStates.idl"
+  ]
+}

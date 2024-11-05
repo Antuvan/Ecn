@@ -1,0 +1,681 @@
+[0.000000] (-) TimerEvent: {}
+[0.000395] (lab_amoro) JobQueued: {'identifier': 'lab_amoro', 'dependencies': OrderedDict()}
+[0.000426] (lab_amoro_interfaces) JobQueued: {'identifier': 'lab_amoro_interfaces', 'dependencies': OrderedDict()}
+[0.000443] (labamoro_plugin) JobQueued: {'identifier': 'labamoro_plugin', 'dependencies': OrderedDict([('lab_amoro_interfaces', '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces')])}
+[0.000459] (lab_amoro_interfaces) JobStarted: {'identifier': 'lab_amoro_interfaces'}
+[0.003908] (lab_amoro) JobStarted: {'identifier': 'lab_amoro'}
+[0.008152] (lab_amoro_interfaces) JobProgress: {'identifier': 'lab_amoro_interfaces', 'progress': 'cmake'}
+[0.008414] (lab_amoro_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/src/lab_amoro/lab_amoro_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces'], 'cwd': '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ajay'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ajay'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2515'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cd91165be2e330b85fb8012566f9b709'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ajay'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ajay'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/ajay/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/BlackPearl:@/tmp/.ICE-unix/2515,unix/BlackPearl:/tmp/.ICE-unix/2515'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b5ea8191_6e9f_48b6_8a36_41b29319753e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.188'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cd91165be2e330b85fb8012566f9b709'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099399] (-) TimerEvent: {}
+[0.108021] (lab_amoro_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.177419] (lab_amoro_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.186167] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199501] (-) TimerEvent: {}
+[0.244811] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.250062] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.250441] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.250986] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.253776] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299595] (-) TimerEvent: {}
+[0.319211] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.324756] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.324966] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.325309] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.328481] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399692] (-) TimerEvent: {}
+[0.444964] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.482153] (lab_amoro) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/lab_amoro', 'build', '--build-base', '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro/build', 'install', '--record', '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/src/lab_amoro/lab_amoro', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ajay', 'LC_TIME': 'fr_FR.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ajay', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'fr_FR.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2515', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=cd91165be2e330b85fb8012566f9b709', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'ajay', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ajay', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/ajay/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/BlackPearl:@/tmp/.ICE-unix/2515,unix/BlackPearl:/tmp/.ICE-unix/2515', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'fr_FR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b5ea8191_6e9f_48b6_8a36_41b29319753e', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'fr_FR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.188', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'fr_FR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'fr_FR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'fr_FR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=cd91165be2e330b85fb8012566f9b709', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'fr_FR.UTF-8', 'LC_PAPER': 'fr_FR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.499777] (-) TimerEvent: {}
+[0.521813] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.588085] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.591608] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.598229] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.599846] (-) TimerEvent: {}
+[0.639318] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.669284] (lab_amoro) StdoutLine: {'line': b'running egg_info\n'}
+[0.669729] (lab_amoro) StdoutLine: {'line': b'creating ../../../build/lab_amoro/lab_amoro.egg-info\n'}
+[0.669892] (lab_amoro) StdoutLine: {'line': b'writing ../../../build/lab_amoro/lab_amoro.egg-info/PKG-INFO\n'}
+[0.670099] (lab_amoro) StdoutLine: {'line': b'writing dependency_links to ../../../build/lab_amoro/lab_amoro.egg-info/dependency_links.txt\n'}
+[0.670268] (lab_amoro) StdoutLine: {'line': b'writing entry points to ../../../build/lab_amoro/lab_amoro.egg-info/entry_points.txt\n'}
+[0.670356] (lab_amoro) StdoutLine: {'line': b'writing requirements to ../../../build/lab_amoro/lab_amoro.egg-info/requires.txt\n'}
+[0.670407] (lab_amoro) StdoutLine: {'line': b'writing top-level names to ../../../build/lab_amoro/lab_amoro.egg-info/top_level.txt\n'}
+[0.670479] (lab_amoro) StdoutLine: {'line': b"writing manifest file '../../../build/lab_amoro/lab_amoro.egg-info/SOURCES.txt'\n"}
+[0.672119] (lab_amoro) StdoutLine: {'line': b"reading manifest file '../../../build/lab_amoro/lab_amoro.egg-info/SOURCES.txt'\n"}
+[0.672693] (lab_amoro) StdoutLine: {'line': b"writing manifest file '../../../build/lab_amoro/lab_amoro.egg-info/SOURCES.txt'\n"}
+[0.672822] (lab_amoro) StdoutLine: {'line': b'running build\n'}
+[0.672938] (lab_amoro) StdoutLine: {'line': b'running build_py\n'}
+[0.673038] (lab_amoro) StdoutLine: {'line': b'creating /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro/build\n'}
+[0.673122] (lab_amoro) StdoutLine: {'line': b'creating /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro/build/lib\n'}
+[0.673187] (lab_amoro) StdoutLine: {'line': b'creating /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro/build/lib/lab_amoro\n'}
+[0.673244] (lab_amoro) StdoutLine: {'line': b'copying lab_amoro/__init__.py -> /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro/build/lib/lab_amoro\n'}
+[0.673326] (lab_amoro) StdoutLine: {'line': b'copying lab_amoro/plot_tools.py -> /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro/build/lib/lab_amoro\n'}
+[0.673390] (lab_amoro) StdoutLine: {'line': b'copying lab_amoro/parallel_robot.py -> /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro/build/lib/lab_amoro\n'}
+[0.673437] (lab_amoro) StdoutLine: {'line': b'running install\n'}
+[0.673529] (lab_amoro) StdoutLine: {'line': b'running install_lib\n'}
+[0.673978] (lab_amoro) StdoutLine: {'line': b'creating /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/lib/python3.10/site-packages/lab_amoro\n'}
+[0.674047] (lab_amoro) StdoutLine: {'line': b'copying /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro/build/lib/lab_amoro/__init__.py -> /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/lib/python3.10/site-packages/lab_amoro\n'}
+[0.674135] (lab_amoro) StdoutLine: {'line': b'copying /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro/build/lib/lab_amoro/plot_tools.py -> /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/lib/python3.10/site-packages/lab_amoro\n'}
+[0.674221] (lab_amoro) StdoutLine: {'line': b'copying /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro/build/lib/lab_amoro/parallel_robot.py -> /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/lib/python3.10/site-packages/lab_amoro\n'}
+[0.674592] (lab_amoro) StdoutLine: {'line': b'byte-compiling /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/lib/python3.10/site-packages/lab_amoro/__init__.py to __init__.cpython-310.pyc\n'}
+[0.674765] (lab_amoro) StdoutLine: {'line': b'byte-compiling /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/lib/python3.10/site-packages/lab_amoro/plot_tools.py to plot_tools.cpython-310.pyc\n'}
+[0.675133] (lab_amoro) StdoutLine: {'line': b'byte-compiling /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/lib/python3.10/site-packages/lab_amoro/parallel_robot.py to parallel_robot.cpython-310.pyc\n'}
+[0.675942] (lab_amoro) StdoutLine: {'line': b'running install_data\n'}
+[0.676027] (lab_amoro) StdoutLine: {'line': b'creating /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/share/ament_index\n'}
+[0.676117] (lab_amoro) StdoutLine: {'line': b'creating /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/share/ament_index/resource_index\n'}
+[0.676174] (lab_amoro) StdoutLine: {'line': b'creating /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/share/ament_index/resource_index/packages\n'}
+[0.676252] (lab_amoro) StdoutLine: {'line': b'copying resource/lab_amoro -> /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/share/ament_index/resource_index/packages\n'}
+[0.676320] (lab_amoro) StdoutLine: {'line': b'copying package.xml -> /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/share/lab_amoro\n'}
+[0.676409] (lab_amoro) StdoutLine: {'line': b'copying launch/gazebo.launch.py -> /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/share/lab_amoro\n'}
+[0.676486] (lab_amoro) StdoutLine: {'line': b'creating /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/share/lab_amoro/models\n'}
+[0.676575] (lab_amoro) StdoutLine: {'line': b'creating /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/share/lab_amoro/models/five_bar\n'}
+[0.676636] (lab_amoro) StdoutLine: {'line': b'copying models/five_bar/model.config -> /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/share/lab_amoro/models/five_bar\n'}
+[0.676711] (lab_amoro) StdoutLine: {'line': b'copying models/five_bar/five_bar.sdf -> /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/share/lab_amoro/models/five_bar\n'}
+[0.676797] (lab_amoro) StdoutLine: {'line': b'creating /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/share/lab_amoro/models/five_bar/meshes\n'}
+[0.676855] (lab_amoro) StdoutLine: {'line': b'copying models/five_bar/meshes/Upper_Arm_1.stl -> /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/share/lab_amoro/models/five_bar/meshes\n'}
+[0.677874] (lab_amoro) StdoutLine: {'line': b'copying models/five_bar/meshes/Z_Axis_Assembly.stl -> /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/share/lab_amoro/models/five_bar/meshes\n'}
+[0.679366] (lab_amoro) StdoutLine: {'line': b'copying models/five_bar/meshes/Upper_Arm_2.stl -> /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/share/lab_amoro/models/five_bar/meshes\n'}
+[0.680458] (lab_amoro) StdoutLine: {'line': b'copying models/five_bar/meshes/BASE_Assembly.stl -> /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/share/lab_amoro/models/five_bar/meshes\n'}
+[0.683846] (lab_amoro) StdoutLine: {'line': b'copying models/five_bar/meshes/Lower_Arm.stl -> /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/share/lab_amoro/models/five_bar/meshes\n'}
+[0.684277] (lab_amoro) StdoutLine: {'line': b'creating /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/share/lab_amoro/models/biglide\n'}
+[0.684378] (lab_amoro) StdoutLine: {'line': b'copying models/biglide/biglide.sdf -> /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/share/lab_amoro/models/biglide\n'}
+[0.684459] (lab_amoro) StdoutLine: {'line': b'copying models/biglide/model.config -> /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/share/lab_amoro/models/biglide\n'}
+[0.684544] (lab_amoro) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.685986] (lab_amoro) StdoutLine: {'line': b'Copying ../../../build/lab_amoro/lab_amoro.egg-info to /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/lib/python3.10/site-packages/lab_amoro-0.0.0-py3.10.egg-info\n'}
+[0.686841] (lab_amoro) StdoutLine: {'line': b'running install_scripts\n'}
+[0.699951] (-) TimerEvent: {}
+[0.701561] (lab_amoro) StdoutLine: {'line': b"writing list of installed files to '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro/install.log'\n"}
+[0.720673] (lab_amoro) CommandEnded: {'returncode': 0}
+[0.727861] (lab_amoro) JobEnded: {'identifier': 'lab_amoro', 'rc': 0}
+[0.800051] (-) TimerEvent: {}
+[0.812380] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.900153] (-) TimerEvent: {}
+[0.951728] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.000256] (-) TimerEvent: {}
+[1.100491] (-) TimerEvent: {}
+[1.122864] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.139888] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.141368] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.161347] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.161499] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.161564] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.161620] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.176853] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.200588] (-) TimerEvent: {}
+[1.203062] (lab_amoro_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.205056] (lab_amoro_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.206413] (lab_amoro_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.212669] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.239222] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.241432] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro_interfaces\n'}
+[1.247044] (lab_amoro_interfaces) CommandEnded: {'returncode': 0}
+[1.247507] (lab_amoro_interfaces) JobProgress: {'identifier': 'lab_amoro_interfaces', 'progress': 'build'}
+[1.248091] (lab_amoro_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro_interfaces', '--', '-j16', '-l16'], 'cwd': '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ajay'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ajay'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2515'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cd91165be2e330b85fb8012566f9b709'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ajay'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ajay'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/ajay/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/BlackPearl:@/tmp/.ICE-unix/2515,unix/BlackPearl:/tmp/.ICE-unix/2515'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b5ea8191_6e9f_48b6_8a36_41b29319753e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.188'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cd91165be2e330b85fb8012566f9b709'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.279787] (lab_amoro_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.287286] (lab_amoro_interfaces) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.294362] (lab_amoro_interfaces) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_lab_amoro_interfaces\n'}
+[1.300669] (-) TimerEvent: {}
+[1.400901] (-) TimerEvent: {}
+[1.489879] (lab_amoro_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.490326] (lab_amoro_interfaces) StdoutLine: {'line': b'creating lab_amoro_interfaces.egg-info\n'}
+[1.490500] (lab_amoro_interfaces) StdoutLine: {'line': b'writing lab_amoro_interfaces.egg-info/PKG-INFO\n'}
+[1.490742] (lab_amoro_interfaces) StdoutLine: {'line': b'writing dependency_links to lab_amoro_interfaces.egg-info/dependency_links.txt\n'}
+[1.490860] (lab_amoro_interfaces) StdoutLine: {'line': b'writing top-level names to lab_amoro_interfaces.egg-info/top_level.txt\n'}
+[1.491019] (lab_amoro_interfaces) StdoutLine: {'line': b"writing manifest file 'lab_amoro_interfaces.egg-info/SOURCES.txt'\n"}
+[1.492376] (lab_amoro_interfaces) StdoutLine: {'line': b"reading manifest file 'lab_amoro_interfaces.egg-info/SOURCES.txt'\n"}
+[1.492768] (lab_amoro_interfaces) StdoutLine: {'line': b"writing manifest file 'lab_amoro_interfaces.egg-info/SOURCES.txt'\n"}
+[1.500994] (-) TimerEvent: {}
+[1.522031] (lab_amoro_interfaces) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_lab_amoro_interfaces_egg\n'}
+[1.537059] (lab_amoro_interfaces) StdoutLine: {'line': b'[  4%] Built target lab_amoro_interfaces__cpp\n'}
+[1.545625] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/lab_amoro_interfaces__rosidl_generator_c.dir/rosidl_generator_c/lab_amoro_interfaces/msg/detail/robot_states__functions.c.o\x1b[0m\n'}
+[1.545854] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.545932] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/lab_amoro_interfaces__rosidl_generator_c.dir/rosidl_generator_c/lab_amoro_interfaces/msg/detail/states__functions.c.o\x1b[0m\n'}
+[1.546001] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/lab_amoro_interfaces__rosidl_generator_c.dir/rosidl_generator_c/lab_amoro_interfaces/msg/detail/joint_efforts__functions.c.o\x1b[0m\n'}
+[1.546067] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.546131] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.589246] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library liblab_amoro_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[1.601091] (-) TimerEvent: {}
+[1.620384] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 19%] Built target lab_amoro_interfaces__rosidl_generator_c\n'}
+[1.629059] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.629323] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.630685] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.701185] (-) TimerEvent: {}
+[1.746683] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/lab_amoro_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lab_amoro_interfaces/msg/states__type_support.cpp.o\x1b[0m\n'}
+[1.746899] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/lab_amoro_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lab_amoro_interfaces/msg/joint_efforts__type_support.cpp.o\x1b[0m\n'}
+[1.747026] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/lab_amoro_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lab_amoro_interfaces/msg/robot_states__type_support.cpp.o\x1b[0m\n'}
+[1.771089] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/lab_amoro_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lab_amoro_interfaces/msg/detail/states__type_support.cpp.o\x1b[0m\n'}
+[1.771316] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/lab_amoro_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lab_amoro_interfaces/msg/detail/robot_states__type_support.cpp.o\x1b[0m\n'}
+[1.771417] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/lab_amoro_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lab_amoro_interfaces/msg/detail/joint_efforts__type_support.cpp.o\x1b[0m\n'}
+[1.796889] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/lab_amoro_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lab_amoro_interfaces/msg/detail/dds_fastrtps/states__type_support.cpp.o\x1b[0m\n'}
+[1.797083] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/lab_amoro_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lab_amoro_interfaces/msg/detail/dds_fastrtps/joint_efforts__type_support.cpp.o\x1b[0m\n'}
+[1.798083] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/lab_amoro_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lab_amoro_interfaces/msg/detail/dds_fastrtps/robot_states__type_support.cpp.o\x1b[0m\n'}
+[1.801280] (-) TimerEvent: {}
+[1.893494] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/lab_amoro_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lab_amoro_interfaces/msg/detail/states__type_support_c.cpp.o\x1b[0m\n'}
+[1.893774] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/lab_amoro_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lab_amoro_interfaces/msg/detail/robot_states__type_support_c.cpp.o\x1b[0m\n'}
+[1.893872] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/lab_amoro_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/lab_amoro_interfaces/msg/joint_efforts__type_support.cpp.o\x1b[0m\n'}
+[1.893954] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/lab_amoro_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lab_amoro_interfaces/msg/detail/joint_efforts__type_support_c.cpp.o\x1b[0m\n'}
+[1.895160] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/lab_amoro_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/lab_amoro_interfaces/msg/robot_states__type_support.cpp.o\x1b[0m\n'}
+[1.895368] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/lab_amoro_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/lab_amoro_interfaces/msg/states__type_support.cpp.o\x1b[0m\n'}
+[1.902392] (-) TimerEvent: {}
+[1.955107] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX shared library liblab_amoro_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.974562] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/lab_amoro_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lab_amoro_interfaces/msg/detail/joint_efforts__type_support.c.o\x1b[0m\n'}
+[1.974877] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/lab_amoro_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lab_amoro_interfaces/msg/detail/states__type_support.c.o\x1b[0m\n'}
+[1.979672] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding C object CMakeFiles/lab_amoro_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lab_amoro_interfaces/msg/detail/robot_states__type_support.c.o\x1b[0m\n'}
+[2.003538] (-) TimerEvent: {}
+[2.030180] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 65%] Built target lab_amoro_interfaces__rosidl_typesupport_c\n'}
+[2.035245] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking C shared library liblab_amoro_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.075277] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 68%] Built target lab_amoro_interfaces__rosidl_typesupport_introspection_c\n'}
+[2.079624] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library liblab_amoro_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.103660] (-) TimerEvent: {}
+[2.124983] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 70%] Built target lab_amoro_interfaces__rosidl_typesupport_cpp\n'}
+[2.203749] (-) TimerEvent: {}
+[2.210797] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library liblab_amoro_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.236335] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library liblab_amoro_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.253551] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library liblab_amoro_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.266718] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 76%] Built target lab_amoro_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[2.300802] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 76%] Built target lab_amoro_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[2.303818] (-) TimerEvent: {}
+[2.314799] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 76%] Built target lab_amoro_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[2.332016] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 76%] Built target lab_amoro_interfaces\n'}
+[2.349986] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.403924] (-) TimerEvent: {}
+[2.504166] (-) TimerEvent: {}
+[2.604415] (-) TimerEvent: {}
+[2.677345] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 78%] Built target lab_amoro_interfaces__py\n'}
+[2.694018] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/lab_amoro_interfaces__rosidl_generator_py.dir/rosidl_generator_py/lab_amoro_interfaces/msg/_robot_states_s.c.o\x1b[0m\n'}
+[2.694203] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/lab_amoro_interfaces__rosidl_generator_py.dir/rosidl_generator_py/lab_amoro_interfaces/msg/_joint_efforts_s.c.o\x1b[0m\n'}
+[2.694284] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/lab_amoro_interfaces__rosidl_generator_py.dir/rosidl_generator_py/lab_amoro_interfaces/msg/_states_s.c.o\x1b[0m\n'}
+[2.704504] (-) TimerEvent: {}
+[2.789449] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/lab_amoro_interfaces/liblab_amoro_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[2.804587] (-) TimerEvent: {}
+[2.821067] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 87%] Built target lab_amoro_interfaces__rosidl_generator_py\n'}
+[2.838799] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/lab_amoro_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/lab_amoro_interfaces/_lab_amoro_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.838967] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/lab_amoro_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/lab_amoro_interfaces/_lab_amoro_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[2.839038] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/lab_amoro_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/lab_amoro_interfaces/_lab_amoro_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.904684] (-) TimerEvent: {}
+[2.911082] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/lab_amoro_interfaces/lab_amoro_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.914341] (lab_amoro_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/lab_amoro_interfaces/lab_amoro_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.917647] (lab_amoro_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/lab_amoro_interfaces/lab_amoro_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.938631] (lab_amoro_interfaces) StdoutLine: {'line': b'[100%] Built target lab_amoro_interfaces__rosidl_typesupport_c__pyext\n'}
+[2.942229] (lab_amoro_interfaces) StdoutLine: {'line': b'[100%] Built target lab_amoro_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.943719] (lab_amoro_interfaces) StdoutLine: {'line': b'[100%] Built target lab_amoro_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[2.953747] (lab_amoro_interfaces) CommandEnded: {'returncode': 0}
+[3.004761] (-) TimerEvent: {}
+[3.036525] (lab_amoro_interfaces) JobProgress: {'identifier': 'lab_amoro_interfaces', 'progress': 'install'}
+[3.044331] (lab_amoro_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro_interfaces'], 'cwd': '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ajay'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ajay'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2515'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cd91165be2e330b85fb8012566f9b709'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ajay'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ajay'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/ajay/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/BlackPearl:@/tmp/.ICE-unix/2515,unix/BlackPearl:/tmp/.ICE-unix/2515'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b5ea8191_6e9f_48b6_8a36_41b29319753e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.188'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cd91165be2e330b85fb8012566f9b709'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.050731] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.050939] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/ament_index/resource_index/rosidl_interfaces/lab_amoro_interfaces\n'}
+[3.051097] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces\n'}
+[3.051224] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg\n'}
+[3.051316] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/states.h\n'}
+[3.051429] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/robot_states.h\n'}
+[3.051549] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/joint_efforts.h\n'}
+[3.051652] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.051758] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail\n'}
+[3.051844] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/states__type_support.h\n'}
+[3.051955] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/robot_states__functions.c\n'}
+[3.052091] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/joint_efforts__functions.c\n'}
+[3.052210] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/states__functions.c\n'}
+[3.052333] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/robot_states__struct.h\n'}
+[3.052444] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/states__struct.h\n'}
+[3.052561] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/robot_states__type_support.h\n'}
+[3.052671] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/joint_efforts__struct.h\n'}
+[3.052782] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/robot_states__functions.h\n'}
+[3.052897] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/states__functions.h\n'}
+[3.053012] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/joint_efforts__type_support.h\n'}
+[3.053128] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/joint_efforts__functions.h\n'}
+[3.053343] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/environment/library_path.sh\n'}
+[3.053477] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/environment/library_path.dsv\n'}
+[3.053665] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/lib/liblab_amoro_interfaces__rosidl_generator_c.so\n'}
+[3.053962] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/lib/liblab_amoro_interfaces__rosidl_generator_c.so" to ""\n'}
+[3.054043] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces\n'}
+[3.054104] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg\n'}
+[3.054151] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.054222] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail\n'}
+[3.054290] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/robot_states__rosidl_typesupport_fastrtps_c.h\n'}
+[3.054377] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/joint_efforts__rosidl_typesupport_fastrtps_c.h\n'}
+[3.054472] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/states__rosidl_typesupport_fastrtps_c.h\n'}
+[3.054612] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/lib/liblab_amoro_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[3.054907] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/lib/liblab_amoro_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[3.054975] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces\n'}
+[3.055050] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg\n'}
+[3.055103] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.055177] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail\n'}
+[3.055230] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/states__type_support.c\n'}
+[3.055327] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/joint_efforts__rosidl_typesupport_introspection_c.h\n'}
+[3.055427] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/robot_states__rosidl_typesupport_introspection_c.h\n'}
+[3.055539] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/states__rosidl_typesupport_introspection_c.h\n'}
+[3.055651] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/joint_efforts__type_support.c\n'}
+[3.055768] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/robot_states__type_support.c\n'}
+[3.055921] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/lib/liblab_amoro_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[3.056195] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/lib/liblab_amoro_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[3.056271] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/lib/liblab_amoro_interfaces__rosidl_typesupport_c.so\n'}
+[3.056530] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/lib/liblab_amoro_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[3.056636] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces\n'}
+[3.056689] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg\n'}
+[3.056735] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/joint_efforts.hpp\n'}
+[3.056807] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/robot_states.hpp\n'}
+[3.056875] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/states.hpp\n'}
+[3.056978] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail\n'}
+[3.057050] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/joint_efforts__builder.hpp\n'}
+[3.057135] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/joint_efforts__struct.hpp\n'}
+[3.057252] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/states__struct.hpp\n'}
+[3.057388] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/joint_efforts__traits.hpp\n'}
+[3.057502] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/states__traits.hpp\n'}
+[3.057614] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/robot_states__struct.hpp\n'}
+[3.057731] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/robot_states__traits.hpp\n'}
+[3.057848] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/robot_states__builder.hpp\n'}
+[3.057968] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/states__builder.hpp\n'}
+[3.058097] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces\n'}
+[3.058168] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg\n'}
+[3.058228] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.058306] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail\n'}
+[3.058380] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/states__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.058446] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/dds_fastrtps\n'}
+[3.058530] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/robot_states__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.058651] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/joint_efforts__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.058796] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/lib/liblab_amoro_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.059087] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/lib/liblab_amoro_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[3.059157] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces\n'}
+[3.059239] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg\n'}
+[3.059287] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail\n'}
+[3.059350] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/states__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.059409] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/joint_efforts__type_support.cpp\n'}
+[3.059476] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/states__type_support.cpp\n'}
+[3.059594] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/robot_states__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.059711] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/joint_efforts__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.059825] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/include/lab_amoro_interfaces/lab_amoro_interfaces/msg/detail/robot_states__type_support.cpp\n'}
+[3.059979] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/lib/liblab_amoro_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[3.060268] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/lib/liblab_amoro_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[3.060348] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/lib/liblab_amoro_interfaces__rosidl_typesupport_cpp.so\n'}
+[3.060600] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/lib/liblab_amoro_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[3.060675] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/environment/pythonpath.sh\n'}
+[3.060933] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/environment/pythonpath.dsv\n'}
+[3.061056] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces-0.0.0-py3.10.egg-info\n'}
+[3.061216] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.061340] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.061451] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.061560] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.074142] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces\n'}
+[3.074424] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/_lab_amoro_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.074764] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/lab_amoro_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.074938] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/_lab_amoro_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[3.075029] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/liblab_amoro_interfaces__rosidl_generator_py.so\n'}
+[3.075189] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/__init__.py\n'}
+[3.075335] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/msg\n'}
+[3.075445] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/msg/_robot_states.py\n'}
+[3.075578] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/msg/_robot_states_s.c\n'}
+[3.075732] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/msg/_states.py\n'}
+[3.075982] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/msg/_joint_efforts.py\n'}
+[3.076138] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/msg/__init__.py\n'}
+[3.076280] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/msg/_states_s.c\n'}
+[3.076435] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/msg/_joint_efforts_s.c\n'}
+[3.076575] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/lab_amoro_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.076742] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/_lab_amoro_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.076915] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/lab_amoro_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.103074] (lab_amoro_interfaces) StdoutLine: {'line': b"Listing '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces'...\n"}
+[3.103220] (lab_amoro_interfaces) StdoutLine: {'line': b"Compiling '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/__init__.py'...\n"}
+[3.103291] (lab_amoro_interfaces) StdoutLine: {'line': b"Listing '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/msg'...\n"}
+[3.103367] (lab_amoro_interfaces) StdoutLine: {'line': b"Compiling '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/msg/__init__.py'...\n"}
+[3.103422] (lab_amoro_interfaces) StdoutLine: {'line': b"Compiling '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/msg/_joint_efforts.py'...\n"}
+[3.103477] (lab_amoro_interfaces) StdoutLine: {'line': b"Compiling '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/msg/_robot_states.py'...\n"}
+[3.103528] (lab_amoro_interfaces) StdoutLine: {'line': b"Compiling '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/msg/_states.py'...\n"}
+[3.104814] (-) TimerEvent: {}
+[3.106227] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/lab_amoro_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.106598] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/lab_amoro_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.106784] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/lab_amoro_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.107123] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/lab_amoro_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.107282] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/lab_amoro_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.107569] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages/lab_amoro_interfaces/lab_amoro_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.107646] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/lib/liblab_amoro_interfaces__rosidl_generator_py.so\n'}
+[3.107988] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/lib/liblab_amoro_interfaces__rosidl_generator_py.so" to ""\n'}
+[3.108090] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/msg/JointEfforts.idl\n'}
+[3.108227] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/msg/States.idl\n'}
+[3.108365] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/msg/RobotStates.idl\n'}
+[3.108496] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/msg/JointEfforts.msg\n'}
+[3.108623] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/msg/States.msg\n'}
+[3.108752] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/msg/RobotStates.msg\n'}
+[3.108945] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/ament_index/resource_index/package_run_dependencies/lab_amoro_interfaces\n'}
+[3.109132] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/ament_index/resource_index/parent_prefix_path/lab_amoro_interfaces\n'}
+[3.109260] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/environment/ament_prefix_path.sh\n'}
+[3.109419] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/environment/ament_prefix_path.dsv\n'}
+[3.109578] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/environment/path.sh\n'}
+[3.109725] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/environment/path.dsv\n'}
+[3.109875] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/local_setup.bash\n'}
+[3.110021] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/local_setup.sh\n'}
+[3.110172] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/local_setup.zsh\n'}
+[3.110331] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/local_setup.dsv\n'}
+[3.110475] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/package.dsv\n'}
+[3.110670] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/ament_index/resource_index/packages/lab_amoro_interfaces\n'}
+[3.110857] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/export_lab_amoro_interfaces__rosidl_generator_cExport.cmake\n'}
+[3.110999] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/export_lab_amoro_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.111146] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/export_lab_amoro_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.111316] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/export_lab_amoro_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.111461] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/lab_amoro_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.111608] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/lab_amoro_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.111753] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/lab_amoro_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[3.111892] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/lab_amoro_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.112044] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/export_lab_amoro_interfaces__rosidl_generator_cppExport.cmake\n'}
+[3.112186] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/export_lab_amoro_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.112341] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/export_lab_amoro_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.112482] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/lab_amoro_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.112620] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/lab_amoro_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.112765] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/lab_amoro_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[3.112906] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/lab_amoro_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.113057] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/export_lab_amoro_interfaces__rosidl_generator_pyExport.cmake\n'}
+[3.113191] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/export_lab_amoro_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.113334] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[3.113464] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.113601] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.113736] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.113865] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.114007] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.114144] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.114276] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/lab_amoro_interfacesConfig.cmake\n'}
+[3.114399] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake/lab_amoro_interfacesConfig-version.cmake\n'}
+[3.114529] (lab_amoro_interfaces) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/package.xml\n'}
+[3.116539] (lab_amoro_interfaces) CommandEnded: {'returncode': 0}
+[3.205055] (-) TimerEvent: {}
+[3.212471] (lab_amoro_interfaces) JobEnded: {'identifier': 'lab_amoro_interfaces', 'rc': 0}
+[3.213618] (labamoro_plugin) JobStarted: {'identifier': 'labamoro_plugin'}
+[3.219894] (labamoro_plugin) JobProgress: {'identifier': 'labamoro_plugin', 'progress': 'cmake'}
+[3.220288] (labamoro_plugin) Command: {'cmd': ['/usr/bin/cmake', '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/src/lab_amoro/labamoro_plugin', '-DCMAKE_INSTALL_PREFIX=/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin'], 'cwd': '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/labamoro_plugin', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ajay'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ajay'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2515'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cd91165be2e330b85fb8012566f9b709'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ajay'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ajay'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/ajay/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/BlackPearl:@/tmp/.ICE-unix/2515,unix/BlackPearl:/tmp/.ICE-unix/2515'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b5ea8191_6e9f_48b6_8a36_41b29319753e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.188'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/labamoro_plugin'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cd91165be2e330b85fb8012566f9b709'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces:/opt/ros/humble')]), 'shell': False}
+[3.264409] (labamoro_plugin) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[3.305155] (-) TimerEvent: {}
+[3.306377] (labamoro_plugin) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[3.312137] (labamoro_plugin) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.368288] (labamoro_plugin) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.373394] (labamoro_plugin) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.373590] (labamoro_plugin) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.373874] (labamoro_plugin) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.376110] (labamoro_plugin) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.405245] (-) TimerEvent: {}
+[3.440594] (labamoro_plugin) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.445949] (labamoro_plugin) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.446172] (labamoro_plugin) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.446512] (labamoro_plugin) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.448340] (labamoro_plugin) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.505750] (-) TimerEvent: {}
+[3.559828] (labamoro_plugin) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.605840] (-) TimerEvent: {}
+[3.625977] (labamoro_plugin) StdoutLine: {'line': b'-- Found lab_amoro_interfaces: 0.0.0 (/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/cmake)\n'}
+[3.652777] (labamoro_plugin) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.656235] (labamoro_plugin) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.662802] (labamoro_plugin) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.671841] (labamoro_plugin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.683613] (labamoro_plugin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.695803] (labamoro_plugin) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[3.705913] (-) TimerEvent: {}
+[3.718457] (labamoro_plugin) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.756730] (labamoro_plugin) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.759694] (labamoro_plugin) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.806015] (-) TimerEvent: {}
+[3.840758] (labamoro_plugin) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.864823] (labamoro_plugin) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.901128] (labamoro_plugin) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.906095] (-) TimerEvent: {}
+[3.910084] (labamoro_plugin) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.968209] (labamoro_plugin) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.968395] (labamoro_plugin) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.006191] (-) TimerEvent: {}
+[4.027802] (labamoro_plugin) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.028608] (labamoro_plugin) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.064061] (labamoro_plugin) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[4.074514] (labamoro_plugin) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[4.075584] (labamoro_plugin) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[4.087459] (labamoro_plugin) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[4.106277] (-) TimerEvent: {}
+[4.183406] (labamoro_plugin) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[4.206346] (-) TimerEvent: {}
+[4.227479] (labamoro_plugin) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[4.246257] (labamoro_plugin) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[4.271275] (labamoro_plugin) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[4.286847] (labamoro_plugin) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[4.291206] (labamoro_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[4.298356] (labamoro_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[4.300067] (labamoro_plugin) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[4.300451] (labamoro_plugin) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[4.304614] (labamoro_plugin) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[4.306400] (-) TimerEvent: {}
+[4.315312] (labamoro_plugin) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[4.345796] (labamoro_plugin) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[4.351572] (labamoro_plugin) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[4.358773] (labamoro_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[4.362702] (labamoro_plugin) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[4.362818] (labamoro_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[4.366666] (labamoro_plugin) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[4.366780] (labamoro_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[4.370622] (labamoro_plugin) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[4.370736] (labamoro_plugin) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[4.374522] (labamoro_plugin) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[4.374637] (labamoro_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[4.378266] (labamoro_plugin) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[4.378394] (labamoro_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[4.382714] (labamoro_plugin) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[4.406499] (-) TimerEvent: {}
+[4.464773] (labamoro_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[4.476997] (labamoro_plugin) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[4.478045] (labamoro_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[4.494290] (labamoro_plugin) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[4.504729] (labamoro_plugin) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[4.506559] (-) TimerEvent: {}
+[4.508763] (labamoro_plugin) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[4.522691] (labamoro_plugin) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[4.556013] (labamoro_plugin) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[4.561039] (labamoro_plugin) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[4.572491] (labamoro_plugin) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[4.602280] (labamoro_plugin) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[4.604633] (labamoro_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[4.605066] (labamoro_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[4.606631] (-) TimerEvent: {}
+[4.622374] (labamoro_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[4.626654] (labamoro_plugin) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[4.638875] (labamoro_plugin) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[4.669582] (labamoro_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[4.671835] (labamoro_plugin) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[4.672305] (labamoro_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[4.672716] (labamoro_plugin) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[4.673603] (labamoro_plugin) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[4.674658] (labamoro_plugin) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[4.683859] (labamoro_plugin) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[4.684425] (labamoro_plugin) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[4.686521] (labamoro_plugin) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[4.686925] (labamoro_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[4.687247] (labamoro_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[4.690091] (labamoro_plugin) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[4.690479] (labamoro_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[4.706706] (-) TimerEvent: {}
+[4.760646] (labamoro_plugin) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[4.768201] (labamoro_plugin) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[4.780008] (labamoro_plugin) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[4.806794] (-) TimerEvent: {}
+[4.810034] (labamoro_plugin) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[4.815085] (labamoro_plugin) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[4.827623] (labamoro_plugin) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[4.859083] (labamoro_plugin) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[4.859462] (labamoro_plugin) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[4.859803] (labamoro_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[4.860144] (labamoro_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[4.863704] (labamoro_plugin) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[4.864020] (labamoro_plugin) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[4.877104] (labamoro_plugin) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[4.906892] (-) TimerEvent: {}
+[4.959162] (labamoro_plugin) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.994451] (labamoro_plugin) StdoutLine: {'line': b'-- Generating done\n'}
+[4.996437] (labamoro_plugin) StdoutLine: {'line': b'-- Build files have been written to: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/labamoro_plugin\n'}
+[5.006391] (labamoro_plugin) CommandEnded: {'returncode': 0}
+[5.007072] (-) TimerEvent: {}
+[5.007162] (labamoro_plugin) JobProgress: {'identifier': 'labamoro_plugin', 'progress': 'build'}
+[5.007866] (labamoro_plugin) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/labamoro_plugin', '--', '-j16', '-l16'], 'cwd': '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/labamoro_plugin', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ajay'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ajay'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2515'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cd91165be2e330b85fb8012566f9b709'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ajay'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ajay'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/ajay/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/BlackPearl:@/tmp/.ICE-unix/2515,unix/BlackPearl:/tmp/.ICE-unix/2515'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b5ea8191_6e9f_48b6_8a36_41b29319753e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.188'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/labamoro_plugin'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cd91165be2e330b85fb8012566f9b709'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces:/opt/ros/humble')]), 'shell': False}
+[5.053723] (labamoro_plugin) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_ros_cosimulation.dir/ros_cosimulation.cpp.o\x1b[0m\n'}
+[5.107182] (-) TimerEvent: {}
+[5.207451] (-) TimerEvent: {}
+[5.307728] (-) TimerEvent: {}
+[5.407984] (-) TimerEvent: {}
+[5.508258] (-) TimerEvent: {}
+[5.608523] (-) TimerEvent: {}
+[5.708777] (-) TimerEvent: {}
+[5.809040] (-) TimerEvent: {}
+[5.909324] (-) TimerEvent: {}
+[6.009586] (-) TimerEvent: {}
+[6.109847] (-) TimerEvent: {}
+[6.210112] (-) TimerEvent: {}
+[6.310382] (-) TimerEvent: {}
+[6.410643] (-) TimerEvent: {}
+[6.510920] (-) TimerEvent: {}
+[6.611180] (-) TimerEvent: {}
+[6.711450] (-) TimerEvent: {}
+[6.811713] (-) TimerEvent: {}
+[6.911976] (-) TimerEvent: {}
+[7.012245] (-) TimerEvent: {}
+[7.112532] (-) TimerEvent: {}
+[7.212820] (-) TimerEvent: {}
+[7.313089] (-) TimerEvent: {}
+[7.413363] (-) TimerEvent: {}
+[7.513631] (-) TimerEvent: {}
+[7.613922] (-) TimerEvent: {}
+[7.714226] (-) TimerEvent: {}
+[7.814523] (-) TimerEvent: {}
+[7.914810] (-) TimerEvent: {}
+[8.015092] (-) TimerEvent: {}
+[8.115371] (-) TimerEvent: {}
+[8.215654] (-) TimerEvent: {}
+[8.315943] (-) TimerEvent: {}
+[8.416224] (-) TimerEvent: {}
+[8.516518] (-) TimerEvent: {}
+[8.616786] (-) TimerEvent: {}
+[8.717066] (-) TimerEvent: {}
+[8.817346] (-) TimerEvent: {}
+[8.917618] (-) TimerEvent: {}
+[9.017893] (-) TimerEvent: {}
+[9.118181] (-) TimerEvent: {}
+[9.218466] (-) TimerEvent: {}
+[9.318745] (-) TimerEvent: {}
+[9.419021] (-) TimerEvent: {}
+[9.519307] (-) TimerEvent: {}
+[9.619577] (-) TimerEvent: {}
+[9.719847] (-) TimerEvent: {}
+[9.820122] (-) TimerEvent: {}
+[9.920404] (-) TimerEvent: {}
+[10.020679] (-) TimerEvent: {}
+[10.120954] (-) TimerEvent: {}
+[10.221230] (-) TimerEvent: {}
+[10.321521] (-) TimerEvent: {}
+[10.421805] (-) TimerEvent: {}
+[10.522079] (-) TimerEvent: {}
+[10.622354] (-) TimerEvent: {}
+[10.722624] (-) TimerEvent: {}
+[10.822913] (-) TimerEvent: {}
+[10.923206] (-) TimerEvent: {}
+[11.023472] (-) TimerEvent: {}
+[11.123735] (-) TimerEvent: {}
+[11.224013] (-) TimerEvent: {}
+[11.324336] (-) TimerEvent: {}
+[11.424591] (-) TimerEvent: {}
+[11.524838] (-) TimerEvent: {}
+[11.625086] (-) TimerEvent: {}
+[11.725330] (-) TimerEvent: {}
+[11.825594] (-) TimerEvent: {}
+[11.925881] (-) TimerEvent: {}
+[12.026151] (-) TimerEvent: {}
+[12.126486] (-) TimerEvent: {}
+[12.226737] (-) TimerEvent: {}
+[12.327021] (-) TimerEvent: {}
+[12.427274] (-) TimerEvent: {}
+[12.527542] (-) TimerEvent: {}
+[12.627812] (-) TimerEvent: {}
+[12.728088] (-) TimerEvent: {}
+[12.828360] (-) TimerEvent: {}
+[12.928630] (-) TimerEvent: {}
+[13.028906] (-) TimerEvent: {}
+[13.129166] (-) TimerEvent: {}
+[13.229421] (-) TimerEvent: {}
+[13.329688] (-) TimerEvent: {}
+[13.429957] (-) TimerEvent: {}
+[13.530207] (-) TimerEvent: {}
+[13.630479] (-) TimerEvent: {}
+[13.730741] (-) TimerEvent: {}
+[13.831004] (-) TimerEvent: {}
+[13.931303] (-) TimerEvent: {}
+[14.031568] (-) TimerEvent: {}
+[14.131852] (-) TimerEvent: {}
+[14.232128] (-) TimerEvent: {}
+[14.332350] (-) TimerEvent: {}
+[14.432604] (-) TimerEvent: {}
+[14.532869] (-) TimerEvent: {}
+[14.633128] (-) TimerEvent: {}
+[14.733397] (-) TimerEvent: {}
+[14.833673] (-) TimerEvent: {}
+[14.933936] (-) TimerEvent: {}
+[15.034194] (-) TimerEvent: {}
+[15.134463] (-) TimerEvent: {}
+[15.234725] (-) TimerEvent: {}
+[15.334976] (-) TimerEvent: {}
+[15.435231] (-) TimerEvent: {}
+[15.535502] (-) TimerEvent: {}
+[15.635769] (-) TimerEvent: {}
+[15.736034] (-) TimerEvent: {}
+[15.836278] (-) TimerEvent: {}
+[15.936538] (-) TimerEvent: {}
+[16.036804] (-) TimerEvent: {}
+[16.137053] (-) TimerEvent: {}
+[16.237316] (-) TimerEvent: {}
+[16.337582] (-) TimerEvent: {}
+[16.437835] (-) TimerEvent: {}
+[16.538104] (-) TimerEvent: {}
+[16.638354] (-) TimerEvent: {}
+[16.738596] (-) TimerEvent: {}
+[16.838852] (-) TimerEvent: {}
+[16.939106] (-) TimerEvent: {}
+[17.039364] (-) TimerEvent: {}
+[17.139640] (-) TimerEvent: {}
+[17.239935] (-) TimerEvent: {}
+[17.340187] (-) TimerEvent: {}
+[17.440450] (-) TimerEvent: {}
+[17.540738] (-) TimerEvent: {}
+[17.641012] (-) TimerEvent: {}
+[17.741286] (-) TimerEvent: {}
+[17.841581] (-) TimerEvent: {}
+[17.941826] (-) TimerEvent: {}
+[18.042075] (-) TimerEvent: {}
+[18.142351] (-) TimerEvent: {}
+[18.242590] (-) TimerEvent: {}
+[18.342841] (-) TimerEvent: {}
+[18.443090] (-) TimerEvent: {}
+[18.543347] (-) TimerEvent: {}
+[18.643611] (-) TimerEvent: {}
+[18.743910] (-) TimerEvent: {}
+[18.844170] (-) TimerEvent: {}
+[18.944448] (-) TimerEvent: {}
+[19.044731] (-) TimerEvent: {}
+[19.050665] (labamoro_plugin) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_ros_cosimulation.so\x1b[0m\n'}
+[19.144841] (-) TimerEvent: {}
+[19.245111] (-) TimerEvent: {}
+[19.345403] (-) TimerEvent: {}
+[19.446070] (-) TimerEvent: {}
+[19.546350] (-) TimerEvent: {}
+[19.645501] (labamoro_plugin) StdoutLine: {'line': b'[100%] Built target gazebo_ros_cosimulation\n'}
+[19.646417] (-) TimerEvent: {}
+[19.657264] (labamoro_plugin) CommandEnded: {'returncode': 0}
+[19.683096] (labamoro_plugin) JobProgress: {'identifier': 'labamoro_plugin', 'progress': 'install'}
+[19.683477] (labamoro_plugin) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/labamoro_plugin'], 'cwd': '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/labamoro_plugin', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ajay'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ajay'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2515'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cd91165be2e330b85fb8012566f9b709'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ajay'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ajay'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/ajay/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/BlackPearl:@/tmp/.ICE-unix/2515,unix/BlackPearl:/tmp/.ICE-unix/2515'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b5ea8191_6e9f_48b6_8a36_41b29319753e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.188'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/labamoro_plugin'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cd91165be2e330b85fb8012566f9b709'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces:/opt/ros/humble')]), 'shell': False}
+[19.691524] (labamoro_plugin) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.691766] (labamoro_plugin) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/lib/labamoro_plugin/libgazebo_ros_cosimulation.so\n'}
+[19.703000] (labamoro_plugin) StdoutLine: {'line': b'-- Set runtime path of "/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/lib/labamoro_plugin/libgazebo_ros_cosimulation.so" to ""\n'}
+[19.703227] (labamoro_plugin) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/share/ament_index/resource_index/package_run_dependencies/labamoro_plugin\n'}
+[19.703425] (labamoro_plugin) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/share/ament_index/resource_index/parent_prefix_path/labamoro_plugin\n'}
+[19.703592] (labamoro_plugin) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/share/labamoro_plugin/environment/ament_prefix_path.sh\n'}
+[19.703729] (labamoro_plugin) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/share/labamoro_plugin/environment/ament_prefix_path.dsv\n'}
+[19.703870] (labamoro_plugin) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/share/labamoro_plugin/environment/path.sh\n'}
+[19.704017] (labamoro_plugin) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/share/labamoro_plugin/environment/path.dsv\n'}
+[19.704157] (labamoro_plugin) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/share/labamoro_plugin/local_setup.bash\n'}
+[19.704290] (labamoro_plugin) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/share/labamoro_plugin/local_setup.sh\n'}
+[19.704428] (labamoro_plugin) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/share/labamoro_plugin/local_setup.zsh\n'}
+[19.704556] (labamoro_plugin) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/share/labamoro_plugin/local_setup.dsv\n'}
+[19.704689] (labamoro_plugin) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/share/labamoro_plugin/package.dsv\n'}
+[19.704868] (labamoro_plugin) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/share/ament_index/resource_index/packages/labamoro_plugin\n'}
+[19.705079] (labamoro_plugin) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/share/labamoro_plugin/cmake/labamoro_pluginConfig.cmake\n'}
+[19.705218] (labamoro_plugin) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/share/labamoro_plugin/cmake/labamoro_pluginConfig-version.cmake\n'}
+[19.705416] (labamoro_plugin) StdoutLine: {'line': b'-- Installing: /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/share/labamoro_plugin/package.xml\n'}
+[19.707623] (labamoro_plugin) CommandEnded: {'returncode': 0}
+[19.742425] (labamoro_plugin) JobEnded: {'identifier': 'labamoro_plugin', 'rc': 0}
+[19.743013] (-) EventReactorShutdown: {}

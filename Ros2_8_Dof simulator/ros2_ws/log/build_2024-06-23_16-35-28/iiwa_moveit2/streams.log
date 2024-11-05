@@ -1,0 +1,104 @@
+[0.231s] Invoking command in '/home/ajay/ros2_ws/build/iiwa_moveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ajay/ros2_ws/src/iiwa_ros2/iiwa_moveit2 -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ajay/ros2_ws/install/iiwa_moveit2
+[0.278s] -- The C compiler identification is GNU 11.4.0
+[0.327s] -- The CXX compiler identification is GNU 11.4.0
+[0.333s] -- Detecting C compiler ABI info
+[0.399s] -- Detecting C compiler ABI info - done
+[0.404s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.404s] -- Detecting C compile features
+[0.405s] -- Detecting C compile features - done
+[0.407s] -- Detecting CXX compiler ABI info
+[0.481s] -- Detecting CXX compiler ABI info - done
+[0.486s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.487s] -- Detecting CXX compile features
+[0.487s] -- Detecting CXX compile features - done
+[0.489s] -- Found moveit_common: 2.5.5 (/opt/ros/humble/share/moveit_common/cmake)
+[0.490s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.618s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.668s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.755s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[0.761s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[0.761s] -- BACKWARD_HAS_UNWIND=1
+[0.761s] -- BACKWARD_HAS_BACKTRACE=0
+[0.761s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[0.761s] -- BACKWARD_HAS_DW=1
+[0.761s] -- BACKWARD_HAS_BFD=0
+[0.761s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[0.764s] -- Found control_msgs: 4.6.0 (/opt/ros/humble/share/control_msgs/cmake)
+[0.792s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.796s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.804s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.815s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.832s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.248s] -- Found moveit_core: 2.5.5 (/opt/ros/humble/share/moveit_core/cmake)
+[1.456s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.477s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.540s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.542s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.639s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.662s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.706s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.715s] -- Found Threads: TRUE  
+[1.838s] -- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.875s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.972s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.154s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.154s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.910s] -- Found moveit_servo: 2.5.5 (/opt/ros/humble/share/moveit_servo/cmake)
+[3.067s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[3.627s] -- Found ament_cmake_gtest: 1.3.9 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.629s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.649s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.650s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.650s] -- Configured cppcheck include dirs: 
+[3.650s] -- Configured cppcheck exclude dirs and/or files: 
+[3.651s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.651s] -- Configured cpplint exclude dirs and/or files: 
+[3.652s] -- Added test 'lint_cmake' to check CMake code style
+[3.652s] -- Added test 'uncrustify' to check C / C++ code style
+[3.652s] -- Configured uncrustify additional arguments: 
+[3.653s] -- Added test 'xmllint' to check XML markup files
+[3.655s] -- Configuring done
+[3.702s] -- Generating done
+[3.704s] -- Build files have been written to: /home/ajay/ros2_ws/build/iiwa_moveit2
+[3.721s] Invoked command in '/home/ajay/ros2_ws/build/iiwa_moveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ajay/ros2_ws/src/iiwa_ros2/iiwa_moveit2 -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ajay/ros2_ws/install/iiwa_moveit2
+[3.723s] Invoking command in '/home/ajay/ros2_ws/build/iiwa_moveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ajay/ros2_ws/build/iiwa_moveit2 -- -j16 -l16
+[3.777s] [ 50%] [32mBuilding CXX object CMakeFiles/pose_tracking_servo_node.dir/src/pose_tracking_servo.cpp.o[0m
+[3.777s] [ 50%] [32mBuilding CXX object CMakeFiles/servo_controller_input.dir/src/joystick_servo.cpp.o[0m
+[3.777s] [ 50%] [32mBuilding CXX object CMakeFiles/servo_node.dir/src/servo_node.cpp.o[0m
+[13.389s] [ 66%] [32m[1mLinking CXX executable servo_node[0m
+[13.740s] [ 66%] Built target servo_node
+[16.196s] [ 83%] [32m[1mLinking CXX shared library libservo_controller_input.so[0m
+[16.549s] [ 83%] Built target servo_controller_input
+[19.968s] [100%] [32m[1mLinking CXX executable pose_tracking_servo_node[0m
+[20.296s] [100%] Built target pose_tracking_servo_node
+[20.308s] Invoked command in '/home/ajay/ros2_ws/build/iiwa_moveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ajay/ros2_ws/build/iiwa_moveit2 -- -j16 -l16
+[20.344s] Invoking command in '/home/ajay/ros2_ws/build/iiwa_moveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ajay/ros2_ws/build/iiwa_moveit2
+[20.352s] -- Install configuration: "Release"
+[20.352s] -- Execute custom install script
+[20.352s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_moveit2/lib/iiwa_moveit2/pose_tracking_servo_node
+[20.362s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_moveit2/lib/iiwa_moveit2/servo_node
+[20.372s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/environment/library_path.sh
+[20.381s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/environment/library_path.dsv
+[20.391s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_moveit2/share/ament_index/resource_index/package_run_dependencies/iiwa_moveit2
+[20.400s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_moveit2/share/ament_index/resource_index/parent_prefix_path/iiwa_moveit2
+[20.410s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/environment/ament_prefix_path.sh
+[20.419s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/environment/ament_prefix_path.dsv
+[20.429s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/environment/path.sh
+[20.438s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/environment/path.dsv
+[20.448s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/local_setup.bash
+[20.458s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/local_setup.sh
+[20.467s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/local_setup.zsh
+[20.477s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/local_setup.dsv
+[20.487s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/package.dsv
+[20.496s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_moveit2/share/ament_index/resource_index/packages/iiwa_moveit2
+[20.506s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_moveit2/share/ament_index/resource_index/rclcpp_components/iiwa_moveit2
+[20.515s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/cmake/ament_cmake_export_targets-extras.cmake
+[20.524s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.534s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/cmake/iiwa_moveit2Config.cmake
+[20.544s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/cmake/iiwa_moveit2Config-version.cmake
+[20.553s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/package.xml
+[20.563s] -- Installing: /home/ajay/ros2_ws/install/iiwa_moveit2/lib/libservo_controller_input.so
+[20.565s] -- Set runtime path of "/home/ajay/ros2_ws/install/iiwa_moveit2/lib/libservo_controller_input.so" to ""
+[20.565s] -- Installing: /home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/cmake/export_iiwa_moveit2Export.cmake
+[20.565s] -- Installing: /home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/cmake/export_iiwa_moveit2Export-release.cmake
+[20.568s] Invoked command in '/home/ajay/ros2_ws/build/iiwa_moveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ajay/ros2_ws/build/iiwa_moveit2

@@ -1,0 +1,1 @@
+/home/ajay/ros2_ws/build/external_torque_sensor_broadcaster/ament_cmake_core/external_torque_sensor_broadcasterConfig-version.cmake

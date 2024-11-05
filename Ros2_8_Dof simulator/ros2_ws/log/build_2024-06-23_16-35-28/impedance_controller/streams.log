@@ -1,0 +1,77 @@
+[0.234s] Invoking command in '/home/ajay/ros2_ws/build/impedance_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ajay/ros2_ws/src/iiwa_ros2/iiwa_controllers/impedance_controller -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ajay/ros2_ws/install/impedance_controller
+[0.280s] -- The C compiler identification is GNU 11.4.0
+[0.328s] -- The CXX compiler identification is GNU 11.4.0
+[0.334s] -- Detecting C compiler ABI info
+[0.399s] -- Detecting C compiler ABI info - done
+[0.404s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.404s] -- Detecting C compile features
+[0.405s] -- Detecting C compile features - done
+[0.407s] -- Detecting CXX compiler ABI info
+[0.478s] -- Detecting CXX compiler ABI info - done
+[0.484s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.484s] -- Detecting CXX compile features
+[0.484s] -- Detecting CXX compile features - done
+[0.486s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.615s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.665s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.692s] -- Found controller_interface: 2.41.0 (/opt/ros/humble/share/controller_interface/cmake)
+[0.732s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.736s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.744s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.755s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.772s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.295s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.297s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.329s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.389s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.391s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.406s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.414s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.421s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.430s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.439s] -- Looking for pthread.h
+[1.506s] -- Looking for pthread.h - found
+[1.506s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.573s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.575s] -- Found Threads: TRUE  
+[1.790s] -- Found realtime_tools: 2.5.0 (/opt/ros/humble/share/realtime_tools/cmake)
+[1.991s] -- Found ament_cmake_gtest: 1.3.9 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.993s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.050s] -- Configuring done
+[2.073s] -- Generating done
+[2.075s] -- Build files have been written to: /home/ajay/ros2_ws/build/impedance_controller
+[2.084s] Invoked command in '/home/ajay/ros2_ws/build/impedance_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ajay/ros2_ws/src/iiwa_ros2/iiwa_controllers/impedance_controller -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ajay/ros2_ws/install/impedance_controller
+[2.086s] Invoking command in '/home/ajay/ros2_ws/build/impedance_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ajay/ros2_ws/build/impedance_controller -- -j16 -l16
+[2.137s] [ 50%] [32mBuilding CXX object CMakeFiles/impedance_controller.dir/src/impedance_controller.cpp.o[0m
+[11.154s] [100%] [32m[1mLinking CXX shared library libimpedance_controller.so[0m
+[11.366s] [100%] Built target impedance_controller
+[11.379s] Invoked command in '/home/ajay/ros2_ws/build/impedance_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ajay/ros2_ws/build/impedance_controller -- -j16 -l16
+[11.410s] Invoking command in '/home/ajay/ros2_ws/build/impedance_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ajay/ros2_ws/build/impedance_controller
+[11.419s] -- Install configuration: "Release"
+[11.419s] -- Execute custom install script
+[11.420s] -- Symlinking: /home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller//impedance_plugin.xml
+[11.431s] -- Symlinking: /home/ajay/ros2_ws/install/impedance_controller/include/impedance_controller/impedance_controller.hpp
+[11.441s] -- Symlinking: /home/ajay/ros2_ws/install/impedance_controller/include/impedance_controller/visibility_control.h
+[11.452s] -- Symlinking: /home/ajay/ros2_ws/install/impedance_controller/lib/libimpedance_controller.so
+[11.463s] -- Symlinking: /home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/environment/library_path.sh
+[11.473s] -- Symlinking: /home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/environment/library_path.dsv
+[11.484s] -- Symlinking: /home/ajay/ros2_ws/install/impedance_controller/share/ament_index/resource_index/package_run_dependencies/impedance_controller
+[11.495s] -- Symlinking: /home/ajay/ros2_ws/install/impedance_controller/share/ament_index/resource_index/parent_prefix_path/impedance_controller
+[11.505s] -- Symlinking: /home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/environment/ament_prefix_path.sh
+[11.516s] -- Symlinking: /home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/environment/ament_prefix_path.dsv
+[11.526s] -- Symlinking: /home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/environment/path.sh
+[11.537s] -- Symlinking: /home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/environment/path.dsv
+[11.547s] -- Symlinking: /home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/local_setup.bash
+[11.559s] -- Symlinking: /home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/local_setup.sh
+[11.569s] -- Symlinking: /home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/local_setup.zsh
+[11.580s] -- Symlinking: /home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/local_setup.dsv
+[11.591s] -- Symlinking: /home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/package.dsv
+[11.601s] -- Symlinking: /home/ajay/ros2_ws/install/impedance_controller/share/ament_index/resource_index/packages/impedance_controller
+[11.612s] -- Symlinking: /home/ajay/ros2_ws/install/impedance_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/impedance_controller
+[11.622s] -- Symlinking: /home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.633s] -- Symlinking: /home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.644s] -- Symlinking: /home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[11.654s] -- Symlinking: /home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/cmake/impedance_controllerConfig.cmake
+[11.665s] -- Symlinking: /home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/cmake/impedance_controllerConfig-version.cmake
+[11.676s] -- Symlinking: /home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/package.xml
+[11.688s] Invoked command in '/home/ajay/ros2_ws/build/impedance_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ajay/ros2_ws/build/impedance_controller

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>iiwa_control</name>
+  <version>0.0.1</version>
+  <description>ROS 2 package for controlling iiwa arm</description>
+  <maintainer email="your_email@example.com">Your Name</maintainer>
+  <license>TODO: License declaration</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <build_depend>rclpy</build_depend>
+  <build_depend>trajectory_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <!-- Add other build dependencies as needed -->
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>trajectory_msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <!-- Add other exec dependencies as needed -->
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

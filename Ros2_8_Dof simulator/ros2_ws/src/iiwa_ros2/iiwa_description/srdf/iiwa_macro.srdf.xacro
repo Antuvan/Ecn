@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <xacro:macro name="iiwa_srdf" params="name prefix">
+     <group name="${prefix}${name}_arm"> # group define local grouping of joints and links used for motion control and planning
+        <chain base_link="${prefix}support_base" tip_link="${prefix}tool0" />
+    </group> #kinematic chain defines the physical structure of the robot arm 
+
+    <group_state name="ready" group="${prefix}${name}_arm">
+        <joint name="${prefix}joint_b3" value="0"/>
+        <joint name="${prefix}joint_a1" value="0"/>
+        <joint name="${prefix}joint_a2" value="-0.785"/>
+        <joint name="${prefix}joint_a3" value="0"/>
+        <joint name="${prefix}joint_a4" value="-2.356"/>
+        <joint name="${prefix}joint_a5" value="0"/>
+        <joint name="${prefix}joint_a6" value="1.571"/>
+        <joint name="${prefix}joint_a7" value="0.785"/>
+    </group_state>
+
+
+    <group name="${prefix}${name}linear_axis"> 
+      <chain base_link="${prefix}iiwa_base" tip_link="${prefix}suuport_base" />
+    </group>
+
+   <group_state name="ready_1" group="${prefix}${name}linear_axis"> 
+      <joint name="${prefix}joint_b1" value="0"/>
+      <joint name="${prefix}joint_b2" value="0"/>
+   </group_state>
+
+
+     ## disable collision lists pair of links that are allowed to be in contact without reporting a <collision>
+      # passive joints that are not actuated
+     </collision>
+    <disable_collisions link1="${prefix}iiwa_base" link2="${prefix}structure" reason="Never" />
+    <disable_collisions link1="${prefix}iiwa_base" link2="${prefix}slider" reason="Never" />
+    <disable_collisions link1="${prefix}iiwa_base" link2="${prefix}support_base" reason="Never" />
+    
+    <disable_collisions link1="${prefix}structure" link2="${prefix}slider" reason="Never" />
+    <disable_collisions link1="${prefix}structure" link2="${prefix}support_base" reason="Never" />
+    <disable_collisions link1="${prefix}structure" link2="${prefix}link_0" reason="Never" />
+
+    
+    <disable_collisions link1="${prefix}slider" link2="${prefix}support_base" reason="Never" />
+    <disable_collisions link1="${prefix}slider" link2="${prefix}link_0" reason="Never" />
+    <disable_collisions link1="${prefix}slider" link2="${prefix}link_1" reason="Never" />
+    <disable_collisions link1="${prefix}slider" link2="${prefix}link_2" reason="Never" />
+    
+    <disable_collisions link1="${prefix}support_base" link2="${prefix}link_0" reason="Never" />
+    <disable_collisions link1="${prefix}support_base" link2="${prefix}link_1" reason="Never" />
+    <disable_collisions link1="${prefix}support_base" link2="${prefix}link_2" reason="Never" />
+    <disable_collisions link1="${prefix}support_base" link2="${prefix}link_3" reason="Never" />
+    
+    <disable_collisions link1="${prefix}link_0" link2="${prefix}link_1" reason="Adjacent" />
+    <disable_collisions link1="${prefix}link_0" link2="${prefix}link_2" reason="Never" />
+    <disable_collisions link1="${prefix}link_0" link2="${prefix}link_3" reason="Never" />
+    <disable_collisions link1="${prefix}link_0" link2="${prefix}link_4" reason="Never" />
+    <disable_collisions link1="${prefix}link_1" link2="${prefix}link_2" reason="Adjacent" />
+    <disable_collisions link1="${prefix}link_1" link2="${prefix}link_3" reason="Never" />
+    <disable_collisions link1="${prefix}link_1" link2="${prefix}link_4" reason="Never" />
+    <disable_collisions link1="${prefix}link_1" link2="${prefix}link_5" reason="Never" />
+    <disable_collisions link1="${prefix}link_1" link2="${prefix}link_6" reason="Never" />
+    <disable_collisions link1="${prefix}link_1" link2="${prefix}link_7" reason="Never" />
+    <disable_collisions link1="${prefix}link_2" link2="${prefix}link_3" reason="Adjacent" />
+    <disable_collisions link1="${prefix}link_2" link2="${prefix}link_4" reason="Never" />
+    <disable_collisions link1="${prefix}link_2" link2="${prefix}link_5" reason="Never" />
+    <disable_collisions link1="${prefix}link_2" link2="${prefix}link_6" reason="Never" />
+    <disable_collisions link1="${prefix}link_2" link2="${prefix}link_7" reason="Never" />
+    <disable_collisions link1="${prefix}link_3" link2="${prefix}link_4" reason="Adjacent" />
+    <disable_collisions link1="${prefix}link_3" link2="${prefix}link_5" reason="Never" />
+    <disable_collisions link1="${prefix}link_3" link2="${prefix}link_6" reason="Never" />
+    <disable_collisions link1="${prefix}link_3" link2="${prefix}link_7" reason="Never" />
+    <disable_collisions link1="${prefix}link_4" link2="${prefix}link_5" reason="Adjacent" />
+    <disable_collisions link1="${prefix}link_4" link2="${prefix}link_6" reason="Never" />
+    <disable_collisions link1="${prefix}link_4" link2="${prefix}link_7" reason="Never" />
+    <disable_collisions link1="${prefix}link_5" link2="${prefix}link_6" reason="Adjacent" />
+    <disable_collisions link1="${prefix}link_5" link2="${prefix}link_7" reason="Never" />
+    <disable_collisions link1="${prefix}link_6" link2="${prefix}link_7" reason="Adjacent" />
+    <disable_collisions link1="${prefix}link_7" link2="${prefix}tool0" reason="Adjacent" />
+  </xacro:macro>
+</robot>

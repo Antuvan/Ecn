@@ -1,0 +1,420 @@
+[0.075s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.075s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x794dfef55ff0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x794dff0471c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x794dff0471c0>>)
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.209s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro) by extension 'ros'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro) by extensions ['cmake', 'python']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro) by extension 'cmake'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro) by extension 'python'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro) by extensions ['python_setup_py']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro) by extension 'python_setup_py'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/lab_amoro) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/lab_amoro) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/lab_amoro) by extension 'ignore_ament_install'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/lab_amoro) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/lab_amoro) by extension 'colcon_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/lab_amoro) by extensions ['colcon_meta']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/lab_amoro) by extension 'colcon_meta'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/lab_amoro) by extensions ['ros']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/lab_amoro) by extension 'ros'
+[0.220s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lab_amoro/lab_amoro' with type 'ros.ament_python' and name 'lab_amoro'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/lab_amoro_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/lab_amoro_interfaces) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/lab_amoro_interfaces) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/lab_amoro_interfaces) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/lab_amoro_interfaces) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/lab_amoro_interfaces) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/lab_amoro_interfaces) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/lab_amoro_interfaces) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/lab_amoro_interfaces) by extension 'ros'
+[0.221s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lab_amoro/lab_amoro_interfaces' with type 'ros.ament_cmake' and name 'lab_amoro_interfaces'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/labamoro_plugin) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/labamoro_plugin) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/labamoro_plugin) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/labamoro_plugin) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/labamoro_plugin) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/labamoro_plugin) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/labamoro_plugin) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/labamoro_plugin) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/labamoro_plugin) by extension 'ros'
+[0.222s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lab_amoro/labamoro_plugin' with type 'ros.ament_cmake' and name 'labamoro_plugin'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/reports_template) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/reports_template) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/reports_template) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/reports_template) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/reports_template) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/reports_template) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/reports_template) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/reports_template) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/reports_template) by extension 'ros'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/reports_template) by extensions ['cmake', 'python']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/reports_template) by extension 'cmake'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/reports_template) by extension 'python'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/reports_template) by extensions ['python_setup_py']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/reports_template) by extension 'python_setup_py'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/reports_template/biglide_model) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/reports_template/biglide_model) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/reports_template/biglide_model) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/reports_template/biglide_model) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/reports_template/biglide_model) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/reports_template/biglide_model) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/reports_template/biglide_model) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/reports_template/biglide_model) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/reports_template/biglide_model) by extension 'ros'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/reports_template/biglide_model) by extensions ['cmake', 'python']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/reports_template/biglide_model) by extension 'cmake'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/reports_template/biglide_model) by extension 'python'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/reports_template/biglide_model) by extensions ['python_setup_py']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/reports_template/biglide_model) by extension 'python_setup_py'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/student_scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/student_scripts) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/student_scripts) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/student_scripts) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/student_scripts) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/student_scripts) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/student_scripts) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/student_scripts) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/student_scripts) by extension 'ros'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/student_scripts) by extensions ['cmake', 'python']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/student_scripts) by extension 'cmake'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/student_scripts) by extension 'python'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/student_scripts) by extensions ['python_setup_py']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/student_scripts) by extension 'python_setup_py'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/student_scripts/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/student_scripts/__pycache__) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/student_scripts/__pycache__) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/student_scripts/__pycache__) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/student_scripts/__pycache__) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/student_scripts/__pycache__) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/student_scripts/__pycache__) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/student_scripts/__pycache__) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/student_scripts/__pycache__) by extension 'ros'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/student_scripts/__pycache__) by extensions ['cmake', 'python']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/student_scripts/__pycache__) by extension 'cmake'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/student_scripts/__pycache__) by extension 'python'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/student_scripts/__pycache__) by extensions ['python_setup_py']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/student_scripts/__pycache__) by extension 'python_setup_py'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject) by extension 'ros'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject) by extensions ['cmake', 'python']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject) by extension 'cmake'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject) by extension 'python'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject) by extensions ['python_setup_py']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject) by extension 'python_setup_py'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src) by extension 'ros'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src) by extensions ['cmake', 'python']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src) by extension 'cmake'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src) by extension 'python'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src) by extensions ['python_setup_py']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src) by extension 'python_setup_py'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Appendix_ Computation of the five-bar mechanism models) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Appendix_ Computation of the five-bar mechanism models) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Appendix_ Computation of the five-bar mechanism models) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Appendix_ Computation of the five-bar mechanism models) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Appendix_ Computation of the five-bar mechanism models) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Appendix_ Computation of the five-bar mechanism models) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Appendix_ Computation of the five-bar mechanism models) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Appendix_ Computation of the five-bar mechanism models) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Appendix_ Computation of the five-bar mechanism models) by extension 'ros'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Appendix_ Computation of the five-bar mechanism models) by extensions ['cmake', 'python']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Appendix_ Computation of the five-bar mechanism models) by extension 'cmake'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Appendix_ Computation of the five-bar mechanism models) by extension 'python'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Appendix_ Computation of the five-bar mechanism models) by extensions ['python_setup_py']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Appendix_ Computation of the five-bar mechanism models) by extension 'python_setup_py'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Part 1_ Introduction) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Part 1_ Introduction) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Part 1_ Introduction) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Part 1_ Introduction) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Part 1_ Introduction) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Part 1_ Introduction) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Part 1_ Introduction) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Part 1_ Introduction) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Part 1_ Introduction) by extension 'ros'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Part 1_ Introduction) by extensions ['cmake', 'python']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Part 1_ Introduction) by extension 'cmake'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Part 1_ Introduction) by extension 'python'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Part 1_ Introduction) by extensions ['python_setup_py']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Part 1_ Introduction) by extension 'python_setup_py'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Part2_ Simulation of a five-bar mechanism) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Part2_ Simulation of a five-bar mechanism) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Part2_ Simulation of a five-bar mechanism) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Part2_ Simulation of a five-bar mechanism) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Part2_ Simulation of a five-bar mechanism) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Part2_ Simulation of a five-bar mechanism) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Part2_ Simulation of a five-bar mechanism) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Part2_ Simulation of a five-bar mechanism) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Part2_ Simulation of a five-bar mechanism) by extension 'ros'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Part2_ Simulation of a five-bar mechanism) by extensions ['cmake', 'python']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Part2_ Simulation of a five-bar mechanism) by extension 'cmake'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Part2_ Simulation of a five-bar mechanism) by extension 'python'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Part2_ Simulation of a five-bar mechanism) by extensions ['python_setup_py']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Part2_ Simulation of a five-bar mechanism) by extension 'python_setup_py'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Part3_ Simulation of a Biglide mechanism) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Part3_ Simulation of a Biglide mechanism) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Part3_ Simulation of a Biglide mechanism) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Part3_ Simulation of a Biglide mechanism) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Part3_ Simulation of a Biglide mechanism) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Part3_ Simulation of a Biglide mechanism) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Part3_ Simulation of a Biglide mechanism) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Part3_ Simulation of a Biglide mechanism) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Part3_ Simulation of a Biglide mechanism) by extension 'ros'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Part3_ Simulation of a Biglide mechanism) by extensions ['cmake', 'python']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Part3_ Simulation of a Biglide mechanism) by extension 'cmake'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Part3_ Simulation of a Biglide mechanism) by extension 'python'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Part3_ Simulation of a Biglide mechanism) by extensions ['python_setup_py']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab_amoro/subject/src/AMORO-Lab Part3_ Simulation of a Biglide mechanism) by extension 'python_setup_py'
+[0.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.241s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.241s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.243s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 316 installed packages in /opt/ros/humble
+[0.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'lab_amoro' build argument 'cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'lab_amoro' build argument 'cmake_target' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'lab_amoro' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'lab_amoro' build argument 'cmake_clean_cache' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'lab_amoro' build argument 'cmake_clean_first' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'lab_amoro' build argument 'cmake_force_configure' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'lab_amoro' build argument 'ament_cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'lab_amoro' build argument 'catkin_cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'lab_amoro' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.279s] DEBUG:colcon.colcon_core.verb:Building package 'lab_amoro' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro', 'merge_install': False, 'path': '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/src/lab_amoro/lab_amoro', 'symlink_install': False, 'test_result_base': None}
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'lab_amoro_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'lab_amoro_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'lab_amoro_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'lab_amoro_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'lab_amoro_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'lab_amoro_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'lab_amoro_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'lab_amoro_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'lab_amoro_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.280s] DEBUG:colcon.colcon_core.verb:Building package 'lab_amoro_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces', 'merge_install': False, 'path': '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/src/lab_amoro/lab_amoro_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'labamoro_plugin' build argument 'cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'labamoro_plugin' build argument 'cmake_target' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'labamoro_plugin' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'labamoro_plugin' build argument 'cmake_clean_cache' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'labamoro_plugin' build argument 'cmake_clean_first' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'labamoro_plugin' build argument 'cmake_force_configure' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'labamoro_plugin' build argument 'ament_cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'labamoro_plugin' build argument 'catkin_cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'labamoro_plugin' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.280s] DEBUG:colcon.colcon_core.verb:Building package 'labamoro_plugin' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/labamoro_plugin', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin', 'merge_install': False, 'path': '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/src/lab_amoro/labamoro_plugin', 'symlink_install': False, 'test_result_base': None}
+[0.280s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.281s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.281s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/src/lab_amoro/lab_amoro_interfaces' with build type 'ament_cmake'
+[0.281s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/src/lab_amoro/lab_amoro_interfaces'
+[0.283s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.283s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.283s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.285s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/src/lab_amoro/lab_amoro' with build type 'ament_python'
+[0.285s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab_amoro', 'ament_prefix_path')
+[0.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/share/lab_amoro/hook/ament_prefix_path.ps1'
+[0.286s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/share/lab_amoro/hook/ament_prefix_path.dsv'
+[0.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/share/lab_amoro/hook/ament_prefix_path.sh'
+[0.287s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.287s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.292s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/src/lab_amoro/lab_amoro_interfaces -DCMAKE_INSTALL_PREFIX=/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces
+[0.496s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/src/lab_amoro/lab_amoro'
+[0.496s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.496s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/src/lab_amoro/lab_amoro': PYTHONPATH=/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/lab_amoro build --build-base /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro/build install --record /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro/install.log --single-version-externally-managed install_data
+[1.002s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/src/lab_amoro/lab_amoro' returned '0': PYTHONPATH=/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/lab_amoro build --build-base /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro/build install --record /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro/install.log --single-version-externally-managed install_data
+[1.004s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro' for CMake module files
+[1.004s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro' for CMake config files
+[1.005s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/lib'
+[1.005s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/bin'
+[1.005s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/lib/pkgconfig/lab_amoro.pc'
+[1.005s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/lib/python3.10/site-packages'
+[1.005s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab_amoro', 'pythonpath')
+[1.006s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/share/lab_amoro/hook/pythonpath.ps1'
+[1.006s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/share/lab_amoro/hook/pythonpath.dsv'
+[1.006s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/share/lab_amoro/hook/pythonpath.sh'
+[1.007s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/bin'
+[1.007s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lab_amoro)
+[1.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/share/lab_amoro/package.ps1'
+[1.007s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/share/lab_amoro/package.dsv'
+[1.008s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/share/lab_amoro/package.sh'
+[1.008s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/share/lab_amoro/package.bash'
+[1.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/share/lab_amoro/package.zsh'
+[1.009s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro/share/colcon-core/packages/lab_amoro)
+[1.529s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/src/lab_amoro/lab_amoro_interfaces -DCMAKE_INSTALL_PREFIX=/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces
+[1.530s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro_interfaces -- -j16 -l16
+[3.235s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro_interfaces -- -j16 -l16
+[3.326s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro_interfaces
+[3.398s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lab_amoro_interfaces)
+[3.398s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces' for CMake module files
+[3.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro_interfaces
+[3.399s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces' for CMake config files
+[3.399s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab_amoro_interfaces', 'cmake_prefix_path')
+[3.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/hook/cmake_prefix_path.ps1'
+[3.400s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/hook/cmake_prefix_path.dsv'
+[3.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/hook/cmake_prefix_path.sh'
+[3.400s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/lib'
+[3.400s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab_amoro_interfaces', 'ld_library_path_lib')
+[3.401s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/hook/ld_library_path_lib.ps1'
+[3.401s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/hook/ld_library_path_lib.dsv'
+[3.401s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/hook/ld_library_path_lib.sh'
+[3.401s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/bin'
+[3.401s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/lib/pkgconfig/lab_amoro_interfaces.pc'
+[3.401s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/lib/python3.10/site-packages'
+[3.402s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/bin'
+[3.402s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/package.ps1'
+[3.402s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/package.dsv'
+[3.402s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/package.sh'
+[3.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/package.bash'
+[3.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/package.zsh'
+[3.403s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/colcon-core/packages/lab_amoro_interfaces)
+[3.486s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lab_amoro_interfaces)
+[3.486s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces' for CMake module files
+[3.487s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces' for CMake config files
+[3.488s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab_amoro_interfaces', 'cmake_prefix_path')
+[3.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/hook/cmake_prefix_path.ps1'
+[3.489s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/hook/cmake_prefix_path.dsv'
+[3.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/hook/cmake_prefix_path.sh'
+[3.489s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/lib'
+[3.490s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab_amoro_interfaces', 'ld_library_path_lib')
+[3.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/hook/ld_library_path_lib.ps1'
+[3.490s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/hook/ld_library_path_lib.dsv'
+[3.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/hook/ld_library_path_lib.sh'
+[3.491s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/bin'
+[3.491s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/lib/pkgconfig/lab_amoro_interfaces.pc'
+[3.491s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/lib/python3.10/site-packages'
+[3.491s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/bin'
+[3.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/package.ps1'
+[3.492s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/package.dsv'
+[3.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/package.sh'
+[3.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/package.bash'
+[3.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/lab_amoro_interfaces/package.zsh'
+[3.494s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/share/colcon-core/packages/lab_amoro_interfaces)
+[3.494s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/src/lab_amoro/labamoro_plugin' with build type 'ament_cmake'
+[3.494s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/src/lab_amoro/labamoro_plugin'
+[3.494s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.494s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.503s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/labamoro_plugin': AMENT_PREFIX_PATH=/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/src/lab_amoro/labamoro_plugin -DCMAKE_INSTALL_PREFIX=/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin
+[5.288s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/labamoro_plugin' returned '0': AMENT_PREFIX_PATH=/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/src/lab_amoro/labamoro_plugin -DCMAKE_INSTALL_PREFIX=/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin
+[5.290s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/labamoro_plugin': AMENT_PREFIX_PATH=/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/labamoro_plugin -- -j16 -l16
+[19.940s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/labamoro_plugin' returned '0': AMENT_PREFIX_PATH=/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/labamoro_plugin -- -j16 -l16
+[19.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/labamoro_plugin': AMENT_PREFIX_PATH=/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/labamoro_plugin
+[19.989s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(labamoro_plugin)
+[19.989s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin' for CMake module files
+[19.990s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/labamoro_plugin' returned '0': AMENT_PREFIX_PATH=/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/lab_amoro_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/labamoro_plugin
+[19.990s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin' for CMake config files
+[19.990s] Level 1:colcon.colcon_core.shell:create_environment_hook('labamoro_plugin', 'cmake_prefix_path')
+[19.991s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/share/labamoro_plugin/hook/cmake_prefix_path.ps1'
+[19.991s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/share/labamoro_plugin/hook/cmake_prefix_path.dsv'
+[19.991s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/share/labamoro_plugin/hook/cmake_prefix_path.sh'
+[19.992s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/lib'
+[19.992s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/bin'
+[19.992s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/lib/pkgconfig/labamoro_plugin.pc'
+[19.992s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/lib/python3.10/site-packages'
+[19.992s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/bin'
+[19.992s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/share/labamoro_plugin/package.ps1'
+[19.993s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/share/labamoro_plugin/package.dsv'
+[19.993s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/share/labamoro_plugin/package.sh'
+[19.993s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/share/labamoro_plugin/package.bash'
+[19.993s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/share/labamoro_plugin/package.zsh'
+[19.994s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/share/colcon-core/packages/labamoro_plugin)
+[20.019s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(labamoro_plugin)
+[20.020s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin' for CMake module files
+[20.020s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin' for CMake config files
+[20.020s] Level 1:colcon.colcon_core.shell:create_environment_hook('labamoro_plugin', 'cmake_prefix_path')
+[20.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/share/labamoro_plugin/hook/cmake_prefix_path.ps1'
+[20.021s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/share/labamoro_plugin/hook/cmake_prefix_path.dsv'
+[20.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/share/labamoro_plugin/hook/cmake_prefix_path.sh'
+[20.021s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/lib'
+[20.022s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/bin'
+[20.022s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/lib/pkgconfig/labamoro_plugin.pc'
+[20.022s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/lib/python3.10/site-packages'
+[20.022s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/bin'
+[20.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/share/labamoro_plugin/package.ps1'
+[20.022s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/share/labamoro_plugin/package.dsv'
+[20.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/share/labamoro_plugin/package.sh'
+[20.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/share/labamoro_plugin/package.bash'
+[20.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/share/labamoro_plugin/package.zsh'
+[20.024s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/share/colcon-core/packages/labamoro_plugin)
+[20.024s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[20.024s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[20.024s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[20.024s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[20.028s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[20.028s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[20.028s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[20.038s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[20.038s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/local_setup.ps1'
+[20.039s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/_local_setup_util_ps1.py'
+[20.040s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/setup.ps1'
+[20.041s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/local_setup.sh'
+[20.041s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/_local_setup_util_sh.py'
+[20.041s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/setup.sh'
+[20.042s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/local_setup.bash'
+[20.043s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/setup.bash'
+[20.043s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/local_setup.zsh'
+[20.044s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/setup.zsh'

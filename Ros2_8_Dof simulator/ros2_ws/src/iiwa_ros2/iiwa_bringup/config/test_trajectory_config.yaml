@@ -1,0 +1,28 @@
+publisher_joint_trajectory_controller:
+  ros__parameters:
+  
+    controller_name: "iiwa_arm_controller"
+    wait_sec_between_publish: 6
+
+    eff_1:
+      effort: [1.0, 0.785, 0.95, 0.785, 0.785, 0.785, 0.785, 0.785]
+      
+    eff_2:
+      effort: [0.0, 0.098, -0.2, 0.0, -0.785, 0.785, 0.0, 0.0]
+
+    eff_3:
+      effort: [1.0, -0.785, 0.2, 0.0, 0.785, -0.785, 0.0, -0.785]
+
+    eff_4:
+      effort: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    joints:
+      - eff_joint_b1
+      - eff_joint_a1
+      - eff_joint_a2
+      - eff_joint_a3
+      - eff_joint_a4
+      - eff_joint_a5
+      - eff_joint_a6
+      - eff_joint_a7
+

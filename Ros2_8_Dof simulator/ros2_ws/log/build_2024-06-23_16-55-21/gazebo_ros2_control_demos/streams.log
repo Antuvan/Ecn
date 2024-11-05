@@ -1,0 +1,63 @@
+[0.023s] Invoking command in '/home/ajay/ros2_ws/build/gazebo_ros2_control_demos': CMAKE_PREFIX_PATH=/home/ajay/ros2_ws/install/gazebo_ros2_control:/home/ajay/ros2_ws/install/impedance_controller:/home/ajay/ros2_ws/install/iiwa_moveit2:/home/ajay/ros2_ws/install/iiwa_hardware:/home/ajay/ros2_ws/install/iiwa_bringup:/home/ajay/ros2_ws/install/iiwa_description:/home/ajay/ros2_ws/install/gazebo_ros2_control_demos:/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster:/home/ajay/control_learn/install/my_bot:/home/ajay/ros2_ws/install/iiwa_control:/opt/ros/humble LD_LIBRARY_PATH=/home/ajay/ros2_ws/install/gazebo_ros2_control/lib:/home/ajay/ros2_ws/install/impedance_controller/lib:/home/ajay/ros2_ws/install/iiwa_moveit2/lib:/home/ajay/ros2_ws/install/iiwa_hardware/lib:/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/ajay/ros2_ws/build/gazebo_ros2_control_demos -- -j16 -l16
+[0.081s] [ 14%] Built target example_velocity
+[0.081s] [ 35%] Built target example_position_pid
+[0.081s] [ 42%] Built target example_effort
+[0.082s] [ 57%] Built target example_tricycle_drive
+[0.084s] [ 71%] Built target example_gripper
+[0.085s] [ 85%] Built target example_position
+[0.085s] [100%] Built target example_diff_drive
+[0.096s] Invoked command in '/home/ajay/ros2_ws/build/gazebo_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=/home/ajay/ros2_ws/install/gazebo_ros2_control:/home/ajay/ros2_ws/install/impedance_controller:/home/ajay/ros2_ws/install/iiwa_moveit2:/home/ajay/ros2_ws/install/iiwa_hardware:/home/ajay/ros2_ws/install/iiwa_bringup:/home/ajay/ros2_ws/install/iiwa_description:/home/ajay/ros2_ws/install/gazebo_ros2_control_demos:/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster:/home/ajay/control_learn/install/my_bot:/home/ajay/ros2_ws/install/iiwa_control:/opt/ros/humble LD_LIBRARY_PATH=/home/ajay/ros2_ws/install/gazebo_ros2_control/lib:/home/ajay/ros2_ws/install/impedance_controller/lib:/home/ajay/ros2_ws/install/iiwa_moveit2/lib:/home/ajay/ros2_ws/install/iiwa_hardware/lib:/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/ajay/ros2_ws/build/gazebo_ros2_control_demos -- -j16 -l16
+[0.149s] Invoking command in '/home/ajay/ros2_ws/build/gazebo_ros2_control_demos': CMAKE_PREFIX_PATH=/home/ajay/ros2_ws/install/gazebo_ros2_control:/home/ajay/ros2_ws/install/impedance_controller:/home/ajay/ros2_ws/install/iiwa_moveit2:/home/ajay/ros2_ws/install/iiwa_hardware:/home/ajay/ros2_ws/install/iiwa_bringup:/home/ajay/ros2_ws/install/iiwa_description:/home/ajay/ros2_ws/install/gazebo_ros2_control_demos:/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster:/home/ajay/control_learn/install/my_bot:/home/ajay/ros2_ws/install/iiwa_control:/opt/ros/humble LD_LIBRARY_PATH=/home/ajay/ros2_ws/install/gazebo_ros2_control/lib:/home/ajay/ros2_ws/install/impedance_controller/lib:/home/ajay/ros2_ws/install/iiwa_moveit2/lib:/home/ajay/ros2_ws/install/iiwa_hardware/lib:/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/ajay/ros2_ws/build/gazebo_ros2_control_demos
+[0.156s] -- Install configuration: "Release"
+[0.156s] -- Execute custom install script
+[0.157s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_effort.launch.py
+[0.157s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_position.launch.py
+[0.157s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_velocity.launch.py
+[0.157s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/diff_drive.launch.py
+[0.157s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/gripper_mimic_joint_example.launch.py
+[0.157s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/pendulum_example_effort.launch.py
+[0.157s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/pendulum_example_position.launch.py
+[0.157s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/tricycle_drive.launch.py
+[0.158s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/vertical_cart_example_position_pid.launch.py
+[0.158s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/vertical_cart_example_velocity_pid.launch.py
+[0.158s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller.yaml
+[0.158s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_effort.yaml
+[0.158s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_position.yaml
+[0.158s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_velocity.yaml
+[0.158s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/config.rviz
+[0.158s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/diff_drive_controller.yaml
+[0.158s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/gripper_controller.yaml
+[0.159s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/tricycle_drive_controller.yaml
+[0.159s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_effort.xacro.urdf
+[0.159s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_position.xacro.urdf
+[0.159s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_velocity.xacro.urdf
+[0.159s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_diff_drive.xacro.urdf
+[0.159s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_gripper_mimic_joint.xacro.urdf
+[0.159s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_pendulum_effort.xacro.urdf
+[0.159s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_pendulum_position.xacro.urdf
+[0.159s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_tricycle_drive.xacro.urdf
+[0.160s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_vertical_cart_position_pid.xacro.urdf
+[0.160s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_vertical_cart_velocity_pid.xacro.urdf
+[0.160s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position
+[0.160s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position_pid
+[0.160s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_velocity
+[0.160s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_effort
+[0.160s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_diff_drive
+[0.160s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_tricycle_drive
+[0.161s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_gripper
+[0.161s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control_demos
+[0.161s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control_demos
+[0.161s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.sh
+[0.161s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.dsv
+[0.161s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.sh
+[0.161s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.dsv
+[0.162s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.bash
+[0.162s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.sh
+[0.162s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.zsh
+[0.162s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.dsv
+[0.162s] -- Symlinking: /home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.dsv
+[0.172s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/packages/gazebo_ros2_control_demos
+[0.172s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig.cmake
+[0.172s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig-version.cmake
+[0.172s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.xml
+[0.174s] Invoked command in '/home/ajay/ros2_ws/build/gazebo_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=/home/ajay/ros2_ws/install/gazebo_ros2_control:/home/ajay/ros2_ws/install/impedance_controller:/home/ajay/ros2_ws/install/iiwa_moveit2:/home/ajay/ros2_ws/install/iiwa_hardware:/home/ajay/ros2_ws/install/iiwa_bringup:/home/ajay/ros2_ws/install/iiwa_description:/home/ajay/ros2_ws/install/gazebo_ros2_control_demos:/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster:/home/ajay/control_learn/install/my_bot:/home/ajay/ros2_ws/install/iiwa_control:/opt/ros/humble LD_LIBRARY_PATH=/home/ajay/ros2_ws/install/gazebo_ros2_control/lib:/home/ajay/ros2_ws/install/impedance_controller/lib:/home/ajay/ros2_ws/install/iiwa_moveit2/lib:/home/ajay/ros2_ws/install/iiwa_hardware/lib:/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/ajay/ros2_ws/build/gazebo_ros2_control_demos

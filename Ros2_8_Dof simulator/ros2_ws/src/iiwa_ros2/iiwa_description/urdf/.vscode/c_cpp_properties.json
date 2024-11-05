@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/ajay/ros2_ws/install/impedance_controller/include/**",
+        "/home/ajay/ros2_ws/install/iiwa_hardware/include/**",
+        "/home/ajay/ros2_ws/install/gazebo_ros2_control/include/**",
+        "/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/ajay/ros2_ws/src/iiwa_ros2/iiwa_controllers/external_torque_sensor_broadcaster/include/**",
+        "/home/ajay/ros2_ws/src/iiwa_ros2/iiwa_controllers/impedance_controller/include/**",
+        "/home/ajay/ros2_ws/src/iiwa_ros2/iiwa_hardware/include/**",
+        "/home/ajay/ros2_ws/src/ros-controls/gazebo_ros2_control/gazebo_ros2_control/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

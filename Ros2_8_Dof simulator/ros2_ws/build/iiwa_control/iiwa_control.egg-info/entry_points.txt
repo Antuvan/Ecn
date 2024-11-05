@@ -1,0 +1,3 @@
+[console_scripts]
+command_publisher_node = iiwa_control.command_publisher_node:main
+

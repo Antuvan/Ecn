@@ -1,0 +1,8 @@
+{
+  "package_name": "lab_amoro_interfaces",
+  "non_idl_tuples": [
+    "/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/src/lab_amoro/lab_amoro_interfaces:msg/JointEfforts.msg",
+    "/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/src/lab_amoro/lab_amoro_interfaces:msg/States.msg",
+    "/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/src/lab_amoro/lab_amoro_interfaces:msg/RobotStates.msg"
+  ]
+}

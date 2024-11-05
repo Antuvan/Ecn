@@ -1,0 +1,22 @@
+[0.539s] Invoking command in '/home/ajay/ros2_ws/build/iiwa_control': PYTHONPATH=/home/ajay/ros2_ws/build/iiwa_control/prefix_override:/home/ajay/ros2_ws/install/iiwa_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ajay/ros2_ws/build/iiwa_control/build --no-deps symlink_data
+[0.762s] running develop
+[0.762s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.762s]   warnings.warn(
+[0.915s] running egg_info
+[0.915s] creating iiwa_control.egg-info
+[0.915s] writing iiwa_control.egg-info/PKG-INFO
+[0.916s] writing dependency_links to iiwa_control.egg-info/dependency_links.txt
+[0.916s] writing entry points to iiwa_control.egg-info/entry_points.txt
+[0.916s] writing requirements to iiwa_control.egg-info/requires.txt
+[0.916s] writing top-level names to iiwa_control.egg-info/top_level.txt
+[0.916s] writing manifest file 'iiwa_control.egg-info/SOURCES.txt'
+[0.918s] reading manifest file 'iiwa_control.egg-info/SOURCES.txt'
+[0.918s] writing manifest file 'iiwa_control.egg-info/SOURCES.txt'
+[0.919s] running build_ext
+[0.919s] Creating /home/ajay/ros2_ws/install/iiwa_control/lib/python3.10/site-packages/iiwa-control.egg-link (link to .)
+[0.920s] Installing command_publisher_node script to /home/ajay/ros2_ws/install/iiwa_control/lib/iiwa_control
+[0.920s] 
+[0.920s] Installed /home/ajay/ros2_ws/build/iiwa_control
+[0.920s] running symlink_data
+[0.920s] symbolically linking /home/ajay/ros2_ws/build/iiwa_control/package.xml -> /home/ajay/ros2_ws/install/iiwa_control/share/iiwa_control
+[0.943s] Invoked command in '/home/ajay/ros2_ws/build/iiwa_control' returned '0': PYTHONPATH=/home/ajay/ros2_ws/build/iiwa_control/prefix_override:/home/ajay/ros2_ws/install/iiwa_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ajay/ros2_ws/build/iiwa_control/build --no-deps symlink_data

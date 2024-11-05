@@ -1,0 +1,34 @@
+[0.236s] Invoking command in '/home/ajay/ros2_ws/build/iiwa_moveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajay/ros2_ws/install/iiwa_control:/opt/ros/humble /usr/bin/cmake --build /home/ajay/ros2_ws/build/iiwa_moveit2 -- -j16 -l16
+[0.296s] [ 33%] Built target servo_controller_input
+[0.302s] [100%] Built target servo_node
+[0.302s] [100%] Built target pose_tracking_servo_node
+[0.468s] Invoked command in '/home/ajay/ros2_ws/build/iiwa_moveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajay/ros2_ws/install/iiwa_control:/opt/ros/humble /usr/bin/cmake --build /home/ajay/ros2_ws/build/iiwa_moveit2 -- -j16 -l16
+[0.504s] Invoking command in '/home/ajay/ros2_ws/build/iiwa_moveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajay/ros2_ws/install/iiwa_control:/opt/ros/humble /usr/bin/cmake --install /home/ajay/ros2_ws/build/iiwa_moveit2
+[0.512s] -- Install configuration: "Release"
+[0.512s] -- Execute custom install script
+[0.513s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/iiwa_moveit2/lib/iiwa_moveit2/pose_tracking_servo_node
+[0.513s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/iiwa_moveit2/lib/iiwa_moveit2/servo_node
+[0.513s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/environment/library_path.sh
+[0.513s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/environment/library_path.dsv
+[0.514s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/iiwa_moveit2/share/ament_index/resource_index/package_run_dependencies/iiwa_moveit2
+[0.514s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/iiwa_moveit2/share/ament_index/resource_index/parent_prefix_path/iiwa_moveit2
+[0.514s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/environment/ament_prefix_path.sh
+[0.514s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/environment/ament_prefix_path.dsv
+[0.515s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/environment/path.sh
+[0.515s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/environment/path.dsv
+[0.516s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/local_setup.bash
+[0.517s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/local_setup.sh
+[0.517s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/local_setup.zsh
+[0.518s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/local_setup.dsv
+[0.518s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/package.dsv
+[0.528s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/iiwa_moveit2/share/ament_index/resource_index/packages/iiwa_moveit2
+[0.529s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/iiwa_moveit2/share/ament_index/resource_index/rclcpp_components/iiwa_moveit2
+[0.529s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/cmake/ament_cmake_export_targets-extras.cmake
+[0.529s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.531s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/cmake/iiwa_moveit2Config.cmake
+[0.531s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/cmake/iiwa_moveit2Config-version.cmake
+[0.531s] -- Up-to-date symlink: /home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/package.xml
+[0.531s] -- Up-to-date: /home/ajay/ros2_ws/install/iiwa_moveit2/lib/libservo_controller_input.so
+[0.531s] -- Up-to-date: /home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/cmake/export_iiwa_moveit2Export.cmake
+[0.531s] -- Up-to-date: /home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/cmake/export_iiwa_moveit2Export-release.cmake
+[0.538s] Invoked command in '/home/ajay/ros2_ws/build/iiwa_moveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajay/ros2_ws/install/iiwa_control:/opt/ros/humble /usr/bin/cmake --install /home/ajay/ros2_ws/build/iiwa_moveit2

@@ -1,0 +1,20 @@
+[0.771s] Invoking command in '/home/ajay/ros2_ws/build/ros2_controllers_test_nodes': PYTHONPATH=/home/ajay/ros2_ws/build/ros2_controllers_test_nodes/prefix_override:/home/ajay/ros2_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ajay/ros2_ws/build/ros2_controllers_test_nodes/build --no-deps symlink_data
+[0.997s] running develop
+[0.997s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.997s]   warnings.warn(
+[1.155s] running egg_info
+[1.155s] writing ros2_controllers_test_nodes.egg-info/PKG-INFO
+[1.156s] writing dependency_links to ros2_controllers_test_nodes.egg-info/dependency_links.txt
+[1.156s] writing entry points to ros2_controllers_test_nodes.egg-info/entry_points.txt
+[1.156s] writing requirements to ros2_controllers_test_nodes.egg-info/requires.txt
+[1.156s] writing top-level names to ros2_controllers_test_nodes.egg-info/top_level.txt
+[1.158s] reading manifest file 'ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+[1.158s] writing manifest file 'ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+[1.159s] running build_ext
+[1.159s] Creating /home/ajay/ros2_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2-controllers-test-nodes.egg-link (link to .)
+[1.160s] Installing publisher_forward_position_controller script to /home/ajay/ros2_ws/install/ros2_controllers_test_nodes/lib/ros2_controllers_test_nodes
+[1.160s] Installing publisher_joint_trajectory_controller script to /home/ajay/ros2_ws/install/ros2_controllers_test_nodes/lib/ros2_controllers_test_nodes
+[1.160s] 
+[1.160s] Installed /home/ajay/ros2_ws/build/ros2_controllers_test_nodes
+[1.160s] running symlink_data
+[1.186s] Invoked command in '/home/ajay/ros2_ws/build/ros2_controllers_test_nodes' returned '0': PYTHONPATH=/home/ajay/ros2_ws/build/ros2_controllers_test_nodes/prefix_override:/home/ajay/ros2_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ajay/ros2_ws/build/ros2_controllers_test_nodes/build --no-deps symlink_data

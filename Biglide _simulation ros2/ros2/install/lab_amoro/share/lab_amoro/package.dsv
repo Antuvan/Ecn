@@ -1,0 +1,6 @@
+source;share/lab_amoro/hook/pythonpath.ps1
+source;share/lab_amoro/hook/pythonpath.dsv
+source;share/lab_amoro/hook/pythonpath.sh
+source;share/lab_amoro/hook/ament_prefix_path.ps1
+source;share/lab_amoro/hook/ament_prefix_path.dsv
+source;share/lab_amoro/hook/ament_prefix_path.sh

@@ -1,0 +1,10 @@
+/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/labamoro_plugin/CMakeFiles/uninstall.dir
+/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/labamoro_plugin/CMakeFiles/labamoro_plugin_uninstall.dir
+/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/labamoro_plugin/CMakeFiles/gazebo_ros_cosimulation.dir
+/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/labamoro_plugin/CMakeFiles/test.dir
+/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/labamoro_plugin/CMakeFiles/edit_cache.dir
+/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/labamoro_plugin/CMakeFiles/rebuild_cache.dir
+/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/labamoro_plugin/CMakeFiles/list_install_components.dir
+/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/labamoro_plugin/CMakeFiles/install.dir
+/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/labamoro_plugin/CMakeFiles/install/local.dir
+/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/labamoro_plugin/CMakeFiles/install/strip.dir

@@ -1,0 +1,23 @@
+{
+  "package_name": "lab_amoro_interfaces",
+  "output_dir": "/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro_interfaces/rosidl_typesupport_introspection_c/lab_amoro_interfaces",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource",
+  "idl_tuples": [
+    "/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro_interfaces/rosidl_adapter/lab_amoro_interfaces:msg/JointEfforts.idl",
+    "/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro_interfaces/rosidl_adapter/lab_amoro_interfaces:msg/States.idl",
+    "/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro_interfaces/rosidl_adapter/lab_amoro_interfaces:msg/RobotStates.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_introspection_c/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/idl__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/idl__type_support.c.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/msg__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/msg__type_support.c.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em",
+    "/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro_interfaces/rosidl_adapter/lab_amoro_interfaces/msg/JointEfforts.idl",
+    "/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro_interfaces/rosidl_adapter/lab_amoro_interfaces/msg/States.idl",
+    "/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/build/lab_amoro_interfaces/rosidl_adapter/lab_amoro_interfaces/msg/RobotStates.idl"
+  ]
+}

@@ -1,0 +1,19 @@
+[0.615s] Invoking command in '/home/ajay/ros2_ws/build/iiwa_control': PYTHONPATH=/home/ajay/ros2_ws/build/iiwa_control/prefix_override:/home/ajay/ros2_ws/install/iiwa_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ajay/ros2_ws/build/iiwa_control/build --no-deps symlink_data
+[0.837s] running develop
+[0.838s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.838s]   warnings.warn(
+[0.988s] running egg_info
+[0.988s] writing iiwa_control.egg-info/PKG-INFO
+[0.988s] writing dependency_links to iiwa_control.egg-info/dependency_links.txt
+[0.988s] writing entry points to iiwa_control.egg-info/entry_points.txt
+[0.988s] writing requirements to iiwa_control.egg-info/requires.txt
+[0.988s] writing top-level names to iiwa_control.egg-info/top_level.txt
+[0.990s] reading manifest file 'iiwa_control.egg-info/SOURCES.txt'
+[0.990s] writing manifest file 'iiwa_control.egg-info/SOURCES.txt'
+[0.991s] running build_ext
+[0.991s] Creating /home/ajay/ros2_ws/install/iiwa_control/lib/python3.10/site-packages/iiwa-control.egg-link (link to .)
+[0.992s] Installing command_publisher_node script to /home/ajay/ros2_ws/install/iiwa_control/lib/iiwa_control
+[0.992s] 
+[0.992s] Installed /home/ajay/ros2_ws/build/iiwa_control
+[0.992s] running symlink_data
+[1.014s] Invoked command in '/home/ajay/ros2_ws/build/iiwa_control' returned '0': PYTHONPATH=/home/ajay/ros2_ws/build/iiwa_control/prefix_override:/home/ajay/ros2_ws/install/iiwa_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ajay/ros2_ws/build/iiwa_control/build --no-deps symlink_data

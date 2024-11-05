@@ -1,0 +1,4 @@
+source;share/iiwa_moveit2/local_setup.bash
+source;share/iiwa_moveit2/local_setup.dsv
+source;share/iiwa_moveit2/local_setup.sh
+source;share/iiwa_moveit2/local_setup.zsh

@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from lab_amoro_interfaces/msg/RobotStates.msg
+// generated code does not contain a copyright notice
+
+#include "lab_amoro_interfaces/msg/States.idl"
+
+module lab_amoro_interfaces {
+  module msg {
+    struct RobotStates {
+      float simulation_time;
+
+      lab_amoro_interfaces::msg::States end_effector_x;
+
+      lab_amoro_interfaces::msg::States end_effector_y;
+
+      lab_amoro_interfaces::msg::States active_left_joint;
+
+      lab_amoro_interfaces::msg::States active_right_joint;
+
+      lab_amoro_interfaces::msg::States passive_left_joint;
+
+      lab_amoro_interfaces::msg::States passive_right_joint;
+    };
+  };
+};

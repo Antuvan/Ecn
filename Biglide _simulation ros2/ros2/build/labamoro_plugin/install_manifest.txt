@@ -1,0 +1,16 @@
+/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/lib/labamoro_plugin/libgazebo_ros_cosimulation.so
+/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/share/ament_index/resource_index/package_run_dependencies/labamoro_plugin
+/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/share/ament_index/resource_index/parent_prefix_path/labamoro_plugin
+/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/share/labamoro_plugin/environment/ament_prefix_path.sh
+/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/share/labamoro_plugin/environment/ament_prefix_path.dsv
+/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/share/labamoro_plugin/environment/path.sh
+/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/share/labamoro_plugin/environment/path.dsv
+/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/share/labamoro_plugin/local_setup.bash
+/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/share/labamoro_plugin/local_setup.sh
+/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/share/labamoro_plugin/local_setup.zsh
+/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/share/labamoro_plugin/local_setup.dsv
+/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/share/labamoro_plugin/package.dsv
+/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/share/ament_index/resource_index/packages/labamoro_plugin
+/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/share/labamoro_plugin/cmake/labamoro_pluginConfig.cmake
+/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/share/labamoro_plugin/cmake/labamoro_pluginConfig-version.cmake
+/home/ajay/Documents/ECn/Master2/Amoro/lab/ros2/install/labamoro_plugin/share/labamoro_plugin/package.xml

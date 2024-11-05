@@ -1,0 +1,100 @@
+[0.020s] Invoking command in '/home/ajay/ros2_ws/build/iiwa_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ajay/ros2_ws/src/iiwa_ros2/iiwa_description -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ajay/ros2_ws/install/iiwa_description
+[0.244s] -- The C compiler identification is GNU 11.4.0
+[0.244s] -- The CXX compiler identification is GNU 11.4.0
+[0.245s] -- Detecting C compiler ABI info
+[0.245s] -- Detecting C compiler ABI info - done
+[0.245s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.245s] -- Detecting C compile features
+[0.245s] -- Detecting C compile features - done
+[0.245s] -- Detecting CXX compiler ABI info
+[0.263s] -- Detecting CXX compiler ABI info - done
+[0.269s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.269s] -- Detecting CXX compile features
+[0.270s] -- Detecting CXX compile features - done
+[0.271s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.399s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.451s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.477s] -- Found ament_cmake_gtest: 1.3.9 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.479s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.550s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.559s] -- Added test 'lint_cmake' to check CMake code style
+[0.563s] -- Added test 'xmllint' to check XML markup files
+[0.565s] -- Configuring done
+[0.568s] -- Generating done
+[0.569s] -- Build files have been written to: /home/ajay/ros2_ws/build/iiwa_description
+[0.573s] Invoked command in '/home/ajay/ros2_ws/build/iiwa_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ajay/ros2_ws/src/iiwa_ros2/iiwa_description -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ajay/ros2_ws/install/iiwa_description
+[0.575s] Invoking command in '/home/ajay/ros2_ws/build/iiwa_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ajay/ros2_ws/build/iiwa_description -- -j16 -l16
+[0.616s] Invoked command in '/home/ajay/ros2_ws/build/iiwa_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ajay/ros2_ws/build/iiwa_description -- -j16 -l16
+[0.650s] Invoking command in '/home/ajay/ros2_ws/build/iiwa_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ajay/ros2_ws/build/iiwa_description
+[0.657s] -- Install configuration: "Release"
+[0.657s] -- Execute custom install script
+[0.658s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/urdf/.vscode/c_cpp_properties.json
+[0.667s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/urdf/.vscode/settings.json
+[0.677s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/urdf/iiwa.urdf.xacro
+[0.687s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/meshes/flanche/collision/linear_base.stl
+[0.696s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/meshes/flanche/collision/linear_frame.stl
+[0.705s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/meshes/flanche/collision/slider.stl
+[0.714s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/meshes/flanche/collision/support_robot_base.stl
+[0.724s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/meshes/flanche/visual/linear_base.stl
+[0.733s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/meshes/flanche/visual/linear_frame.stl
+[0.743s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/meshes/flanche/visual/slider.stl
+[0.752s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/meshes/flanche/visual/support_robot_base.stl
+[0.761s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/meshes/flex_fellow_h800/flex_fellow_h800.dae
+[0.771s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/meshes/flex_fellow_h800/flex_fellow_h800.stl
+[0.780s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/collision/base_link.stl
+[0.789s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/collision/link_1.stl
+[0.797s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/collision/link_2.stl
+[0.808s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/collision/link_3.stl
+[0.816s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/collision/link_4.stl
+[0.826s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/collision/link_5.stl
+[0.835s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/collision/link_6.stl
+[0.844s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/collision/link_7.stl
+[0.853s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/collision/link_7_2.stl
+[0.862s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/link_7_2.stl
+[0.871s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/visual/base_link.dae
+[0.880s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/visual/link_1.dae
+[0.889s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/visual/link_2.dae
+[0.898s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/visual/link_3.dae
+[0.908s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/visual/link_4.dae
+[0.917s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/visual/link_5.dae
+[0.926s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/visual/link_6.dae
+[0.936s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/visual/link_7.dae
+[0.946s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/visual/link_7_2.stl
+[0.956s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/gazebo/iiwa.gazebo.xacro
+[0.965s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/gazebo/worlds/empty.world
+[0.974s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/rviz/iiwa.rviz
+[0.983s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/rviz/moveit.rviz
+[0.993s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/rviz/servo_rviz_config.rviz
+[1.002s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/ros2_control/iiwa.r2c_hardware.xacro
+[1.010s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/ros2_control/iiwa.r2c_hw_ds.xacro
+[1.021s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/config/base_frame.yaml
+[1.030s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/config/iiwa.config.xacro
+[1.039s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/config/iiwa_controllers.yaml
+[1.047s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/config/initial_positions.yaml
+[1.056s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/moveit2/iiwa_cartesian_limits.yaml
+[1.065s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/moveit2/iiwa_joint_limits.yaml
+[1.074s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/moveit2/iiwa_moveit2_pose_tracking_config.yaml
+[1.083s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/moveit2/iiwa_moveit2_pose_tracking_settings.yaml
+[1.092s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/moveit2/iiwa_moveit2_servo_config.yaml
+[1.101s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/moveit2/iiwa_moveit_controller_config.yaml
+[1.109s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/moveit2/kinematics.yaml
+[1.118s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/moveit2/ompl_planning.yaml
+[1.128s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/moveit2/planning_pipelines_config.yaml
+[1.137s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/srdf/iiwa.srdf.xacro
+[1.146s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/srdf/iiwa_macro.srdf.xacro
+[1.155s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/ament_index/resource_index/package_run_dependencies/iiwa_description
+[1.164s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/ament_index/resource_index/parent_prefix_path/iiwa_description
+[1.173s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/environment/ament_prefix_path.sh
+[1.183s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/environment/ament_prefix_path.dsv
+[1.192s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/environment/path.sh
+[1.201s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/environment/path.dsv
+[1.210s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/local_setup.bash
+[1.219s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/local_setup.sh
+[1.229s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/local_setup.zsh
+[1.238s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/local_setup.dsv
+[1.247s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/package.dsv
+[1.257s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/ament_index/resource_index/packages/iiwa_description
+[1.266s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/cmake/iiwa_descriptionConfig.cmake
+[1.275s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/cmake/iiwa_descriptionConfig-version.cmake
+[1.284s] -- Symlinking: /home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/package.xml
+[1.295s] Invoked command in '/home/ajay/ros2_ws/build/iiwa_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ajay/ros2_ws/build/iiwa_description

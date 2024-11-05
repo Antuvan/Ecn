@@ -1,0 +1,4 @@
+Invoking command in '/home/ajay/ros2_ws/build/iiwa_moveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajay/ros2_ws/install/iiwa_control:/opt/ros/humble /usr/bin/cmake --build /home/ajay/ros2_ws/build/iiwa_moveit2 -- -j16 -l16
+Invoked command in '/home/ajay/ros2_ws/build/iiwa_moveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajay/ros2_ws/install/iiwa_control:/opt/ros/humble /usr/bin/cmake --build /home/ajay/ros2_ws/build/iiwa_moveit2 -- -j16 -l16
+Invoking command in '/home/ajay/ros2_ws/build/iiwa_moveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajay/ros2_ws/install/iiwa_control:/opt/ros/humble /usr/bin/cmake --install /home/ajay/ros2_ws/build/iiwa_moveit2
+Invoked command in '/home/ajay/ros2_ws/build/iiwa_moveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajay/ros2_ws/install/iiwa_control:/opt/ros/humble /usr/bin/cmake --install /home/ajay/ros2_ws/build/iiwa_moveit2

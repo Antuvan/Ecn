@@ -1,0 +1,9 @@
+source;share/iiwa_control/hook/pythonpath.ps1
+source;share/iiwa_control/hook/pythonpath.dsv
+source;share/iiwa_control/hook/pythonpath.sh
+source;share/iiwa_control/hook/ament_prefix_path.ps1
+source;share/iiwa_control/hook/ament_prefix_path.dsv
+source;share/iiwa_control/hook/ament_prefix_path.sh
+source;../../build/iiwa_control/share/iiwa_control/hook/pythonpath_develop.ps1
+source;../../build/iiwa_control/share/iiwa_control/hook/pythonpath_develop.dsv
+source;../../build/iiwa_control/share/iiwa_control/hook/pythonpath_develop.sh

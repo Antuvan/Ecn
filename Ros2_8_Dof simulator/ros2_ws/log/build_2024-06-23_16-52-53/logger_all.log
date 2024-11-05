@@ -1,0 +1,853 @@
+[0.090s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--cmake-args', '-DCMAKE_BUILD_TYPE=Release', '--symlink-install']
+[0.090s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DCMAKE_BUILD_TYPE=Release'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7b264b4fb310>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b264b62f9d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b264b62f9d0>>, mixin_verb=('build',))
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.231s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ajay/ros2_ws'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2) by extensions ['colcon_pkg']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2) by extensions ['colcon_meta']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2) by extension 'ros'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2) by extensions ['cmake', 'python']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2) by extension 'cmake'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2) by extension 'python'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2) by extensions ['python_setup_py']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2) by extension 'python_setup_py'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_bringup) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_bringup) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_bringup) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_bringup) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_bringup) by extensions ['colcon_meta']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_bringup) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_bringup) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_bringup) by extension 'ros'
+[0.243s] DEBUG:colcon.colcon_core.package_identification:Package 'src/iiwa_ros2/iiwa_bringup' with type 'ros.ament_cmake' and name 'iiwa_bringup'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers) by extension 'colcon_meta'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers) by extensions ['ros']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers) by extension 'ros'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers) by extensions ['cmake', 'python']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers) by extension 'cmake'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers) by extension 'python'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers) by extensions ['python_setup_py']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers) by extension 'python_setup_py'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers/admittance_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers/admittance_controller) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers/admittance_controller) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers/admittance_controller) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers/admittance_controller) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers/admittance_controller) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers/admittance_controller) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers/admittance_controller) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers/admittance_controller) by extension 'ros'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers/admittance_controller) ignored
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers/external_torque_sensor_broadcaster) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers/external_torque_sensor_broadcaster) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers/external_torque_sensor_broadcaster) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers/external_torque_sensor_broadcaster) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers/external_torque_sensor_broadcaster) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers/external_torque_sensor_broadcaster) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers/external_torque_sensor_broadcaster) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers/external_torque_sensor_broadcaster) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers/external_torque_sensor_broadcaster) by extension 'ros'
+[0.245s] DEBUG:colcon.colcon_core.package_identification:Package 'src/iiwa_ros2/iiwa_controllers/external_torque_sensor_broadcaster' with type 'ros.ament_cmake' and name 'external_torque_sensor_broadcaster'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers/iiwa_control) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers/iiwa_control) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers/iiwa_control) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers/iiwa_control) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers/iiwa_control) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers/iiwa_control) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers/iiwa_control) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers/iiwa_control) by extensions ['ros']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers/iiwa_control) by extension 'ros'
+[0.246s] DEBUG:colcon.colcon_core.package_identification:Package 'src/iiwa_ros2/iiwa_controllers/iiwa_control' with type 'ros.ament_python' and name 'iiwa_control'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers/impedance_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers/impedance_controller) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers/impedance_controller) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers/impedance_controller) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers/impedance_controller) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers/impedance_controller) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers/impedance_controller) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers/impedance_controller) by extensions ['ros']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_controllers/impedance_controller) by extension 'ros'
+[0.247s] DEBUG:colcon.colcon_core.package_identification:Package 'src/iiwa_ros2/iiwa_controllers/impedance_controller' with type 'ros.ament_cmake' and name 'impedance_controller'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_description) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_description) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_description) by extension 'ignore_ament_install'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_description) by extensions ['colcon_pkg']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_description) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_description) by extensions ['colcon_meta']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_description) by extension 'colcon_meta'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_description) by extensions ['ros']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_description) by extension 'ros'
+[0.248s] DEBUG:colcon.colcon_core.package_identification:Package 'src/iiwa_ros2/iiwa_description' with type 'ros.ament_cmake' and name 'iiwa_description'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_hardware) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_hardware) by extension 'ignore_ament_install'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_hardware) by extensions ['colcon_pkg']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_hardware) by extension 'colcon_pkg'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_hardware) by extensions ['colcon_meta']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_hardware) by extension 'colcon_meta'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_hardware) by extensions ['ros']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_hardware) by extension 'ros'
+[0.249s] DEBUG:colcon.colcon_core.package_identification:Package 'src/iiwa_ros2/iiwa_hardware' with type 'ros.ament_cmake' and name 'iiwa_hardware'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_moveit2) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_moveit2) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_moveit2) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_moveit2) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_moveit2) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_moveit2) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_moveit2) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_moveit2) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_moveit2) by extension 'ros'
+[0.250s] DEBUG:colcon.colcon_core.package_identification:Package 'src/iiwa_ros2/iiwa_moveit2' with type 'ros.ament_cmake' and name 'iiwa_moveit2'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_sunrise) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_sunrise) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_sunrise) by extension 'ignore_ament_install'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_sunrise) by extensions ['colcon_pkg']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_sunrise) by extension 'colcon_pkg'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_sunrise) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_sunrise) by extension 'colcon_meta'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_sunrise) by extensions ['ros']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_sunrise) by extension 'ros'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/iiwa_ros2/iiwa_sunrise) ignored
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls) by extensions ['colcon_meta']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls) by extension 'colcon_meta'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls) by extensions ['ros']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls) by extension 'ros'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls) by extensions ['cmake', 'python']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls) by extension 'cmake'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls) by extension 'python'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls) by extensions ['python_setup_py']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls) by extension 'python_setup_py'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control) by extensions ['colcon_meta']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control) by extension 'colcon_meta'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control) by extensions ['ros']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control) by extension 'ros'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control) by extensions ['cmake', 'python']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control) by extension 'cmake'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control) by extension 'python'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control) by extensions ['python_setup_py']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control) by extension 'python_setup_py'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/Docker) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/Docker) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/Docker) by extension 'ignore_ament_install'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/Docker) by extensions ['colcon_pkg']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/Docker) by extension 'colcon_pkg'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/Docker) by extensions ['colcon_meta']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/Docker) by extension 'colcon_meta'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/Docker) by extensions ['ros']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/Docker) by extension 'ros'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/Docker) by extensions ['cmake', 'python']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/Docker) by extension 'cmake'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/Docker) by extension 'python'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/Docker) by extensions ['python_setup_py']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/Docker) by extension 'python_setup_py'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/doc) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/doc) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/doc) by extension 'ignore_ament_install'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/doc) by extensions ['colcon_pkg']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/doc) by extension 'colcon_pkg'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/doc) by extensions ['colcon_meta']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/doc) by extension 'colcon_meta'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/doc) by extensions ['ros']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/doc) by extension 'ros'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/doc) by extensions ['cmake', 'python']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/doc) by extension 'cmake'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/doc) by extension 'python'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/doc) by extensions ['python_setup_py']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/doc) by extension 'python_setup_py'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/doc/img) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/doc/img) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/doc/img) by extension 'ignore_ament_install'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/doc/img) by extensions ['colcon_pkg']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/doc/img) by extension 'colcon_pkg'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/doc/img) by extensions ['colcon_meta']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/doc/img) by extension 'colcon_meta'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/doc/img) by extensions ['ros']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/doc/img) by extension 'ros'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/doc/img) by extensions ['cmake', 'python']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/doc/img) by extension 'cmake'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/doc/img) by extension 'python'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/doc/img) by extensions ['python_setup_py']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/doc/img) by extension 'python_setup_py'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/gazebo_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/gazebo_ros2_control) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/gazebo_ros2_control) by extension 'ignore_ament_install'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/gazebo_ros2_control) by extensions ['colcon_pkg']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/gazebo_ros2_control) by extension 'colcon_pkg'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/gazebo_ros2_control) by extensions ['colcon_meta']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/gazebo_ros2_control) by extension 'colcon_meta'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/gazebo_ros2_control) by extensions ['ros']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/gazebo_ros2_control) by extension 'ros'
+[0.255s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros-controls/gazebo_ros2_control/gazebo_ros2_control' with type 'ros.ament_cmake' and name 'gazebo_ros2_control'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/gazebo_ros2_control_demos) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/gazebo_ros2_control_demos) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/gazebo_ros2_control_demos) by extension 'ignore_ament_install'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/gazebo_ros2_control_demos) by extensions ['colcon_pkg']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/gazebo_ros2_control_demos) by extension 'colcon_pkg'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/gazebo_ros2_control_demos) by extensions ['colcon_meta']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/gazebo_ros2_control_demos) by extension 'colcon_meta'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/gazebo_ros2_control_demos) by extensions ['ros']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-controls/gazebo_ros2_control/gazebo_ros2_control_demos) by extension 'ros'
+[0.256s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros-controls/gazebo_ros2_control/gazebo_ros2_control_demos' with type 'ros.ament_cmake' and name 'gazebo_ros2_control_demos'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers_test_nodes) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers_test_nodes) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers_test_nodes) by extension 'ignore_ament_install'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers_test_nodes) by extensions ['colcon_pkg']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers_test_nodes) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers_test_nodes) by extensions ['colcon_meta']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers_test_nodes) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers_test_nodes) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers_test_nodes) by extension 'ros'
+[0.257s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_controllers_test_nodes' with type 'ros.ament_python' and name 'ros2_controllers_test_nodes'
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.282s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/ajay/control_learn/install
+[0.283s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 9 installed packages in /home/ajay/ros2_ws/install
+[0.284s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 346 installed packages in /opt/ros/humble
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'external_torque_sensor_broadcaster' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'external_torque_sensor_broadcaster' build argument 'cmake_target' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'external_torque_sensor_broadcaster' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'external_torque_sensor_broadcaster' build argument 'cmake_clean_cache' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'external_torque_sensor_broadcaster' build argument 'cmake_clean_first' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'external_torque_sensor_broadcaster' build argument 'cmake_force_configure' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'external_torque_sensor_broadcaster' build argument 'ament_cmake_args' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'external_torque_sensor_broadcaster' build argument 'catkin_cmake_args' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'external_torque_sensor_broadcaster' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.318s] DEBUG:colcon.colcon_core.verb:Building package 'external_torque_sensor_broadcaster' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ajay/ros2_ws/build/external_torque_sensor_broadcaster', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster', 'merge_install': False, 'path': '/home/ajay/ros2_ws/src/iiwa_ros2/iiwa_controllers/external_torque_sensor_broadcaster', 'symlink_install': True, 'test_result_base': None}
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_target' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.318s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_ros2_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ajay/ros2_ws/build/gazebo_ros2_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ajay/ros2_ws/install/gazebo_ros2_control', 'merge_install': False, 'path': '/home/ajay/ros2_ws/src/ros-controls/gazebo_ros2_control/gazebo_ros2_control', 'symlink_install': True, 'test_result_base': None}
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'iiwa_control' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'iiwa_control' build argument 'cmake_target' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'iiwa_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'iiwa_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'iiwa_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'iiwa_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'iiwa_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'iiwa_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'iiwa_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.319s] DEBUG:colcon.colcon_core.verb:Building package 'iiwa_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ajay/ros2_ws/build/iiwa_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ajay/ros2_ws/install/iiwa_control', 'merge_install': False, 'path': '/home/ajay/ros2_ws/src/iiwa_ros2/iiwa_controllers/iiwa_control', 'symlink_install': True, 'test_result_base': None}
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'iiwa_description' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'iiwa_description' build argument 'cmake_target' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'iiwa_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'iiwa_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'iiwa_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'iiwa_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'iiwa_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'iiwa_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'iiwa_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.319s] DEBUG:colcon.colcon_core.verb:Building package 'iiwa_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ajay/ros2_ws/build/iiwa_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ajay/ros2_ws/install/iiwa_description', 'merge_install': False, 'path': '/home/ajay/ros2_ws/src/iiwa_ros2/iiwa_description', 'symlink_install': True, 'test_result_base': None}
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'iiwa_moveit2' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'iiwa_moveit2' build argument 'cmake_target' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'iiwa_moveit2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'iiwa_moveit2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'iiwa_moveit2' build argument 'cmake_clean_first' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'iiwa_moveit2' build argument 'cmake_force_configure' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'iiwa_moveit2' build argument 'ament_cmake_args' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'iiwa_moveit2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'iiwa_moveit2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.319s] DEBUG:colcon.colcon_core.verb:Building package 'iiwa_moveit2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ajay/ros2_ws/build/iiwa_moveit2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ajay/ros2_ws/install/iiwa_moveit2', 'merge_install': False, 'path': '/home/ajay/ros2_ws/src/iiwa_ros2/iiwa_moveit2', 'symlink_install': True, 'test_result_base': None}
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'impedance_controller' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'impedance_controller' build argument 'cmake_target' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'impedance_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'impedance_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'impedance_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'impedance_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'impedance_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'impedance_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'impedance_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.320s] DEBUG:colcon.colcon_core.verb:Building package 'impedance_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ajay/ros2_ws/build/impedance_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ajay/ros2_ws/install/impedance_controller', 'merge_install': False, 'path': '/home/ajay/ros2_ws/src/iiwa_ros2/iiwa_controllers/impedance_controller', 'symlink_install': True, 'test_result_base': None}
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'ros2_controllers_test_nodes' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'ros2_controllers_test_nodes' build argument 'cmake_target' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'ros2_controllers_test_nodes' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'ros2_controllers_test_nodes' build argument 'cmake_clean_cache' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'ros2_controllers_test_nodes' build argument 'cmake_clean_first' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'ros2_controllers_test_nodes' build argument 'cmake_force_configure' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'ros2_controllers_test_nodes' build argument 'ament_cmake_args' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'ros2_controllers_test_nodes' build argument 'catkin_cmake_args' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'ros2_controllers_test_nodes' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.320s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_controllers_test_nodes' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ajay/ros2_ws/build/ros2_controllers_test_nodes', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ajay/ros2_ws/install/ros2_controllers_test_nodes', 'merge_install': False, 'path': '/home/ajay/ros2_ws/src/ros2_controllers_test_nodes', 'symlink_install': True, 'test_result_base': None}
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'cmake_target' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'cmake_clean_cache' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'cmake_clean_first' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'cmake_force_configure' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'ament_cmake_args' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'catkin_cmake_args' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.321s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_ros2_control_demos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ajay/ros2_ws/build/gazebo_ros2_control_demos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ajay/ros2_ws/install/gazebo_ros2_control_demos', 'merge_install': False, 'path': '/home/ajay/ros2_ws/src/ros-controls/gazebo_ros2_control/gazebo_ros2_control_demos', 'symlink_install': True, 'test_result_base': None}
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'iiwa_bringup' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'iiwa_bringup' build argument 'cmake_target' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'iiwa_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'iiwa_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'iiwa_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'iiwa_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'iiwa_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'iiwa_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'iiwa_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.321s] DEBUG:colcon.colcon_core.verb:Building package 'iiwa_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ajay/ros2_ws/build/iiwa_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ajay/ros2_ws/install/iiwa_bringup', 'merge_install': False, 'path': '/home/ajay/ros2_ws/src/iiwa_ros2/iiwa_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'iiwa_hardware' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'iiwa_hardware' build argument 'cmake_target' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'iiwa_hardware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'iiwa_hardware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'iiwa_hardware' build argument 'cmake_clean_first' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'iiwa_hardware' build argument 'cmake_force_configure' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'iiwa_hardware' build argument 'ament_cmake_args' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'iiwa_hardware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'iiwa_hardware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.322s] DEBUG:colcon.colcon_core.verb:Building package 'iiwa_hardware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ajay/ros2_ws/build/iiwa_hardware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ajay/ros2_ws/install/iiwa_hardware', 'merge_install': False, 'path': '/home/ajay/ros2_ws/src/iiwa_ros2/iiwa_hardware', 'symlink_install': True, 'test_result_base': None}
+[0.322s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.323s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.323s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ajay/ros2_ws/src/ros-controls/gazebo_ros2_control/gazebo_ros2_control' with build type 'ament_cmake'
+[0.323s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ajay/ros2_ws/src/ros-controls/gazebo_ros2_control/gazebo_ros2_control'
+[0.325s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.325s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.325s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.328s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ajay/ros2_ws/src/iiwa_ros2/iiwa_description' with build type 'ament_cmake'
+[0.328s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ajay/ros2_ws/src/iiwa_ros2/iiwa_description'
+[0.329s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.329s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.332s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ajay/ros2_ws/src/iiwa_ros2/iiwa_controllers/external_torque_sensor_broadcaster' with build type 'ament_cmake'
+[0.332s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ajay/ros2_ws/src/iiwa_ros2/iiwa_controllers/external_torque_sensor_broadcaster'
+[0.332s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.332s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.335s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ajay/ros2_ws/src/iiwa_ros2/iiwa_controllers/iiwa_control' with build type 'ament_python'
+[0.335s] Level 1:colcon.colcon_core.shell:create_environment_hook('iiwa_control', 'ament_prefix_path')
+[0.335s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/iiwa_control/share/iiwa_control/hook/ament_prefix_path.ps1'
+[0.336s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajay/ros2_ws/install/iiwa_control/share/iiwa_control/hook/ament_prefix_path.dsv'
+[0.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/iiwa_control/share/iiwa_control/hook/ament_prefix_path.sh'
+[0.337s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.337s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.340s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ajay/ros2_ws/src/iiwa_ros2/iiwa_moveit2' with build type 'ament_cmake'
+[0.340s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ajay/ros2_ws/src/iiwa_ros2/iiwa_moveit2'
+[0.340s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.340s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.344s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ajay/ros2_ws/src/iiwa_ros2/iiwa_controllers/impedance_controller' with build type 'ament_cmake'
+[0.344s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ajay/ros2_ws/src/iiwa_ros2/iiwa_controllers/impedance_controller'
+[0.344s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.344s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.347s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ajay/ros2_ws/src/ros2_controllers_test_nodes' with build type 'ament_python'
+[0.347s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_controllers_test_nodes', 'ament_prefix_path')
+[0.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes/hook/ament_prefix_path.ps1'
+[0.348s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajay/ros2_ws/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes/hook/ament_prefix_path.dsv'
+[0.348s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes/hook/ament_prefix_path.sh'
+[0.348s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.348s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.357s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajay/ros2_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajay/ros2_ws/install/iiwa_control:/opt/ros/humble /usr/bin/cmake --build /home/ajay/ros2_ws/build/gazebo_ros2_control -- -j16 -l16
+[0.359s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajay/ros2_ws/build/iiwa_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajay/ros2_ws/install/iiwa_control:/opt/ros/humble /usr/bin/cmake --build /home/ajay/ros2_ws/build/iiwa_description -- -j16 -l16
+[0.361s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajay/ros2_ws/build/external_torque_sensor_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajay/ros2_ws/install/iiwa_control:/opt/ros/humble /usr/bin/cmake --build /home/ajay/ros2_ws/build/external_torque_sensor_broadcaster -- -j16 -l16
+[0.570s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'iiwa_control' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[0.570s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ajay/ros2_ws/src/iiwa_ros2/iiwa_controllers/iiwa_control'
+[0.571s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.571s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.577s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajay/ros2_ws/build/iiwa_moveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajay/ros2_ws/install/iiwa_control:/opt/ros/humble /usr/bin/cmake --build /home/ajay/ros2_ws/build/iiwa_moveit2 -- -j16 -l16
+[0.580s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajay/ros2_ws/build/impedance_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajay/ros2_ws/install/iiwa_control:/opt/ros/humble /usr/bin/cmake --build /home/ajay/ros2_ws/build/impedance_controller -- -j16 -l16
+[0.582s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajay/ros2_ws/build/iiwa_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajay/ros2_ws/install/iiwa_control:/opt/ros/humble /usr/bin/cmake --build /home/ajay/ros2_ws/build/iiwa_description -- -j16 -l16
+[0.583s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajay/ros2_ws/build/external_torque_sensor_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajay/ros2_ws/install/iiwa_control:/opt/ros/humble /usr/bin/cmake --build /home/ajay/ros2_ws/build/external_torque_sensor_broadcaster -- -j16 -l16
+[0.787s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ajay/ros2_ws/src/ros2_controllers_test_nodes'
+[0.787s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.787s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.791s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajay/ros2_ws/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajay/ros2_ws/install/iiwa_control:/opt/ros/humble /usr/bin/cmake --build /home/ajay/ros2_ws/build/gazebo_ros2_control -- -j16 -l16
+[0.805s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajay/ros2_ws/build/iiwa_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajay/ros2_ws/install/iiwa_control:/opt/ros/humble /usr/bin/cmake --install /home/ajay/ros2_ws/build/iiwa_description
+[0.806s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajay/ros2_ws/build/external_torque_sensor_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajay/ros2_ws/install/iiwa_control:/opt/ros/humble /usr/bin/cmake --install /home/ajay/ros2_ws/build/external_torque_sensor_broadcaster
+[0.808s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajay/ros2_ws/build/impedance_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajay/ros2_ws/install/iiwa_control:/opt/ros/humble /usr/bin/cmake --build /home/ajay/ros2_ws/build/impedance_controller -- -j16 -l16
+[0.809s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajay/ros2_ws/build/iiwa_moveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajay/ros2_ws/install/iiwa_control:/opt/ros/humble /usr/bin/cmake --build /home/ajay/ros2_ws/build/iiwa_moveit2 -- -j16 -l16
+[0.824s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajay/ros2_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajay/ros2_ws/install/iiwa_control:/opt/ros/humble /usr/bin/cmake --install /home/ajay/ros2_ws/build/gazebo_ros2_control
+[0.829s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(external_torque_sensor_broadcaster)
+[0.830s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajay/ros2_ws/build/external_torque_sensor_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajay/ros2_ws/install/iiwa_control:/opt/ros/humble /usr/bin/cmake --install /home/ajay/ros2_ws/build/external_torque_sensor_broadcaster
+[0.832s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster' for CMake module files
+[0.833s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster' for CMake config files
+[0.834s] Level 1:colcon.colcon_core.shell:create_environment_hook('external_torque_sensor_broadcaster', 'cmake_prefix_path')
+[0.834s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/hook/cmake_prefix_path.ps1'
+[0.835s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/hook/cmake_prefix_path.dsv'
+[0.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/hook/cmake_prefix_path.sh'
+[0.837s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/lib'
+[0.837s] Level 1:colcon.colcon_core.shell:create_environment_hook('external_torque_sensor_broadcaster', 'ld_library_path_lib')
+[0.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/hook/ld_library_path_lib.ps1'
+[0.838s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/hook/ld_library_path_lib.dsv'
+[0.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/hook/ld_library_path_lib.sh'
+[0.838s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/bin'
+[0.838s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/lib/pkgconfig/external_torque_sensor_broadcaster.pc'
+[0.838s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/lib/python3.10/site-packages'
+[0.839s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/bin'
+[0.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/package.ps1'
+[0.839s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/package.dsv'
+[0.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/package.sh'
+[0.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/package.bash'
+[0.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/package.zsh'
+[0.841s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/share/colcon-core/packages/external_torque_sensor_broadcaster)
+[0.844s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajay/ros2_ws/build/iiwa_moveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajay/ros2_ws/install/iiwa_control:/opt/ros/humble /usr/bin/cmake --install /home/ajay/ros2_ws/build/iiwa_moveit2
+[0.846s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(iiwa_description)
+[0.846s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_description' for CMake module files
+[0.846s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajay/ros2_ws/build/impedance_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajay/ros2_ws/install/iiwa_control:/opt/ros/humble /usr/bin/cmake --install /home/ajay/ros2_ws/build/impedance_controller
+[0.847s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajay/ros2_ws/build/iiwa_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajay/ros2_ws/install/iiwa_control:/opt/ros/humble /usr/bin/cmake --install /home/ajay/ros2_ws/build/iiwa_description
+[0.848s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_description' for CMake config files
+[0.849s] Level 1:colcon.colcon_core.shell:create_environment_hook('iiwa_description', 'cmake_prefix_path')
+[0.849s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/hook/cmake_prefix_path.ps1'
+[0.849s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/hook/cmake_prefix_path.dsv'
+[0.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/hook/cmake_prefix_path.sh'
+[0.850s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_description/bin'
+[0.850s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_description/lib/pkgconfig/iiwa_description.pc'
+[0.850s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_description/lib/python3.10/site-packages'
+[0.851s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_description/bin'
+[0.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/package.ps1'
+[0.852s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/package.dsv'
+[0.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/package.sh'
+[0.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/package.bash'
+[0.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/package.zsh'
+[0.854s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ajay/ros2_ws/install/iiwa_description/share/colcon-core/packages/iiwa_description)
+[0.856s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros2_control)
+[0.857s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/gazebo_ros2_control' for CMake module files
+[0.858s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/gazebo_ros2_control' for CMake config files
+[0.860s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros2_control', 'cmake_prefix_path')
+[0.860s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.ps1'
+[0.860s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajay/ros2_ws/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajay/ros2_ws/install/iiwa_control:/opt/ros/humble /usr/bin/cmake --install /home/ajay/ros2_ws/build/gazebo_ros2_control
+[0.861s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajay/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.dsv'
+[0.861s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.sh'
+[0.862s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/gazebo_ros2_control/lib'
+[0.862s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros2_control', 'ld_library_path_lib')
+[0.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/ld_library_path_lib.ps1'
+[0.863s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajay/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/ld_library_path_lib.dsv'
+[0.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/ld_library_path_lib.sh'
+[0.864s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/gazebo_ros2_control/bin'
+[0.864s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/gazebo_ros2_control/lib/pkgconfig/gazebo_ros2_control.pc'
+[0.864s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/gazebo_ros2_control/lib/python3.10/site-packages'
+[0.864s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/gazebo_ros2_control/bin'
+[0.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.ps1'
+[0.865s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ajay/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv'
+[0.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.sh'
+[0.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.bash'
+[0.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.zsh'
+[0.867s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ajay/ros2_ws/install/gazebo_ros2_control/share/colcon-core/packages/gazebo_ros2_control)
+[0.870s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(external_torque_sensor_broadcaster)
+[0.870s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster' for CMake module files
+[0.872s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster' for CMake config files
+[0.872s] Level 1:colcon.colcon_core.shell:create_environment_hook('external_torque_sensor_broadcaster', 'cmake_prefix_path')
+[0.872s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/hook/cmake_prefix_path.ps1'
+[0.873s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/hook/cmake_prefix_path.dsv'
+[0.873s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/hook/cmake_prefix_path.sh'
+[0.873s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/lib'
+[0.873s] Level 1:colcon.colcon_core.shell:create_environment_hook('external_torque_sensor_broadcaster', 'ld_library_path_lib')
+[0.874s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/hook/ld_library_path_lib.ps1'
+[0.874s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/hook/ld_library_path_lib.dsv'
+[0.874s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/hook/ld_library_path_lib.sh'
+[0.874s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/bin'
+[0.874s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/lib/pkgconfig/external_torque_sensor_broadcaster.pc'
+[0.875s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/lib/python3.10/site-packages'
+[0.875s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/bin'
+[0.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/package.ps1'
+[0.875s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/package.dsv'
+[0.876s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/package.sh'
+[0.876s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/package.bash'
+[0.876s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/package.zsh'
+[0.877s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/share/colcon-core/packages/external_torque_sensor_broadcaster)
+[0.878s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(iiwa_moveit2)
+[0.878s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_moveit2' for CMake module files
+[0.878s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajay/ros2_ws/build/iiwa_moveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajay/ros2_ws/install/iiwa_control:/opt/ros/humble /usr/bin/cmake --install /home/ajay/ros2_ws/build/iiwa_moveit2
+[0.879s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_moveit2' for CMake config files
+[0.879s] Level 1:colcon.colcon_core.shell:create_environment_hook('iiwa_moveit2', 'cmake_prefix_path')
+[0.879s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/hook/cmake_prefix_path.ps1'
+[0.880s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/hook/cmake_prefix_path.dsv'
+[0.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/hook/cmake_prefix_path.sh'
+[0.880s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_moveit2/lib'
+[0.880s] Level 1:colcon.colcon_core.shell:create_environment_hook('iiwa_moveit2', 'ld_library_path_lib')
+[0.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/hook/ld_library_path_lib.ps1'
+[0.881s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/hook/ld_library_path_lib.dsv'
+[0.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/hook/ld_library_path_lib.sh'
+[0.881s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_moveit2/bin'
+[0.881s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_moveit2/lib/pkgconfig/iiwa_moveit2.pc'
+[0.881s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_moveit2/lib/python3.10/site-packages'
+[0.882s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_moveit2/bin'
+[0.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/package.ps1'
+[0.882s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/package.dsv'
+[0.883s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/package.sh'
+[0.883s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/package.bash'
+[0.883s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/package.zsh'
+[0.884s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ajay/ros2_ws/install/iiwa_moveit2/share/colcon-core/packages/iiwa_moveit2)
+[0.884s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(impedance_controller)
+[0.885s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/impedance_controller' for CMake module files
+[0.885s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajay/ros2_ws/build/impedance_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajay/ros2_ws/install/iiwa_control:/opt/ros/humble /usr/bin/cmake --install /home/ajay/ros2_ws/build/impedance_controller
+[0.885s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/impedance_controller' for CMake config files
+[0.886s] Level 1:colcon.colcon_core.shell:create_environment_hook('impedance_controller', 'cmake_prefix_path')
+[0.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/hook/cmake_prefix_path.ps1'
+[0.886s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/hook/cmake_prefix_path.dsv'
+[0.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/hook/cmake_prefix_path.sh'
+[0.887s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/impedance_controller/lib'
+[0.887s] Level 1:colcon.colcon_core.shell:create_environment_hook('impedance_controller', 'ld_library_path_lib')
+[0.887s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/hook/ld_library_path_lib.ps1'
+[0.887s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/hook/ld_library_path_lib.dsv'
+[0.888s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/hook/ld_library_path_lib.sh'
+[0.888s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/impedance_controller/bin'
+[0.888s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/impedance_controller/lib/pkgconfig/impedance_controller.pc'
+[0.888s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/impedance_controller/lib/python3.10/site-packages'
+[0.888s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/impedance_controller/bin'
+[0.888s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/package.ps1'
+[0.889s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/package.dsv'
+[0.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/package.sh'
+[0.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/package.bash'
+[0.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/package.zsh'
+[0.890s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ajay/ros2_ws/install/impedance_controller/share/colcon-core/packages/impedance_controller)
+[0.891s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(iiwa_description)
+[0.892s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_description' for CMake module files
+[0.892s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_description' for CMake config files
+[0.893s] Level 1:colcon.colcon_core.shell:create_environment_hook('iiwa_description', 'cmake_prefix_path')
+[0.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/hook/cmake_prefix_path.ps1'
+[0.893s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/hook/cmake_prefix_path.dsv'
+[0.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/hook/cmake_prefix_path.sh'
+[0.894s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_description/bin'
+[0.894s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_description/lib/pkgconfig/iiwa_description.pc'
+[0.894s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_description/lib/python3.10/site-packages'
+[0.894s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_description/bin'
+[0.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/package.ps1'
+[0.895s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/package.dsv'
+[0.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/package.sh'
+[0.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/package.bash'
+[0.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/iiwa_description/share/iiwa_description/package.zsh'
+[0.896s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ajay/ros2_ws/install/iiwa_description/share/colcon-core/packages/iiwa_description)
+[0.899s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros2_control)
+[0.899s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/gazebo_ros2_control' for CMake module files
+[0.900s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/gazebo_ros2_control' for CMake config files
+[0.900s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros2_control', 'cmake_prefix_path')
+[0.900s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.ps1'
+[0.901s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajay/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.dsv'
+[0.901s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.sh'
+[0.901s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/gazebo_ros2_control/lib'
+[0.901s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros2_control', 'ld_library_path_lib')
+[0.901s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/ld_library_path_lib.ps1'
+[0.902s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajay/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/ld_library_path_lib.dsv'
+[0.902s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/ld_library_path_lib.sh'
+[0.902s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/gazebo_ros2_control/bin'
+[0.902s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/gazebo_ros2_control/lib/pkgconfig/gazebo_ros2_control.pc'
+[0.903s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/gazebo_ros2_control/lib/python3.10/site-packages'
+[0.903s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/gazebo_ros2_control/bin'
+[0.903s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.ps1'
+[0.904s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ajay/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv'
+[0.904s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.sh'
+[0.904s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.bash'
+[0.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.zsh'
+[0.905s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ajay/ros2_ws/install/gazebo_ros2_control/share/colcon-core/packages/gazebo_ros2_control)
+[0.905s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ajay/ros2_ws/src/iiwa_ros2/iiwa_bringup' with build type 'ament_cmake'
+[0.905s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ajay/ros2_ws/src/iiwa_ros2/iiwa_bringup'
+[0.906s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.906s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.910s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ajay/ros2_ws/src/ros-controls/gazebo_ros2_control/gazebo_ros2_control_demos' with build type 'ament_cmake'
+[0.910s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ajay/ros2_ws/src/ros-controls/gazebo_ros2_control/gazebo_ros2_control_demos'
+[0.910s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.910s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.917s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajay/ros2_ws/build/iiwa_bringup': CMAKE_PREFIX_PATH=/home/ajay/ros2_ws/install/iiwa_description:/home/ajay/ros2_ws/install/gazebo_ros2_control:/home/ajay/ros2_ws/install/impedance_controller:/home/ajay/ros2_ws/install/iiwa_moveit2:/home/ajay/ros2_ws/install/iiwa_hardware:/home/ajay/ros2_ws/install/iiwa_bringup:/home/ajay/ros2_ws/install/gazebo_ros2_control_demos:/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster:/home/ajay/control_learn/install/my_bot:/home/ajay/ros2_ws/install/iiwa_control:/opt/ros/humble LD_LIBRARY_PATH=/home/ajay/ros2_ws/install/gazebo_ros2_control/lib:/home/ajay/ros2_ws/install/impedance_controller/lib:/home/ajay/ros2_ws/install/iiwa_moveit2/lib:/home/ajay/ros2_ws/install/iiwa_hardware/lib:/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/ajay/ros2_ws/build/iiwa_bringup -- -j16 -l16
+[0.921s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(impedance_controller)
+[0.921s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/impedance_controller' for CMake module files
+[0.922s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajay/ros2_ws/build/gazebo_ros2_control_demos': CMAKE_PREFIX_PATH=/home/ajay/ros2_ws/install/gazebo_ros2_control:/home/ajay/ros2_ws/install/impedance_controller:/home/ajay/ros2_ws/install/iiwa_moveit2:/home/ajay/ros2_ws/install/iiwa_hardware:/home/ajay/ros2_ws/install/iiwa_bringup:/home/ajay/ros2_ws/install/iiwa_description:/home/ajay/ros2_ws/install/gazebo_ros2_control_demos:/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster:/home/ajay/control_learn/install/my_bot:/home/ajay/ros2_ws/install/iiwa_control:/opt/ros/humble LD_LIBRARY_PATH=/home/ajay/ros2_ws/install/gazebo_ros2_control/lib:/home/ajay/ros2_ws/install/impedance_controller/lib:/home/ajay/ros2_ws/install/iiwa_moveit2/lib:/home/ajay/ros2_ws/install/iiwa_hardware/lib:/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/ajay/ros2_ws/build/gazebo_ros2_control_demos -- -j16 -l16
+[0.922s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/impedance_controller' for CMake config files
+[0.922s] Level 1:colcon.colcon_core.shell:create_environment_hook('impedance_controller', 'cmake_prefix_path')
+[0.922s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/hook/cmake_prefix_path.ps1'
+[0.923s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/hook/cmake_prefix_path.dsv'
+[0.923s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/hook/cmake_prefix_path.sh'
+[0.923s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/impedance_controller/lib'
+[0.924s] Level 1:colcon.colcon_core.shell:create_environment_hook('impedance_controller', 'ld_library_path_lib')
+[0.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/hook/ld_library_path_lib.ps1'
+[0.924s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/hook/ld_library_path_lib.dsv'
+[0.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/hook/ld_library_path_lib.sh'
+[0.925s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/impedance_controller/bin'
+[0.925s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/impedance_controller/lib/pkgconfig/impedance_controller.pc'
+[0.925s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/impedance_controller/lib/python3.10/site-packages'
+[0.925s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/impedance_controller/bin'
+[0.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/package.ps1'
+[0.926s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/package.dsv'
+[0.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/package.sh'
+[0.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/package.bash'
+[0.927s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/impedance_controller/share/impedance_controller/package.zsh'
+[0.927s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ajay/ros2_ws/install/impedance_controller/share/colcon-core/packages/impedance_controller)
+[0.928s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(iiwa_moveit2)
+[0.928s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_moveit2' for CMake module files
+[0.929s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_moveit2' for CMake config files
+[0.929s] Level 1:colcon.colcon_core.shell:create_environment_hook('iiwa_moveit2', 'cmake_prefix_path')
+[0.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/hook/cmake_prefix_path.ps1'
+[0.930s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/hook/cmake_prefix_path.dsv'
+[0.930s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/hook/cmake_prefix_path.sh'
+[0.930s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_moveit2/lib'
+[0.930s] Level 1:colcon.colcon_core.shell:create_environment_hook('iiwa_moveit2', 'ld_library_path_lib')
+[0.930s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/hook/ld_library_path_lib.ps1'
+[0.931s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/hook/ld_library_path_lib.dsv'
+[0.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/hook/ld_library_path_lib.sh'
+[0.931s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_moveit2/bin'
+[0.931s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_moveit2/lib/pkgconfig/iiwa_moveit2.pc'
+[0.931s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_moveit2/lib/python3.10/site-packages'
+[0.932s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_moveit2/bin'
+[0.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/package.ps1'
+[0.932s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/package.dsv'
+[0.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/package.sh'
+[0.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/package.bash'
+[0.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/iiwa_moveit2/share/iiwa_moveit2/package.zsh'
+[0.934s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ajay/ros2_ws/install/iiwa_moveit2/share/colcon-core/packages/iiwa_moveit2)
+[0.962s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajay/ros2_ws/build/iiwa_bringup' returned '0': CMAKE_PREFIX_PATH=/home/ajay/ros2_ws/install/iiwa_description:/home/ajay/ros2_ws/install/gazebo_ros2_control:/home/ajay/ros2_ws/install/impedance_controller:/home/ajay/ros2_ws/install/iiwa_moveit2:/home/ajay/ros2_ws/install/iiwa_hardware:/home/ajay/ros2_ws/install/iiwa_bringup:/home/ajay/ros2_ws/install/gazebo_ros2_control_demos:/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster:/home/ajay/control_learn/install/my_bot:/home/ajay/ros2_ws/install/iiwa_control:/opt/ros/humble LD_LIBRARY_PATH=/home/ajay/ros2_ws/install/gazebo_ros2_control/lib:/home/ajay/ros2_ws/install/impedance_controller/lib:/home/ajay/ros2_ws/install/iiwa_moveit2/lib:/home/ajay/ros2_ws/install/iiwa_hardware/lib:/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/ajay/ros2_ws/build/iiwa_bringup -- -j16 -l16
+[0.990s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajay/ros2_ws/build/iiwa_bringup': CMAKE_PREFIX_PATH=/home/ajay/ros2_ws/install/iiwa_description:/home/ajay/ros2_ws/install/gazebo_ros2_control:/home/ajay/ros2_ws/install/impedance_controller:/home/ajay/ros2_ws/install/iiwa_moveit2:/home/ajay/ros2_ws/install/iiwa_hardware:/home/ajay/ros2_ws/install/iiwa_bringup:/home/ajay/ros2_ws/install/gazebo_ros2_control_demos:/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster:/home/ajay/control_learn/install/my_bot:/home/ajay/ros2_ws/install/iiwa_control:/opt/ros/humble LD_LIBRARY_PATH=/home/ajay/ros2_ws/install/gazebo_ros2_control/lib:/home/ajay/ros2_ws/install/impedance_controller/lib:/home/ajay/ros2_ws/install/iiwa_moveit2/lib:/home/ajay/ros2_ws/install/iiwa_hardware/lib:/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/ajay/ros2_ws/build/iiwa_bringup
+[0.992s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajay/ros2_ws/build/gazebo_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=/home/ajay/ros2_ws/install/gazebo_ros2_control:/home/ajay/ros2_ws/install/impedance_controller:/home/ajay/ros2_ws/install/iiwa_moveit2:/home/ajay/ros2_ws/install/iiwa_hardware:/home/ajay/ros2_ws/install/iiwa_bringup:/home/ajay/ros2_ws/install/iiwa_description:/home/ajay/ros2_ws/install/gazebo_ros2_control_demos:/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster:/home/ajay/control_learn/install/my_bot:/home/ajay/ros2_ws/install/iiwa_control:/opt/ros/humble LD_LIBRARY_PATH=/home/ajay/ros2_ws/install/gazebo_ros2_control/lib:/home/ajay/ros2_ws/install/impedance_controller/lib:/home/ajay/ros2_ws/install/iiwa_moveit2/lib:/home/ajay/ros2_ws/install/iiwa_hardware/lib:/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/ajay/ros2_ws/build/gazebo_ros2_control_demos -- -j16 -l16
+[1.011s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(iiwa_bringup)
+[1.011s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_bringup' for CMake module files
+[1.011s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajay/ros2_ws/build/iiwa_bringup' returned '0': CMAKE_PREFIX_PATH=/home/ajay/ros2_ws/install/iiwa_description:/home/ajay/ros2_ws/install/gazebo_ros2_control:/home/ajay/ros2_ws/install/impedance_controller:/home/ajay/ros2_ws/install/iiwa_moveit2:/home/ajay/ros2_ws/install/iiwa_hardware:/home/ajay/ros2_ws/install/iiwa_bringup:/home/ajay/ros2_ws/install/gazebo_ros2_control_demos:/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster:/home/ajay/control_learn/install/my_bot:/home/ajay/ros2_ws/install/iiwa_control:/opt/ros/humble LD_LIBRARY_PATH=/home/ajay/ros2_ws/install/gazebo_ros2_control/lib:/home/ajay/ros2_ws/install/impedance_controller/lib:/home/ajay/ros2_ws/install/iiwa_moveit2/lib:/home/ajay/ros2_ws/install/iiwa_hardware/lib:/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/ajay/ros2_ws/build/iiwa_bringup
+[1.012s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_bringup' for CMake config files
+[1.012s] Level 1:colcon.colcon_core.shell:create_environment_hook('iiwa_bringup', 'cmake_prefix_path')
+[1.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/hook/cmake_prefix_path.ps1'
+[1.013s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajay/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/hook/cmake_prefix_path.dsv'
+[1.013s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/hook/cmake_prefix_path.sh'
+[1.014s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_bringup/bin'
+[1.014s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_bringup/lib/pkgconfig/iiwa_bringup.pc'
+[1.014s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_bringup/lib/python3.10/site-packages'
+[1.014s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_bringup/bin'
+[1.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/package.ps1'
+[1.015s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ajay/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/package.dsv'
+[1.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/package.sh'
+[1.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/package.bash'
+[1.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/package.zsh'
+[1.017s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ajay/ros2_ws/install/iiwa_bringup/share/colcon-core/packages/iiwa_bringup)
+[1.042s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(iiwa_bringup)
+[1.042s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_bringup' for CMake module files
+[1.043s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_bringup' for CMake config files
+[1.043s] Level 1:colcon.colcon_core.shell:create_environment_hook('iiwa_bringup', 'cmake_prefix_path')
+[1.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/hook/cmake_prefix_path.ps1'
+[1.044s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajay/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/hook/cmake_prefix_path.dsv'
+[1.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/hook/cmake_prefix_path.sh'
+[1.045s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_bringup/bin'
+[1.045s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_bringup/lib/pkgconfig/iiwa_bringup.pc'
+[1.045s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_bringup/lib/python3.10/site-packages'
+[1.045s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_bringup/bin'
+[1.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/package.ps1'
+[1.046s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ajay/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/package.dsv'
+[1.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/package.sh'
+[1.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/package.bash'
+[1.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/package.zsh'
+[1.047s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ajay/ros2_ws/install/iiwa_bringup/share/colcon-core/packages/iiwa_bringup)
+[1.047s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ajay/ros2_ws/src/iiwa_ros2/iiwa_hardware' with build type 'ament_cmake'
+[1.047s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ajay/ros2_ws/src/iiwa_ros2/iiwa_hardware'
+[1.048s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.048s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.053s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajay/ros2_ws/build/gazebo_ros2_control_demos': CMAKE_PREFIX_PATH=/home/ajay/ros2_ws/install/gazebo_ros2_control:/home/ajay/ros2_ws/install/impedance_controller:/home/ajay/ros2_ws/install/iiwa_moveit2:/home/ajay/ros2_ws/install/iiwa_hardware:/home/ajay/ros2_ws/install/iiwa_bringup:/home/ajay/ros2_ws/install/iiwa_description:/home/ajay/ros2_ws/install/gazebo_ros2_control_demos:/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster:/home/ajay/control_learn/install/my_bot:/home/ajay/ros2_ws/install/iiwa_control:/opt/ros/humble LD_LIBRARY_PATH=/home/ajay/ros2_ws/install/gazebo_ros2_control/lib:/home/ajay/ros2_ws/install/impedance_controller/lib:/home/ajay/ros2_ws/install/iiwa_moveit2/lib:/home/ajay/ros2_ws/install/iiwa_hardware/lib:/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/ajay/ros2_ws/build/gazebo_ros2_control_demos
+[1.060s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajay/ros2_ws/build/iiwa_hardware': CMAKE_PREFIX_PATH=/home/ajay/ros2_ws/install/iiwa_bringup:/home/ajay/ros2_ws/install/iiwa_description:/home/ajay/ros2_ws/install/gazebo_ros2_control:/home/ajay/ros2_ws/install/impedance_controller:/home/ajay/ros2_ws/install/iiwa_moveit2:/home/ajay/ros2_ws/install/iiwa_hardware:/home/ajay/ros2_ws/install/gazebo_ros2_control_demos:/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster:/home/ajay/control_learn/install/my_bot:/home/ajay/ros2_ws/install/iiwa_control:/opt/ros/humble LD_LIBRARY_PATH=/home/ajay/ros2_ws/install/gazebo_ros2_control/lib:/home/ajay/ros2_ws/install/impedance_controller/lib:/home/ajay/ros2_ws/install/iiwa_moveit2/lib:/home/ajay/ros2_ws/install/iiwa_hardware/lib:/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/ajay/ros2_ws/build/iiwa_hardware -- -j16 -l16
+[1.078s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros2_control_demos)
+[1.079s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/gazebo_ros2_control_demos' for CMake module files
+[1.079s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajay/ros2_ws/build/gazebo_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=/home/ajay/ros2_ws/install/gazebo_ros2_control:/home/ajay/ros2_ws/install/impedance_controller:/home/ajay/ros2_ws/install/iiwa_moveit2:/home/ajay/ros2_ws/install/iiwa_hardware:/home/ajay/ros2_ws/install/iiwa_bringup:/home/ajay/ros2_ws/install/iiwa_description:/home/ajay/ros2_ws/install/gazebo_ros2_control_demos:/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster:/home/ajay/control_learn/install/my_bot:/home/ajay/ros2_ws/install/iiwa_control:/opt/ros/humble LD_LIBRARY_PATH=/home/ajay/ros2_ws/install/gazebo_ros2_control/lib:/home/ajay/ros2_ws/install/impedance_controller/lib:/home/ajay/ros2_ws/install/iiwa_moveit2/lib:/home/ajay/ros2_ws/install/iiwa_hardware/lib:/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/ajay/ros2_ws/build/gazebo_ros2_control_demos
+[1.080s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/gazebo_ros2_control_demos' for CMake config files
+[1.080s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros2_control_demos', 'cmake_prefix_path')
+[1.080s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/hook/cmake_prefix_path.ps1'
+[1.081s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/hook/cmake_prefix_path.dsv'
+[1.081s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/hook/cmake_prefix_path.sh'
+[1.081s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/gazebo_ros2_control_demos/lib'
+[1.081s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/gazebo_ros2_control_demos/bin'
+[1.082s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/gazebo_ros2_control_demos/lib/pkgconfig/gazebo_ros2_control_demos.pc'
+[1.082s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/gazebo_ros2_control_demos/lib/python3.10/site-packages'
+[1.082s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/gazebo_ros2_control_demos/bin'
+[1.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.ps1'
+[1.083s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.dsv'
+[1.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.sh'
+[1.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.bash'
+[1.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.zsh'
+[1.084s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/colcon-core/packages/gazebo_ros2_control_demos)
+[1.111s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajay/ros2_ws/build/ros2_controllers_test_nodes': PYTHONPATH=/home/ajay/ros2_ws/build/ros2_controllers_test_nodes/prefix_override:/home/ajay/ros2_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ajay/ros2_ws/build/ros2_controllers_test_nodes/build --no-deps symlink_data
+[1.113s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajay/ros2_ws/build/iiwa_control': PYTHONPATH=/home/ajay/ros2_ws/build/iiwa_control/prefix_override:/home/ajay/ros2_ws/install/iiwa_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ajay/ros2_ws/build/iiwa_control/build --no-deps symlink_data
+[1.133s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajay/ros2_ws/build/iiwa_hardware' returned '0': CMAKE_PREFIX_PATH=/home/ajay/ros2_ws/install/iiwa_bringup:/home/ajay/ros2_ws/install/iiwa_description:/home/ajay/ros2_ws/install/gazebo_ros2_control:/home/ajay/ros2_ws/install/impedance_controller:/home/ajay/ros2_ws/install/iiwa_moveit2:/home/ajay/ros2_ws/install/iiwa_hardware:/home/ajay/ros2_ws/install/gazebo_ros2_control_demos:/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster:/home/ajay/control_learn/install/my_bot:/home/ajay/ros2_ws/install/iiwa_control:/opt/ros/humble LD_LIBRARY_PATH=/home/ajay/ros2_ws/install/gazebo_ros2_control/lib:/home/ajay/ros2_ws/install/impedance_controller/lib:/home/ajay/ros2_ws/install/iiwa_moveit2/lib:/home/ajay/ros2_ws/install/iiwa_hardware/lib:/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/ajay/ros2_ws/build/iiwa_hardware -- -j16 -l16
+[1.134s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros2_control_demos)
+[1.134s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/gazebo_ros2_control_demos' for CMake module files
+[1.135s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/gazebo_ros2_control_demos' for CMake config files
+[1.135s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros2_control_demos', 'cmake_prefix_path')
+[1.136s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/hook/cmake_prefix_path.ps1'
+[1.136s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/hook/cmake_prefix_path.dsv'
+[1.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/hook/cmake_prefix_path.sh'
+[1.137s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/gazebo_ros2_control_demos/lib'
+[1.137s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/gazebo_ros2_control_demos/bin'
+[1.137s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/gazebo_ros2_control_demos/lib/pkgconfig/gazebo_ros2_control_demos.pc'
+[1.137s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/gazebo_ros2_control_demos/lib/python3.10/site-packages'
+[1.138s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/gazebo_ros2_control_demos/bin'
+[1.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.ps1'
+[1.138s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.dsv'
+[1.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.sh'
+[1.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.bash'
+[1.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.zsh'
+[1.140s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ajay/ros2_ws/install/gazebo_ros2_control_demos/share/colcon-core/packages/gazebo_ros2_control_demos)
+[1.204s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajay/ros2_ws/build/iiwa_hardware': CMAKE_PREFIX_PATH=/home/ajay/ros2_ws/install/iiwa_bringup:/home/ajay/ros2_ws/install/iiwa_description:/home/ajay/ros2_ws/install/gazebo_ros2_control:/home/ajay/ros2_ws/install/impedance_controller:/home/ajay/ros2_ws/install/iiwa_moveit2:/home/ajay/ros2_ws/install/iiwa_hardware:/home/ajay/ros2_ws/install/gazebo_ros2_control_demos:/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster:/home/ajay/control_learn/install/my_bot:/home/ajay/ros2_ws/install/iiwa_control:/opt/ros/humble LD_LIBRARY_PATH=/home/ajay/ros2_ws/install/gazebo_ros2_control/lib:/home/ajay/ros2_ws/install/impedance_controller/lib:/home/ajay/ros2_ws/install/iiwa_moveit2/lib:/home/ajay/ros2_ws/install/iiwa_hardware/lib:/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/ajay/ros2_ws/build/iiwa_hardware
+[1.225s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(iiwa_hardware)
+[1.225s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_hardware' for CMake module files
+[1.225s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajay/ros2_ws/build/iiwa_hardware' returned '0': CMAKE_PREFIX_PATH=/home/ajay/ros2_ws/install/iiwa_bringup:/home/ajay/ros2_ws/install/iiwa_description:/home/ajay/ros2_ws/install/gazebo_ros2_control:/home/ajay/ros2_ws/install/impedance_controller:/home/ajay/ros2_ws/install/iiwa_moveit2:/home/ajay/ros2_ws/install/iiwa_hardware:/home/ajay/ros2_ws/install/gazebo_ros2_control_demos:/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster:/home/ajay/control_learn/install/my_bot:/home/ajay/ros2_ws/install/iiwa_control:/opt/ros/humble LD_LIBRARY_PATH=/home/ajay/ros2_ws/install/gazebo_ros2_control/lib:/home/ajay/ros2_ws/install/impedance_controller/lib:/home/ajay/ros2_ws/install/iiwa_moveit2/lib:/home/ajay/ros2_ws/install/iiwa_hardware/lib:/home/ajay/ros2_ws/install/external_torque_sensor_broadcaster/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/ajay/ros2_ws/build/iiwa_hardware
+[1.226s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_hardware' for CMake config files
+[1.226s] Level 1:colcon.colcon_core.shell:create_environment_hook('iiwa_hardware', 'cmake_prefix_path')
+[1.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/iiwa_hardware/share/iiwa_hardware/hook/cmake_prefix_path.ps1'
+[1.227s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajay/ros2_ws/install/iiwa_hardware/share/iiwa_hardware/hook/cmake_prefix_path.dsv'
+[1.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/iiwa_hardware/share/iiwa_hardware/hook/cmake_prefix_path.sh'
+[1.227s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_hardware/lib'
+[1.227s] Level 1:colcon.colcon_core.shell:create_environment_hook('iiwa_hardware', 'ld_library_path_lib')
+[1.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/iiwa_hardware/share/iiwa_hardware/hook/ld_library_path_lib.ps1'
+[1.228s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajay/ros2_ws/install/iiwa_hardware/share/iiwa_hardware/hook/ld_library_path_lib.dsv'
+[1.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/iiwa_hardware/share/iiwa_hardware/hook/ld_library_path_lib.sh'
+[1.228s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_hardware/bin'
+[1.228s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_hardware/lib/pkgconfig/iiwa_hardware.pc'
+[1.229s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_hardware/lib/python3.10/site-packages'
+[1.229s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_hardware/bin'
+[1.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/iiwa_hardware/share/iiwa_hardware/package.ps1'
+[1.229s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ajay/ros2_ws/install/iiwa_hardware/share/iiwa_hardware/package.dsv'
+[1.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/iiwa_hardware/share/iiwa_hardware/package.sh'
+[1.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/iiwa_hardware/share/iiwa_hardware/package.bash'
+[1.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/iiwa_hardware/share/iiwa_hardware/package.zsh'
+[1.230s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ajay/ros2_ws/install/iiwa_hardware/share/colcon-core/packages/iiwa_hardware)
+[1.297s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(iiwa_hardware)
+[1.297s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_hardware' for CMake module files
+[1.297s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_hardware' for CMake config files
+[1.298s] Level 1:colcon.colcon_core.shell:create_environment_hook('iiwa_hardware', 'cmake_prefix_path')
+[1.298s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/iiwa_hardware/share/iiwa_hardware/hook/cmake_prefix_path.ps1'
+[1.298s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajay/ros2_ws/install/iiwa_hardware/share/iiwa_hardware/hook/cmake_prefix_path.dsv'
+[1.298s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/iiwa_hardware/share/iiwa_hardware/hook/cmake_prefix_path.sh'
+[1.299s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_hardware/lib'
+[1.299s] Level 1:colcon.colcon_core.shell:create_environment_hook('iiwa_hardware', 'ld_library_path_lib')
+[1.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/iiwa_hardware/share/iiwa_hardware/hook/ld_library_path_lib.ps1'
+[1.299s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajay/ros2_ws/install/iiwa_hardware/share/iiwa_hardware/hook/ld_library_path_lib.dsv'
+[1.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/iiwa_hardware/share/iiwa_hardware/hook/ld_library_path_lib.sh'
+[1.300s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_hardware/bin'
+[1.300s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_hardware/lib/pkgconfig/iiwa_hardware.pc'
+[1.300s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_hardware/lib/python3.10/site-packages'
+[1.300s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_hardware/bin'
+[1.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/iiwa_hardware/share/iiwa_hardware/package.ps1'
+[1.301s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ajay/ros2_ws/install/iiwa_hardware/share/iiwa_hardware/package.dsv'
+[1.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/iiwa_hardware/share/iiwa_hardware/package.sh'
+[1.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/iiwa_hardware/share/iiwa_hardware/package.bash'
+[1.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/iiwa_hardware/share/iiwa_hardware/package.zsh'
+[1.302s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ajay/ros2_ws/install/iiwa_hardware/share/colcon-core/packages/iiwa_hardware)
+[1.515s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_controllers_test_nodes', 'pythonpath_develop')
+[1.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/build/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes/hook/pythonpath_develop.ps1'
+[1.516s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajay/ros2_ws/build/ros2_controllers_test_nodes' returned '0': PYTHONPATH=/home/ajay/ros2_ws/build/ros2_controllers_test_nodes/prefix_override:/home/ajay/ros2_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ajay/ros2_ws/build/ros2_controllers_test_nodes/build --no-deps symlink_data
+[1.516s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajay/ros2_ws/build/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes/hook/pythonpath_develop.dsv'
+[1.517s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/build/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes/hook/pythonpath_develop.sh'
+[1.517s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/ros2_controllers_test_nodes' for CMake module files
+[1.517s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/ros2_controllers_test_nodes' for CMake config files
+[1.518s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/ros2_controllers_test_nodes/lib'
+[1.518s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/ros2_controllers_test_nodes/bin'
+[1.518s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/ros2_controllers_test_nodes/lib/pkgconfig/ros2_controllers_test_nodes.pc'
+[1.518s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages'
+[1.518s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_controllers_test_nodes', 'pythonpath')
+[1.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes/hook/pythonpath.ps1'
+[1.518s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajay/ros2_ws/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes/hook/pythonpath.dsv'
+[1.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes/hook/pythonpath.sh'
+[1.519s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/ros2_controllers_test_nodes/bin'
+[1.519s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_controllers_test_nodes)
+[1.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes/package.ps1'
+[1.520s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ajay/ros2_ws/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes/package.dsv'
+[1.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes/package.sh'
+[1.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes/package.bash'
+[1.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes/package.zsh'
+[1.521s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ajay/ros2_ws/install/ros2_controllers_test_nodes/share/colcon-core/packages/ros2_controllers_test_nodes)
+[1.524s] Level 1:colcon.colcon_core.shell:create_environment_hook('iiwa_control', 'pythonpath_develop')
+[1.525s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/build/iiwa_control/share/iiwa_control/hook/pythonpath_develop.ps1'
+[1.525s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajay/ros2_ws/build/iiwa_control' returned '0': PYTHONPATH=/home/ajay/ros2_ws/build/iiwa_control/prefix_override:/home/ajay/ros2_ws/install/iiwa_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ajay/ros2_ws/build/iiwa_control/build --no-deps symlink_data
+[1.525s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajay/ros2_ws/build/iiwa_control/share/iiwa_control/hook/pythonpath_develop.dsv'
+[1.526s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/build/iiwa_control/share/iiwa_control/hook/pythonpath_develop.sh'
+[1.526s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_control' for CMake module files
+[1.526s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_control' for CMake config files
+[1.527s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_control/lib'
+[1.527s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_control/bin'
+[1.527s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_control/lib/pkgconfig/iiwa_control.pc'
+[1.527s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_control/lib/python3.10/site-packages'
+[1.527s] Level 1:colcon.colcon_core.shell:create_environment_hook('iiwa_control', 'pythonpath')
+[1.527s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/iiwa_control/share/iiwa_control/hook/pythonpath.ps1'
+[1.527s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajay/ros2_ws/install/iiwa_control/share/iiwa_control/hook/pythonpath.dsv'
+[1.528s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajay/ros2_ws/install/iiwa_control/share/iiwa_control/hook/pythonpath.sh'
+[1.528s] Level 1:colcon.colcon_core.environment:checking '/home/ajay/ros2_ws/install/iiwa_control/bin'
+[1.528s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(iiwa_control)
+[1.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/iiwa_control/share/iiwa_control/package.ps1'
+[1.529s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ajay/ros2_ws/install/iiwa_control/share/iiwa_control/package.dsv'
+[1.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/iiwa_control/share/iiwa_control/package.sh'
+[1.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/iiwa_control/share/iiwa_control/package.bash'
+[1.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajay/ros2_ws/install/iiwa_control/share/iiwa_control/package.zsh'
+[1.530s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ajay/ros2_ws/install/iiwa_control/share/colcon-core/packages/iiwa_control)
+[1.530s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.530s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.530s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.530s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.535s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.535s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.535s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.544s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.544s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ajay/ros2_ws/install/local_setup.ps1'
+[1.545s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ajay/ros2_ws/install/_local_setup_util_ps1.py'
+[1.546s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ajay/ros2_ws/install/setup.ps1'
+[1.547s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ajay/ros2_ws/install/local_setup.sh'
+[1.548s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ajay/ros2_ws/install/_local_setup_util_sh.py'
+[1.548s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ajay/ros2_ws/install/setup.sh'
+[1.549s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ajay/ros2_ws/install/local_setup.bash'
+[1.549s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ajay/ros2_ws/install/setup.bash'
+[1.550s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ajay/ros2_ws/install/local_setup.zsh'
+[1.551s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ajay/ros2_ws/install/setup.zsh'
