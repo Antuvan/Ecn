@@ -1,0 +1,91 @@
+[0.120s] Invoking command in '/user/aamariejos2022/ros2/build/ecn_auv_lab': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ecn/ros2/install/slider_publisher:/opt/ros/galactic PS1=\[\e[38;5;87m\][ROS2\[\e[38;5;87m\]]\[\e[0m\] \[\e[1;34m\]\w\[\e[0m\]$ PS1_ori=\[\e[1;34m\]\w\[\e[0m\]$ /usr/bin/cmake /user/aamariejos2022/ros2/src/ecn_auv_lab -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/user/aamariejos2022/ros2/install/ecn_auv_lab
+[1.344s] -- The C compiler identification is GNU 9.4.0
+[2.572s] -- The CXX compiler identification is GNU 9.4.0
+[2.883s] -- Check for working C compiler: /usr/bin/cc
+[3.040s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.065s] -- Detecting C compiler ABI info
+[3.155s] -- Detecting C compiler ABI info - done
+[3.166s] -- Detecting C compile features
+[3.171s] -- Detecting C compile features - done
+[3.192s] -- Check for working CXX compiler: /usr/bin/c++
+[3.277s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.277s] -- Detecting CXX compiler ABI info
+[3.378s] -- Detecting CXX compiler ABI info - done
+[3.389s] -- Detecting CXX compile features
+[3.389s] -- Detecting CXX compile features - done
+[3.423s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[3.535s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.535s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.659s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.161s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.215s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[4.649s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[4.715s] -- Found FastRTPS: /opt/ros/galactic/include  
+[4.917s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.095s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[5.110s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[5.184s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[5.212s] -- Looking for pthread.h
+[5.440s] -- Looking for pthread.h - found
+[5.440s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.522s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[5.522s] -- Looking for pthread_create in pthreads
+[5.602s] -- Looking for pthread_create in pthreads - not found
+[5.602s] -- Looking for pthread_create in pthread
+[5.683s] -- Looking for pthread_create in pthread - found
+[5.684s] -- Found Threads: TRUE  
+[7.387s] -- Configuring done
+[7.411s] -- Generating done
+[7.413s] -- Build files have been written to: /user/aamariejos2022/ros2/build/ecn_auv_lab
+[7.421s] Invoked command in '/user/aamariejos2022/ros2/build/ecn_auv_lab' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ecn/ros2/install/slider_publisher:/opt/ros/galactic PS1=\[\e[38;5;87m\][ROS2\[\e[38;5;87m\]]\[\e[0m\] \[\e[1;34m\]\w\[\e[0m\]$ PS1_ori=\[\e[1;34m\]\w\[\e[0m\]$ /usr/bin/cmake /user/aamariejos2022/ros2/src/ecn_auv_lab -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/user/aamariejos2022/ros2/install/ecn_auv_lab
+[7.424s] Invoking command in '/user/aamariejos2022/ros2/build/ecn_auv_lab': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ecn/ros2/install/slider_publisher:/opt/ros/galactic PS1=\[\e[38;5;87m\][ROS2\[\e[38;5;87m\]]\[\e[0m\] \[\e[1;34m\]\w\[\e[0m\]$ PS1_ori=\[\e[1;34m\]\w\[\e[0m\]$ /usr/bin/cmake --build /user/aamariejos2022/ros2/build/ecn_auv_lab -- -j4 -l4
+[7.476s] [35m[1mScanning dependencies of target waypoints[0m
+[7.476s] [35m[1mScanning dependencies of target gz2ekf[0m
+[8.384s] [ 25%] [32mBuilding CXX object CMakeFiles/waypoints.dir/src/waypoints.cpp.o[0m
+[8.399s] [ 50%] [32mBuilding CXX object CMakeFiles/gz2ekf.dir/src/gz2ekf.cpp.o[0m
+[13.814s] [ 75%] [32m[1mLinking CXX executable waypoints[0m
+[16.217s] [ 75%] Built target waypoints
+[19.109s] [100%] [32m[1mLinking CXX executable gz2ekf[0m
+[19.598s] [100%] Built target gz2ekf
+[19.620s] Invoked command in '/user/aamariejos2022/ros2/build/ecn_auv_lab' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ecn/ros2/install/slider_publisher:/opt/ros/galactic PS1=\[\e[38;5;87m\][ROS2\[\e[38;5;87m\]]\[\e[0m\] \[\e[1;34m\]\w\[\e[0m\]$ PS1_ori=\[\e[1;34m\]\w\[\e[0m\]$ /usr/bin/cmake --build /user/aamariejos2022/ros2/build/ecn_auv_lab -- -j4 -l4
+[19.670s] Invoking command in '/user/aamariejos2022/ros2/build/ecn_auv_lab': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ecn/ros2/install/slider_publisher:/opt/ros/galactic PS1=\[\e[38;5;87m\][ROS2\[\e[38;5;87m\]]\[\e[0m\] \[\e[1;34m\]\w\[\e[0m\]$ PS1_ori=\[\e[1;34m\]\w\[\e[0m\]$ /usr/bin/cmake --install /user/aamariejos2022/ros2/build/ecn_auv_lab
+[19.680s] -- Install configuration: ""
+[19.680s] -- Execute custom install script
+[19.681s] -- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/urdf/bluerov2.urdf
+[19.692s] -- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/urdf/terrain/License and source for textures.txt
+[19.703s] -- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/urdf/terrain/MangaliaTerrain.dae
+[19.713s] -- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/urdf/terrain/MangaliaTerrain.osg
+[19.724s] -- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/urdf/terrain/grass.jpg
+[19.734s] -- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/urdf/terrain/ground_stone.jpg
+[19.745s] -- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/urdf/terrain/terrain.xacro
+[19.756s] -- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/urdf/world.sdf
+[19.767s] -- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/launch/bluerov2_launch.py
+[19.778s] -- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/launch/control_launch.py
+[19.788s] -- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/launch/ekf_launch.py
+[19.799s] -- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/launch/layout.rviz
+[19.810s] -- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/launch/pose_setpoint.yaml
+[19.820s] -- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/launch/sim_launch.py
+[19.831s] -- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/launch/spawn_all_launch.py
+[19.841s] -- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/params/cascaded_pid.yaml
+[19.851s] -- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/params/ekf.yaml
+[19.863s] -- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/params/noise.yaml
+[19.875s] -- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/params/waypoints.yaml
+[19.887s] -- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/lib/ecn_auv_lab/gz2ekf
+[19.898s] -- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/lib/ecn_auv_lab/waypoints
+[19.910s] -- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ament_index/resource_index/package_run_dependencies/ecn_auv_lab
+[19.921s] -- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ament_index/resource_index/parent_prefix_path/ecn_auv_lab
+[19.933s] -- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/environment/ament_prefix_path.sh
+[19.945s] -- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/environment/ament_prefix_path.dsv
+[19.956s] -- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/environment/path.sh
+[19.967s] -- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/environment/path.dsv
+[19.979s] -- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/local_setup.bash
+[19.990s] -- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/local_setup.sh
+[20.001s] -- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/local_setup.zsh
+[20.013s] -- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/local_setup.dsv
+[20.029s] -- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/package.dsv
+[20.041s] -- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ament_index/resource_index/packages/ecn_auv_lab
+[20.052s] -- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.063s] -- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/cmake/ecn_auv_labConfig.cmake
+[20.074s] -- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/cmake/ecn_auv_labConfig-version.cmake
+[20.085s] -- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/package.xml
+[20.098s] Invoked command in '/user/aamariejos2022/ros2/build/ecn_auv_lab' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ecn/ros2/install/slider_publisher:/opt/ros/galactic PS1=\[\e[38;5;87m\][ROS2\[\e[38;5;87m\]]\[\e[0m\] \[\e[1;34m\]\w\[\e[0m\]$ PS1_ori=\[\e[1;34m\]\w\[\e[0m\]$ /usr/bin/cmake --install /user/aamariejos2022/ros2/build/ecn_auv_lab

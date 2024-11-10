@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ecn_auv_lab",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ecn_auv_lab_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ecn_auv_lab_uninstall-39e2a8629005b7b8b9e3.json",
+					"name" : "ecn_auv_lab_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gz2ekf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gz2ekf-8ab81625b1e717187c0e.json",
+					"name" : "gz2ekf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-25ad2afe42a8ad7f596e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "waypoints::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-waypoints-5facacab7f401326f5ef.json",
+					"name" : "waypoints",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/user/aamariejos2022/ros2/build/ecn_auv_lab",
+		"source" : "/user/aamariejos2022/ros2/src/ecn_auv_lab"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

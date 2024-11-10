@@ -1,0 +1,85 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/galactic/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /user/aamariejos2022/ros2/build/ecn_auv_lab
+[35m[1mScanning dependencies of target waypoints[0m
+[35m[1mScanning dependencies of target gz2ekf[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/waypoints.dir/src/waypoints.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/gz2ekf.dir/src/gz2ekf.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable waypoints[0m
+[ 75%] Built target waypoints
+[100%] [32m[1mLinking CXX executable gz2ekf[0m
+[100%] Built target gz2ekf
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/urdf/bluerov2.urdf
+-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/urdf/terrain/License and source for textures.txt
+-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/urdf/terrain/MangaliaTerrain.dae
+-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/urdf/terrain/MangaliaTerrain.osg
+-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/urdf/terrain/grass.jpg
+-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/urdf/terrain/ground_stone.jpg
+-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/urdf/terrain/terrain.xacro
+-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/urdf/world.sdf
+-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/launch/bluerov2_launch.py
+-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/launch/control_launch.py
+-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/launch/ekf_launch.py
+-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/launch/layout.rviz
+-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/launch/pose_setpoint.yaml
+-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/launch/sim_launch.py
+-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/launch/spawn_all_launch.py
+-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/params/cascaded_pid.yaml
+-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/params/ekf.yaml
+-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/params/noise.yaml
+-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/params/waypoints.yaml
+-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/lib/ecn_auv_lab/gz2ekf
+-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/lib/ecn_auv_lab/waypoints
+-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ament_index/resource_index/package_run_dependencies/ecn_auv_lab
+-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ament_index/resource_index/parent_prefix_path/ecn_auv_lab
+-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/environment/ament_prefix_path.sh
+-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/environment/ament_prefix_path.dsv
+-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/environment/path.sh
+-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/environment/path.dsv
+-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/local_setup.bash
+-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/local_setup.sh
+-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/local_setup.zsh
+-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/local_setup.dsv
+-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/package.dsv
+-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ament_index/resource_index/packages/ecn_auv_lab
+-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/cmake/ecn_auv_labConfig.cmake
+-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/cmake/ecn_auv_labConfig-version.cmake
+-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/package.xml

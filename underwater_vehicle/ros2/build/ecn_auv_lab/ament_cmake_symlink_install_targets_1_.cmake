@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/user/aamariejos2022/ros2/build/ecn_auv_lab/gz2ekf" "/user/aamariejos2022/ros2/build/ecn_auv_lab/waypoints" "TARGETS" "gz2ekf" "waypoints" "DESTINATION" "lib/ecn_auv_lab")

@@ -1,0 +1,305 @@
+[0.000000] (-) TimerEvent: {}
+[0.000523] (ecn_auv_lab) JobQueued: {'identifier': 'ecn_auv_lab', 'dependencies': OrderedDict()}
+[0.000587] (ecn_auv_lab) JobStarted: {'identifier': 'ecn_auv_lab'}
+[0.099813] (-) TimerEvent: {}
+[0.119138] (ecn_auv_lab) JobProgress: {'identifier': 'ecn_auv_lab', 'progress': 'cmake'}
+[0.119507] (ecn_auv_lab) Command: {'cmd': ['/usr/bin/cmake', '/user/aamariejos2022/ros2/src/ecn_auv_lab', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/user/aamariejos2022/ros2/install/ecn_auv_lab'], 'cwd': '/user/aamariejos2022/ros2/build/ecn_auv_lab', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/opt/ecn/ros2/install/baxter_description/share:/opt/ecn/ros2/install/floatgen/share:/opt/ecn/ros2/install/bluerov2_description/share'), ('LANGUAGE', 'en_US'), ('USER', 'aamariejos2022'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1327'), ('XDG_SESSION_TYPE', 'x11'), ('IGNITION_VERSION', 'fortress'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ecn/ros2/install/auv_control/lib:/opt/ecn/ros2/install/thruster_manager/lib:/opt/ecn/ros2/install/ros_ign_bridge/lib:/opt/ecn/ros2/install/ros_ign_interfaces/lib:/opt/ecn/ros2/install/ros_ign_gazebo/lib:/opt/ecn/ros2/install/map_simulator/lib:/opt/ecn/ros2/install/baxter_simple_sim/lib:/opt/ecn/ros2/install/baxter_bridge/lib:/opt/ecn/ros2/install/baxter_maintenance_msgs/lib:/opt/ecn/ros2/install/baxter_core_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('ros1_workspaces', '/opt/ros/noetic /opt/ecn/ros1 /user/aamariejos2022/ros'), ('PS1_ori', '\\[\\e[1;34m\\]\\w\\[\\e[0m\\]$'), ('HOME', '/user/aamariejos2022'), ('ros2_workspaces', '/opt/ros/galactic /opt/ecn/ros2 /user/aamariejos2022/ros2'), ('CYCLONEDDS_URI', '<General>\n            <NetworkInterfaceAddress>lo</NetworkInterfaceAddress>\n            <AllowMulticast>false</AllowMulticast>\n        </General>\n        <Discovery>\n            <ParticipantIndex>auto</ParticipantIndex>\n            <MaxAutoParticipantIndex>100</MaxAutoParticipantIndex>\n            <Peers>\n                <Peer address="localhost"/>\n            </Peers>\n        </Discovery>'), ('OLDPWD', '/user/aamariejos2022/ros2/src/ecn_auv_lab/'), ('DESKTOP_SESSION', 'xubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('PS1', '\\[\\e[38;5;87m\\][ROS2\\[\\e[38;5;87m\\]]\\[\\e[0m\\] \\[\\e[1;34m\\]\\w\\[\\e[0m\\]$'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('ROS_LOG_DIR', '/tmp'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/42594/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('COLCON_PREFIX_PATH', '/opt/ecn/ros2/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'aamariejos2022'), ('WINDOWID', '60817411'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('CLUTTER_BACKEND', 'x11'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/PC-PROBO-03:@/tmp/.ICE-unix/1248,unix/PC-PROBO-03:/tmp/.ICE-unix/1248'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/42594'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XDG_SESSION_DESKTOP', 'xubuntu'), ('XAUTHORITY', '/user/aamariejos2022/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/42594/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/aamariejos2022'), ('AMENT_PREFIX_PATH', '/opt/ecn/ros2/install/bluerov2_control:/opt/ecn/ros2/install/auv_control:/opt/ecn/ros2/install/thruster_manager:/opt/ecn/ros2/install/slider_publisher:/opt/ecn/ros2/install/simple_launch:/opt/ecn/ros2/install/ros_ign:/opt/ecn/ros2/install/ros_ign_gazebo_demos:/opt/ecn/ros2/install/ros_ign_image:/opt/ecn/ros2/install/ros_ign_bridge:/opt/ecn/ros2/install/ros_ign_interfaces:/opt/ecn/ros2/install/ros_ign_gazebo:/opt/ecn/ros2/install/baxter_description:/opt/ecn/ros2/install/rethink_ee_description:/opt/ecn/ros2/install/pose_to_tf:/opt/ecn/ros2/install/map_simulator:/opt/ecn/ros2/install/floatgen:/opt/ecn/ros2/install/bluerov2_description:/opt/ecn/ros2/install/baxter_simple_sim:/opt/ecn/ros2/install/baxter_bridge:/opt/ecn/ros2/install/baxter_maintenance_msgs:/opt/ecn/ros2/install/baxter_core_msgs:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'xubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ecn/ros2/install/baxter_description/share:/opt/ecn/ros2/install/floatgen/share:/opt/ecn/ros2/install/bluerov2_description/share'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/42594/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('GZ_VERSION', 'fortress'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('XDG_VTNR', '7'), ('PWD', '/user/aamariejos2022/ros2/build/ecn_auv_lab'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('PYTHONPATH', '/opt/ecn/ros2/install/auv_control/lib/python3.8/site-packages:/opt/ecn/ros2/build/slider_publisher:/opt/ecn/ros2/install/slider_publisher/lib/python3.8/site-packages:/opt/ecn/ros2/install/simple_launch/lib/python3.8/site-packages:/opt/ecn/ros2/install/ros_ign_interfaces/lib/python3.8/site-packages:/opt/ecn/ros2/install/map_simulator/lib/python3.8/site-packages:/opt/ecn/ros2/install/baxter_simple_sim/lib/python3.8/site-packages:/opt/ecn/ros2/install/baxter_bridge/lib/python3.8/site-packages:/opt/ecn/ros2/install/baxter_maintenance_msgs/lib/python3.8/site-packages:/opt/ecn/ros2/install/baxter_core_msgs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ecn/ros2/install/bluerov2_control:/opt/ecn/ros2/install/auv_control:/opt/ecn/ros2/install/thruster_manager:/opt/ecn/ros2/install/simple_launch:/opt/ecn/ros2/install/ros_ign:/opt/ecn/ros2/install/ros_ign_gazebo_demos:/opt/ecn/ros2/install/ros_ign_image:/opt/ecn/ros2/install/ros_ign_bridge:/opt/ecn/ros2/install/ros_ign_interfaces:/opt/ecn/ros2/install/ros_ign_gazebo:/opt/ecn/ros2/install/baxter_description:/opt/ecn/ros2/install/rethink_ee_description:/opt/ecn/ros2/install/pose_to_tf:/opt/ecn/ros2/install/map_simulator:/opt/ecn/ros2/install/floatgen:/opt/ecn/ros2/install/bluerov2_description:/opt/ecn/ros2/install/baxter_simple_sim:/opt/ecn/ros2/install/baxter_bridge:/opt/ecn/ros2/install/baxter_maintenance_msgs:/opt/ecn/ros2/install/baxter_core_msgs:/opt/ecn/ros2/install/slider_publisher:/opt/ros/galactic')]), 'shell': False}
+[0.200199] (-) TimerEvent: {}
+[0.301232] (-) TimerEvent: {}
+[0.401627] (-) TimerEvent: {}
+[0.502118] (-) TimerEvent: {}
+[0.602719] (-) TimerEvent: {}
+[0.703167] (-) TimerEvent: {}
+[0.803591] (-) TimerEvent: {}
+[0.904247] (-) TimerEvent: {}
+[1.004872] (-) TimerEvent: {}
+[1.105439] (-) TimerEvent: {}
+[1.205728] (-) TimerEvent: {}
+[1.305985] (-) TimerEvent: {}
+[1.344093] (ecn_auv_lab) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.406078] (-) TimerEvent: {}
+[1.506364] (-) TimerEvent: {}
+[1.606646] (-) TimerEvent: {}
+[1.706967] (-) TimerEvent: {}
+[1.807250] (-) TimerEvent: {}
+[1.907544] (-) TimerEvent: {}
+[2.007898] (-) TimerEvent: {}
+[2.108363] (-) TimerEvent: {}
+[2.208831] (-) TimerEvent: {}
+[2.309170] (-) TimerEvent: {}
+[2.409557] (-) TimerEvent: {}
+[2.509932] (-) TimerEvent: {}
+[2.572579] (ecn_auv_lab) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[2.610043] (-) TimerEvent: {}
+[2.710478] (-) TimerEvent: {}
+[2.811199] (-) TimerEvent: {}
+[2.882968] (ecn_auv_lab) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[2.911292] (-) TimerEvent: {}
+[3.012455] (-) TimerEvent: {}
+[3.040308] (ecn_auv_lab) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[3.065556] (ecn_auv_lab) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.112571] (-) TimerEvent: {}
+[3.155185] (ecn_auv_lab) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.166239] (ecn_auv_lab) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.172016] (ecn_auv_lab) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.192707] (ecn_auv_lab) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[3.212740] (-) TimerEvent: {}
+[3.277808] (ecn_auv_lab) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[3.277979] (ecn_auv_lab) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.312845] (-) TimerEvent: {}
+[3.378269] (ecn_auv_lab) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.389542] (ecn_auv_lab) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.390087] (ecn_auv_lab) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.412920] (-) TimerEvent: {}
+[3.423676] (ecn_auv_lab) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)\n'}
+[3.513028] (-) TimerEvent: {}
+[3.535620] (ecn_auv_lab) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[3.535860] (ecn_auv_lab) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.613130] (-) TimerEvent: {}
+[3.659958] (ecn_auv_lab) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.713328] (-) TimerEvent: {}
+[3.813651] (-) TimerEvent: {}
+[3.913965] (-) TimerEvent: {}
+[4.014394] (-) TimerEvent: {}
+[4.114781] (-) TimerEvent: {}
+[4.161088] (ecn_auv_lab) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.214894] (-) TimerEvent: {}
+[4.215894] (ecn_auv_lab) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[4.315076] (-) TimerEvent: {}
+[4.415511] (-) TimerEvent: {}
+[4.516061] (-) TimerEvent: {}
+[4.616533] (-) TimerEvent: {}
+[4.649789] (ecn_auv_lab) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[4.715332] (ecn_auv_lab) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[4.716615] (-) TimerEvent: {}
+[4.816849] (-) TimerEvent: {}
+[4.917125] (-) TimerEvent: {}
+[4.917584] (ecn_auv_lab) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.017239] (-) TimerEvent: {}
+[5.095290] (ecn_auv_lab) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[5.110989] (ecn_auv_lab) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[5.117326] (-) TimerEvent: {}
+[5.184908] (ecn_auv_lab) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[5.212835] (ecn_auv_lab) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[5.217440] (-) TimerEvent: {}
+[5.317877] (-) TimerEvent: {}
+[5.418317] (-) TimerEvent: {}
+[5.440210] (ecn_auv_lab) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[5.440499] (ecn_auv_lab) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.518421] (-) TimerEvent: {}
+[5.522233] (ecn_auv_lab) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[5.522444] (ecn_auv_lab) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[5.602891] (ecn_auv_lab) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[5.603105] (ecn_auv_lab) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[5.618517] (-) TimerEvent: {}
+[5.683924] (ecn_auv_lab) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[5.684985] (ecn_auv_lab) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.718640] (-) TimerEvent: {}
+[5.818966] (-) TimerEvent: {}
+[5.919349] (-) TimerEvent: {}
+[6.019632] (-) TimerEvent: {}
+[6.119947] (-) TimerEvent: {}
+[6.220381] (-) TimerEvent: {}
+[6.320829] (-) TimerEvent: {}
+[6.421077] (-) TimerEvent: {}
+[6.521372] (-) TimerEvent: {}
+[6.621627] (-) TimerEvent: {}
+[6.721873] (-) TimerEvent: {}
+[6.822154] (-) TimerEvent: {}
+[6.922517] (-) TimerEvent: {}
+[7.022940] (-) TimerEvent: {}
+[7.123238] (-) TimerEvent: {}
+[7.223482] (-) TimerEvent: {}
+[7.323744] (-) TimerEvent: {}
+[7.387104] (ecn_auv_lab) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.411453] (ecn_auv_lab) StdoutLine: {'line': b'-- Generating done\n'}
+[7.413324] (ecn_auv_lab) StdoutLine: {'line': b'-- Build files have been written to: /user/aamariejos2022/ros2/build/ecn_auv_lab\n'}
+[7.421637] (ecn_auv_lab) CommandEnded: {'returncode': 0}
+[7.424392] (-) TimerEvent: {}
+[7.424620] (ecn_auv_lab) JobProgress: {'identifier': 'ecn_auv_lab', 'progress': 'build'}
+[7.424671] (ecn_auv_lab) Command: {'cmd': ['/usr/bin/cmake', '--build', '/user/aamariejos2022/ros2/build/ecn_auv_lab', '--', '-j4', '-l4'], 'cwd': '/user/aamariejos2022/ros2/build/ecn_auv_lab', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/opt/ecn/ros2/install/baxter_description/share:/opt/ecn/ros2/install/floatgen/share:/opt/ecn/ros2/install/bluerov2_description/share'), ('LANGUAGE', 'en_US'), ('USER', 'aamariejos2022'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1327'), ('XDG_SESSION_TYPE', 'x11'), ('IGNITION_VERSION', 'fortress'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ecn/ros2/install/auv_control/lib:/opt/ecn/ros2/install/thruster_manager/lib:/opt/ecn/ros2/install/ros_ign_bridge/lib:/opt/ecn/ros2/install/ros_ign_interfaces/lib:/opt/ecn/ros2/install/ros_ign_gazebo/lib:/opt/ecn/ros2/install/map_simulator/lib:/opt/ecn/ros2/install/baxter_simple_sim/lib:/opt/ecn/ros2/install/baxter_bridge/lib:/opt/ecn/ros2/install/baxter_maintenance_msgs/lib:/opt/ecn/ros2/install/baxter_core_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('ros1_workspaces', '/opt/ros/noetic /opt/ecn/ros1 /user/aamariejos2022/ros'), ('PS1_ori', '\\[\\e[1;34m\\]\\w\\[\\e[0m\\]$'), ('HOME', '/user/aamariejos2022'), ('ros2_workspaces', '/opt/ros/galactic /opt/ecn/ros2 /user/aamariejos2022/ros2'), ('CYCLONEDDS_URI', '<General>\n            <NetworkInterfaceAddress>lo</NetworkInterfaceAddress>\n            <AllowMulticast>false</AllowMulticast>\n        </General>\n        <Discovery>\n            <ParticipantIndex>auto</ParticipantIndex>\n            <MaxAutoParticipantIndex>100</MaxAutoParticipantIndex>\n            <Peers>\n                <Peer address="localhost"/>\n            </Peers>\n        </Discovery>'), ('OLDPWD', '/user/aamariejos2022/ros2/src/ecn_auv_lab/'), ('DESKTOP_SESSION', 'xubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('PS1', '\\[\\e[38;5;87m\\][ROS2\\[\\e[38;5;87m\\]]\\[\\e[0m\\] \\[\\e[1;34m\\]\\w\\[\\e[0m\\]$'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('ROS_LOG_DIR', '/tmp'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/42594/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('COLCON_PREFIX_PATH', '/opt/ecn/ros2/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'aamariejos2022'), ('WINDOWID', '60817411'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('CLUTTER_BACKEND', 'x11'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/PC-PROBO-03:@/tmp/.ICE-unix/1248,unix/PC-PROBO-03:/tmp/.ICE-unix/1248'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/42594'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XDG_SESSION_DESKTOP', 'xubuntu'), ('XAUTHORITY', '/user/aamariejos2022/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/42594/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/aamariejos2022'), ('AMENT_PREFIX_PATH', '/opt/ecn/ros2/install/bluerov2_control:/opt/ecn/ros2/install/auv_control:/opt/ecn/ros2/install/thruster_manager:/opt/ecn/ros2/install/slider_publisher:/opt/ecn/ros2/install/simple_launch:/opt/ecn/ros2/install/ros_ign:/opt/ecn/ros2/install/ros_ign_gazebo_demos:/opt/ecn/ros2/install/ros_ign_image:/opt/ecn/ros2/install/ros_ign_bridge:/opt/ecn/ros2/install/ros_ign_interfaces:/opt/ecn/ros2/install/ros_ign_gazebo:/opt/ecn/ros2/install/baxter_description:/opt/ecn/ros2/install/rethink_ee_description:/opt/ecn/ros2/install/pose_to_tf:/opt/ecn/ros2/install/map_simulator:/opt/ecn/ros2/install/floatgen:/opt/ecn/ros2/install/bluerov2_description:/opt/ecn/ros2/install/baxter_simple_sim:/opt/ecn/ros2/install/baxter_bridge:/opt/ecn/ros2/install/baxter_maintenance_msgs:/opt/ecn/ros2/install/baxter_core_msgs:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'xubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ecn/ros2/install/baxter_description/share:/opt/ecn/ros2/install/floatgen/share:/opt/ecn/ros2/install/bluerov2_description/share'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/42594/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('GZ_VERSION', 'fortress'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('XDG_VTNR', '7'), ('PWD', '/user/aamariejos2022/ros2/build/ecn_auv_lab'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('PYTHONPATH', '/opt/ecn/ros2/install/auv_control/lib/python3.8/site-packages:/opt/ecn/ros2/build/slider_publisher:/opt/ecn/ros2/install/slider_publisher/lib/python3.8/site-packages:/opt/ecn/ros2/install/simple_launch/lib/python3.8/site-packages:/opt/ecn/ros2/install/ros_ign_interfaces/lib/python3.8/site-packages:/opt/ecn/ros2/install/map_simulator/lib/python3.8/site-packages:/opt/ecn/ros2/install/baxter_simple_sim/lib/python3.8/site-packages:/opt/ecn/ros2/install/baxter_bridge/lib/python3.8/site-packages:/opt/ecn/ros2/install/baxter_maintenance_msgs/lib/python3.8/site-packages:/opt/ecn/ros2/install/baxter_core_msgs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ecn/ros2/install/bluerov2_control:/opt/ecn/ros2/install/auv_control:/opt/ecn/ros2/install/thruster_manager:/opt/ecn/ros2/install/simple_launch:/opt/ecn/ros2/install/ros_ign:/opt/ecn/ros2/install/ros_ign_gazebo_demos:/opt/ecn/ros2/install/ros_ign_image:/opt/ecn/ros2/install/ros_ign_bridge:/opt/ecn/ros2/install/ros_ign_interfaces:/opt/ecn/ros2/install/ros_ign_gazebo:/opt/ecn/ros2/install/baxter_description:/opt/ecn/ros2/install/rethink_ee_description:/opt/ecn/ros2/install/pose_to_tf:/opt/ecn/ros2/install/map_simulator:/opt/ecn/ros2/install/floatgen:/opt/ecn/ros2/install/bluerov2_description:/opt/ecn/ros2/install/baxter_simple_sim:/opt/ecn/ros2/install/baxter_bridge:/opt/ecn/ros2/install/baxter_maintenance_msgs:/opt/ecn/ros2/install/baxter_core_msgs:/opt/ecn/ros2/install/slider_publisher:/opt/ros/galactic')]), 'shell': False}
+[7.476071] (ecn_auv_lab) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target waypoints\x1b[0m\n'}
+[7.476295] (ecn_auv_lab) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gz2ekf\x1b[0m\n'}
+[7.524578] (-) TimerEvent: {}
+[7.625077] (-) TimerEvent: {}
+[7.725735] (-) TimerEvent: {}
+[7.826413] (-) TimerEvent: {}
+[7.927045] (-) TimerEvent: {}
+[8.027761] (-) TimerEvent: {}
+[8.128478] (-) TimerEvent: {}
+[8.228920] (-) TimerEvent: {}
+[8.329543] (-) TimerEvent: {}
+[8.384970] (ecn_auv_lab) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/waypoints.dir/src/waypoints.cpp.o\x1b[0m\n'}
+[8.399866] (ecn_auv_lab) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gz2ekf.dir/src/gz2ekf.cpp.o\x1b[0m\n'}
+[8.429698] (-) TimerEvent: {}
+[8.530123] (-) TimerEvent: {}
+[8.630626] (-) TimerEvent: {}
+[8.731026] (-) TimerEvent: {}
+[8.831306] (-) TimerEvent: {}
+[8.931680] (-) TimerEvent: {}
+[9.032097] (-) TimerEvent: {}
+[9.132450] (-) TimerEvent: {}
+[9.232903] (-) TimerEvent: {}
+[9.333339] (-) TimerEvent: {}
+[9.433841] (-) TimerEvent: {}
+[9.534323] (-) TimerEvent: {}
+[9.634645] (-) TimerEvent: {}
+[9.734947] (-) TimerEvent: {}
+[9.835315] (-) TimerEvent: {}
+[9.935694] (-) TimerEvent: {}
+[10.036049] (-) TimerEvent: {}
+[10.136444] (-) TimerEvent: {}
+[10.236824] (-) TimerEvent: {}
+[10.337210] (-) TimerEvent: {}
+[10.437593] (-) TimerEvent: {}
+[10.537963] (-) TimerEvent: {}
+[10.638354] (-) TimerEvent: {}
+[10.738744] (-) TimerEvent: {}
+[10.839129] (-) TimerEvent: {}
+[10.939510] (-) TimerEvent: {}
+[11.039936] (-) TimerEvent: {}
+[11.140314] (-) TimerEvent: {}
+[11.240632] (-) TimerEvent: {}
+[11.340934] (-) TimerEvent: {}
+[11.441226] (-) TimerEvent: {}
+[11.541530] (-) TimerEvent: {}
+[11.641834] (-) TimerEvent: {}
+[11.742157] (-) TimerEvent: {}
+[11.842478] (-) TimerEvent: {}
+[11.942795] (-) TimerEvent: {}
+[12.043105] (-) TimerEvent: {}
+[12.143416] (-) TimerEvent: {}
+[12.243727] (-) TimerEvent: {}
+[12.344034] (-) TimerEvent: {}
+[12.444350] (-) TimerEvent: {}
+[12.544671] (-) TimerEvent: {}
+[12.644972] (-) TimerEvent: {}
+[12.745253] (-) TimerEvent: {}
+[12.845532] (-) TimerEvent: {}
+[12.945813] (-) TimerEvent: {}
+[13.046089] (-) TimerEvent: {}
+[13.146382] (-) TimerEvent: {}
+[13.246671] (-) TimerEvent: {}
+[13.346953] (-) TimerEvent: {}
+[13.447226] (-) TimerEvent: {}
+[13.547542] (-) TimerEvent: {}
+[13.647803] (-) TimerEvent: {}
+[13.748080] (-) TimerEvent: {}
+[13.814101] (ecn_auv_lab) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable waypoints\x1b[0m\n'}
+[13.848191] (-) TimerEvent: {}
+[13.948521] (-) TimerEvent: {}
+[14.048826] (-) TimerEvent: {}
+[14.149128] (-) TimerEvent: {}
+[14.249431] (-) TimerEvent: {}
+[14.349753] (-) TimerEvent: {}
+[14.450067] (-) TimerEvent: {}
+[14.550348] (-) TimerEvent: {}
+[14.650639] (-) TimerEvent: {}
+[14.750927] (-) TimerEvent: {}
+[14.851214] (-) TimerEvent: {}
+[14.951501] (-) TimerEvent: {}
+[15.051785] (-) TimerEvent: {}
+[15.152070] (-) TimerEvent: {}
+[15.252348] (-) TimerEvent: {}
+[15.352629] (-) TimerEvent: {}
+[15.452913] (-) TimerEvent: {}
+[15.553202] (-) TimerEvent: {}
+[15.653492] (-) TimerEvent: {}
+[15.753805] (-) TimerEvent: {}
+[15.854095] (-) TimerEvent: {}
+[15.954391] (-) TimerEvent: {}
+[16.054691] (-) TimerEvent: {}
+[16.154980] (-) TimerEvent: {}
+[16.217400] (ecn_auv_lab) StdoutLine: {'line': b'[ 75%] Built target waypoints\n'}
+[16.255086] (-) TimerEvent: {}
+[16.355369] (-) TimerEvent: {}
+[16.455666] (-) TimerEvent: {}
+[16.555950] (-) TimerEvent: {}
+[16.656222] (-) TimerEvent: {}
+[16.756517] (-) TimerEvent: {}
+[16.856780] (-) TimerEvent: {}
+[16.957052] (-) TimerEvent: {}
+[17.057372] (-) TimerEvent: {}
+[17.157654] (-) TimerEvent: {}
+[17.257956] (-) TimerEvent: {}
+[17.358219] (-) TimerEvent: {}
+[17.458517] (-) TimerEvent: {}
+[17.558795] (-) TimerEvent: {}
+[17.659082] (-) TimerEvent: {}
+[17.759370] (-) TimerEvent: {}
+[17.859657] (-) TimerEvent: {}
+[17.959931] (-) TimerEvent: {}
+[18.060213] (-) TimerEvent: {}
+[18.160486] (-) TimerEvent: {}
+[18.260804] (-) TimerEvent: {}
+[18.361127] (-) TimerEvent: {}
+[18.461559] (-) TimerEvent: {}
+[18.562016] (-) TimerEvent: {}
+[18.662309] (-) TimerEvent: {}
+[18.762608] (-) TimerEvent: {}
+[18.862928] (-) TimerEvent: {}
+[18.963245] (-) TimerEvent: {}
+[19.063531] (-) TimerEvent: {}
+[19.109978] (ecn_auv_lab) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable gz2ekf\x1b[0m\n'}
+[19.163641] (-) TimerEvent: {}
+[19.263938] (-) TimerEvent: {}
+[19.364235] (-) TimerEvent: {}
+[19.464531] (-) TimerEvent: {}
+[19.564837] (-) TimerEvent: {}
+[19.598437] (ecn_auv_lab) StdoutLine: {'line': b'[100%] Built target gz2ekf\n'}
+[19.620077] (ecn_auv_lab) CommandEnded: {'returncode': 0}
+[19.656715] (ecn_auv_lab) JobProgress: {'identifier': 'ecn_auv_lab', 'progress': 'install'}
+[19.664987] (-) TimerEvent: {}
+[19.668707] (ecn_auv_lab) Command: {'cmd': ['/usr/bin/cmake', '--install', '/user/aamariejos2022/ros2/build/ecn_auv_lab'], 'cwd': '/user/aamariejos2022/ros2/build/ecn_auv_lab', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/opt/ecn/ros2/install/baxter_description/share:/opt/ecn/ros2/install/floatgen/share:/opt/ecn/ros2/install/bluerov2_description/share'), ('LANGUAGE', 'en_US'), ('USER', 'aamariejos2022'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1327'), ('XDG_SESSION_TYPE', 'x11'), ('IGNITION_VERSION', 'fortress'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ecn/ros2/install/auv_control/lib:/opt/ecn/ros2/install/thruster_manager/lib:/opt/ecn/ros2/install/ros_ign_bridge/lib:/opt/ecn/ros2/install/ros_ign_interfaces/lib:/opt/ecn/ros2/install/ros_ign_gazebo/lib:/opt/ecn/ros2/install/map_simulator/lib:/opt/ecn/ros2/install/baxter_simple_sim/lib:/opt/ecn/ros2/install/baxter_bridge/lib:/opt/ecn/ros2/install/baxter_maintenance_msgs/lib:/opt/ecn/ros2/install/baxter_core_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('ros1_workspaces', '/opt/ros/noetic /opt/ecn/ros1 /user/aamariejos2022/ros'), ('PS1_ori', '\\[\\e[1;34m\\]\\w\\[\\e[0m\\]$'), ('HOME', '/user/aamariejos2022'), ('ros2_workspaces', '/opt/ros/galactic /opt/ecn/ros2 /user/aamariejos2022/ros2'), ('CYCLONEDDS_URI', '<General>\n            <NetworkInterfaceAddress>lo</NetworkInterfaceAddress>\n            <AllowMulticast>false</AllowMulticast>\n        </General>\n        <Discovery>\n            <ParticipantIndex>auto</ParticipantIndex>\n            <MaxAutoParticipantIndex>100</MaxAutoParticipantIndex>\n            <Peers>\n                <Peer address="localhost"/>\n            </Peers>\n        </Discovery>'), ('OLDPWD', '/user/aamariejos2022/ros2/src/ecn_auv_lab/'), ('DESKTOP_SESSION', 'xubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('PS1', '\\[\\e[38;5;87m\\][ROS2\\[\\e[38;5;87m\\]]\\[\\e[0m\\] \\[\\e[1;34m\\]\\w\\[\\e[0m\\]$'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('ROS_LOG_DIR', '/tmp'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/42594/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('COLCON_PREFIX_PATH', '/opt/ecn/ros2/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'aamariejos2022'), ('WINDOWID', '60817411'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('CLUTTER_BACKEND', 'x11'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/PC-PROBO-03:@/tmp/.ICE-unix/1248,unix/PC-PROBO-03:/tmp/.ICE-unix/1248'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/42594'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XDG_SESSION_DESKTOP', 'xubuntu'), ('XAUTHORITY', '/user/aamariejos2022/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/42594/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/aamariejos2022'), ('AMENT_PREFIX_PATH', '/opt/ecn/ros2/install/bluerov2_control:/opt/ecn/ros2/install/auv_control:/opt/ecn/ros2/install/thruster_manager:/opt/ecn/ros2/install/slider_publisher:/opt/ecn/ros2/install/simple_launch:/opt/ecn/ros2/install/ros_ign:/opt/ecn/ros2/install/ros_ign_gazebo_demos:/opt/ecn/ros2/install/ros_ign_image:/opt/ecn/ros2/install/ros_ign_bridge:/opt/ecn/ros2/install/ros_ign_interfaces:/opt/ecn/ros2/install/ros_ign_gazebo:/opt/ecn/ros2/install/baxter_description:/opt/ecn/ros2/install/rethink_ee_description:/opt/ecn/ros2/install/pose_to_tf:/opt/ecn/ros2/install/map_simulator:/opt/ecn/ros2/install/floatgen:/opt/ecn/ros2/install/bluerov2_description:/opt/ecn/ros2/install/baxter_simple_sim:/opt/ecn/ros2/install/baxter_bridge:/opt/ecn/ros2/install/baxter_maintenance_msgs:/opt/ecn/ros2/install/baxter_core_msgs:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'xubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ecn/ros2/install/baxter_description/share:/opt/ecn/ros2/install/floatgen/share:/opt/ecn/ros2/install/bluerov2_description/share'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/42594/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('GZ_VERSION', 'fortress'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('XDG_VTNR', '7'), ('PWD', '/user/aamariejos2022/ros2/build/ecn_auv_lab'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('PYTHONPATH', '/opt/ecn/ros2/install/auv_control/lib/python3.8/site-packages:/opt/ecn/ros2/build/slider_publisher:/opt/ecn/ros2/install/slider_publisher/lib/python3.8/site-packages:/opt/ecn/ros2/install/simple_launch/lib/python3.8/site-packages:/opt/ecn/ros2/install/ros_ign_interfaces/lib/python3.8/site-packages:/opt/ecn/ros2/install/map_simulator/lib/python3.8/site-packages:/opt/ecn/ros2/install/baxter_simple_sim/lib/python3.8/site-packages:/opt/ecn/ros2/install/baxter_bridge/lib/python3.8/site-packages:/opt/ecn/ros2/install/baxter_maintenance_msgs/lib/python3.8/site-packages:/opt/ecn/ros2/install/baxter_core_msgs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ecn/ros2/install/bluerov2_control:/opt/ecn/ros2/install/auv_control:/opt/ecn/ros2/install/thruster_manager:/opt/ecn/ros2/install/simple_launch:/opt/ecn/ros2/install/ros_ign:/opt/ecn/ros2/install/ros_ign_gazebo_demos:/opt/ecn/ros2/install/ros_ign_image:/opt/ecn/ros2/install/ros_ign_bridge:/opt/ecn/ros2/install/ros_ign_interfaces:/opt/ecn/ros2/install/ros_ign_gazebo:/opt/ecn/ros2/install/baxter_description:/opt/ecn/ros2/install/rethink_ee_description:/opt/ecn/ros2/install/pose_to_tf:/opt/ecn/ros2/install/map_simulator:/opt/ecn/ros2/install/floatgen:/opt/ecn/ros2/install/bluerov2_description:/opt/ecn/ros2/install/baxter_simple_sim:/opt/ecn/ros2/install/baxter_bridge:/opt/ecn/ros2/install/baxter_maintenance_msgs:/opt/ecn/ros2/install/baxter_core_msgs:/opt/ecn/ros2/install/slider_publisher:/opt/ros/galactic')]), 'shell': False}
+[19.680406] (ecn_auv_lab) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.680870] (ecn_auv_lab) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[19.681562] (ecn_auv_lab) StdoutLine: {'line': b'-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/urdf/bluerov2.urdf\n'}
+[19.693060] (ecn_auv_lab) StdoutLine: {'line': b'-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/urdf/terrain/License and source for textures.txt\n'}
+[19.703653] (ecn_auv_lab) StdoutLine: {'line': b'-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/urdf/terrain/MangaliaTerrain.dae\n'}
+[19.714008] (ecn_auv_lab) StdoutLine: {'line': b'-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/urdf/terrain/MangaliaTerrain.osg\n'}
+[19.724306] (ecn_auv_lab) StdoutLine: {'line': b'-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/urdf/terrain/grass.jpg\n'}
+[19.734701] (ecn_auv_lab) StdoutLine: {'line': b'-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/urdf/terrain/ground_stone.jpg\n'}
+[19.745093] (ecn_auv_lab) StdoutLine: {'line': b'-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/urdf/terrain/terrain.xacro\n'}
+[19.756485] (ecn_auv_lab) StdoutLine: {'line': b'-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/urdf/world.sdf\n'}
+[19.765078] (-) TimerEvent: {}
+[19.767996] (ecn_auv_lab) StdoutLine: {'line': b'-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/launch/bluerov2_launch.py\n'}
+[19.778694] (ecn_auv_lab) StdoutLine: {'line': b'-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/launch/control_launch.py\n'}
+[19.789042] (ecn_auv_lab) StdoutLine: {'line': b'-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/launch/ekf_launch.py\n'}
+[19.799804] (ecn_auv_lab) StdoutLine: {'line': b'-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/launch/layout.rviz\n'}
+[19.810351] (ecn_auv_lab) StdoutLine: {'line': b'-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/launch/pose_setpoint.yaml\n'}
+[19.820703] (ecn_auv_lab) StdoutLine: {'line': b'-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/launch/sim_launch.py\n'}
+[19.831069] (ecn_auv_lab) StdoutLine: {'line': b'-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/launch/spawn_all_launch.py\n'}
+[19.841507] (ecn_auv_lab) StdoutLine: {'line': b'-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/params/cascaded_pid.yaml\n'}
+[19.851642] (ecn_auv_lab) StdoutLine: {'line': b'-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/params/ekf.yaml\n'}
+[19.863822] (ecn_auv_lab) StdoutLine: {'line': b'-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/params/noise.yaml\n'}
+[19.865153] (-) TimerEvent: {}
+[19.875301] (ecn_auv_lab) StdoutLine: {'line': b'-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/params/waypoints.yaml\n'}
+[19.887842] (ecn_auv_lab) StdoutLine: {'line': b'-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/lib/ecn_auv_lab/gz2ekf\n'}
+[19.898991] (ecn_auv_lab) StdoutLine: {'line': b'-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/lib/ecn_auv_lab/waypoints\n'}
+[19.910479] (ecn_auv_lab) StdoutLine: {'line': b'-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ament_index/resource_index/package_run_dependencies/ecn_auv_lab\n'}
+[19.921867] (ecn_auv_lab) StdoutLine: {'line': b'-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ament_index/resource_index/parent_prefix_path/ecn_auv_lab\n'}
+[19.933520] (ecn_auv_lab) StdoutLine: {'line': b'-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/environment/ament_prefix_path.sh\n'}
+[19.945343] (ecn_auv_lab) StdoutLine: {'line': b'-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/environment/ament_prefix_path.dsv\n'}
+[19.956519] (ecn_auv_lab) StdoutLine: {'line': b'-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/environment/path.sh\n'}
+[19.965273] (-) TimerEvent: {}
+[19.967960] (ecn_auv_lab) StdoutLine: {'line': b'-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/environment/path.dsv\n'}
+[19.979254] (ecn_auv_lab) StdoutLine: {'line': b'-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/local_setup.bash\n'}
+[19.990931] (ecn_auv_lab) StdoutLine: {'line': b'-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/local_setup.sh\n'}
+[20.001920] (ecn_auv_lab) StdoutLine: {'line': b'-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/local_setup.zsh\n'}
+[20.013883] (ecn_auv_lab) StdoutLine: {'line': b'-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/local_setup.dsv\n'}
+[20.029851] (ecn_auv_lab) StdoutLine: {'line': b'-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/package.dsv\n'}
+[20.041841] (ecn_auv_lab) StdoutLine: {'line': b'-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ament_index/resource_index/packages/ecn_auv_lab\n'}
+[20.052578] (ecn_auv_lab) StdoutLine: {'line': b'-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[20.063587] (ecn_auv_lab) StdoutLine: {'line': b'-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/cmake/ecn_auv_labConfig.cmake\n'}
+[20.065360] (-) TimerEvent: {}
+[20.074406] (ecn_auv_lab) StdoutLine: {'line': b'-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/cmake/ecn_auv_labConfig-version.cmake\n'}
+[20.085398] (ecn_auv_lab) StdoutLine: {'line': b'-- Symlinking: /user/aamariejos2022/ros2/install/ecn_auv_lab/share/ecn_auv_lab/package.xml\n'}
+[20.098013] (ecn_auv_lab) CommandEnded: {'returncode': 0}
+[20.165542] (-) TimerEvent: {}
+[20.265946] (-) TimerEvent: {}
+[20.366571] (-) TimerEvent: {}
+[20.467238] (-) TimerEvent: {}
+[20.567752] (-) TimerEvent: {}
+[20.668217] (-) TimerEvent: {}
+[20.745546] (ecn_auv_lab) JobEnded: {'identifier': 'ecn_auv_lab', 'rc': 0}
+[20.746392] (-) EventReactorShutdown: {}
